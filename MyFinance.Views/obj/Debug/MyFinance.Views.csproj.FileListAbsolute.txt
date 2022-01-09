@@ -1,0 +1,139 @@
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\MyFinance.Views.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.MainScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.SplashScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Properties.Resources.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ActionsUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ContentHeaderUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.FormTextFieldUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Log.LogUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.MenuItemUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Passbook.PassbookUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.PredictionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.DashboardUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.SummarizeUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Task.TaskUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.ManageTransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.TransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\MyFinance.Views.csproj.GenerateResource.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\MyFinance.Views.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\MyFinance.Views.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Views.exe.config
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.Forms.MainScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.Forms.SplashScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.Properties.Resources.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.ActionsUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.ContentHeaderUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.FormTextFieldUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Logs.LogsUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.MenuItemUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Passbook.PassbookUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Report.ReportUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.PredictionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.DashboardUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.SummarizeUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Task.ManageTaskUserControl.ManageTaskUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Task.TaskUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Transaction.ManageTransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Transaction.TransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csproj.GenerateResource.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Views.exe.config
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Views.exe
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Views.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\FinAndTime.DataAccess.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Core.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Entities.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Enums.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Methods.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Models.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Service.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\SimpleInjector.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\System.Data.SQLite.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Core.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\FinAndTime.DataAccess.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\FinAndTime.DataAccess.dll.config
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Entities.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Enums.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Methods.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Models.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\MyFinance.Service.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\SimpleInjector.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\System.Data.SQLite.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csprojAssemblyReference.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.Forms.MainScreenForm.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.Forms.SplashScreenForm.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.Properties.Resources.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.ActionsUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.ContentHeaderUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.FormTextFieldUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Logs.LogsUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.MenuItemUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Passbook.PassbookUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Report.ReportUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.PredictionUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.DashboardUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.SummarizeUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Task.ManageTaskUserControl.ManageTaskUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Task.TaskUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Transaction.ManageTransactionUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Transaction.TransactionUserControl.resources
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csproj.GenerateResource.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csproj.CoreCompileInputs.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.csproj.CopyComplete
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.exe
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.pdb

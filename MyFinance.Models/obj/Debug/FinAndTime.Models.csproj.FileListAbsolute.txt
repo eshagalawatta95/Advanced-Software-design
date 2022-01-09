@@ -1,0 +1,63 @@
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csproj.CopyComplete
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Models\obj\Debug\FinAndTime.Models.pdb

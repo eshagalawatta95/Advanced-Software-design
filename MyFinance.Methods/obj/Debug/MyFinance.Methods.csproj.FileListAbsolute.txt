@@ -1,0 +1,17 @@
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Methods\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Methods\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Methods\obj\Debug\MyFinance.Methods.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Methods\obj\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Methods\obj\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Methods\bin\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Methods\bin\Debug\MyFinance.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\bin\Debug\MyFinance.Methods.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\bin\Debug\MyFinance.Methods.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.csprojAssemblyReference.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.csproj.CoreCompileInputs.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.pdb

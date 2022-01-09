@@ -1,0 +1,49 @@
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\MyFinance.Service.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\MyFinance.Service.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\MyFinance.Service.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Service.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Service.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Core.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Entities.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Enums.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Methods.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\SimpleInjector.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Core.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Entities.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Enums.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Methods.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\bin\Debug\SimpleInjector.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csprojAssemblyReference.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.CoreCompileInputs.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.CopyComplete
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.pdb

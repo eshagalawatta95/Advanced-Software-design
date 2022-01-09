@@ -1,0 +1,18 @@
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Enums\bin\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Enums\bin\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Enums\bin\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Enums\bin\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Enums\bin\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Enums\bin\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Enums\obj\Debug\FinAndTime.Enums.pdb

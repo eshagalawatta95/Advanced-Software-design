@@ -1,0 +1,135 @@
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe.config
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.MainScreenForm.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.SplashScreenForm.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Properties.Resources.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ActionsUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ContentHeaderUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.FormTextFieldUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Log.LogUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.MenuItemUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Passbook.PassbookUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.PredictionUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.DashboardUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.SummarizeUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Task.TaskUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.ManageTransactionUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.TransactionUserControl.resources
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.GenerateResource.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.CopyComplete
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.MainScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.SplashScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Properties.Resources.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ActionsUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ContentHeaderUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.FormTextFieldUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Log.LogUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.MenuItemUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Passbook.PassbookUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.PredictionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.DashboardUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.SummarizeUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Task.TaskUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.ManageTransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.TransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.GenerateResource.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.MainScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Forms.SplashScreenForm.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.Properties.Resources.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ActionsUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.ContentHeaderUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.FormTextFieldUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Log.LogUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.MenuItemUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Passbook.PassbookUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.PredictionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.DashboardUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Summary.SummarizeUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Task.TaskUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.ManageTransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.UserControls.Transaction.TransactionUserControl.resources
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.GenerateResource.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Views\obj\Debug\FinAndTime.Views.pdb

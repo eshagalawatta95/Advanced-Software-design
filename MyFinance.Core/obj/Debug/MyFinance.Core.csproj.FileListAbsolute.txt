@@ -1,0 +1,33 @@
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\obj\Debug\MyFinance.Core.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\obj\Debug\MyFinance.Core.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\obj\Debug\MyFinance.Core.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\obj\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Core\obj\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Core.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Core.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Entities.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\bin\Debug\SimpleInjector.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Entities.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\bin\Debug\SimpleInjector.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csprojAssemblyReference.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.CoreCompileInputs.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.CopyComplete
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.pdb

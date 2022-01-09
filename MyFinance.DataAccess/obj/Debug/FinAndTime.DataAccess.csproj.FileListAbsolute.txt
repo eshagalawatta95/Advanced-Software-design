@@ -1,0 +1,69 @@
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.EF6.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.Linq.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csproj.CopyComplete
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.EF6.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.Linq.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.EF6.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.Linq.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.DataAccess\obj\Debug\FinAndTime.DataAccess.pdb

@@ -1,0 +1,45 @@
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csproj.CopyComplete
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\CW\CW 2\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\FinAndTime.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW from chathuranga\FinAndTime\FinAndTime.Service\obj\Debug\FinAndTime.Service.pdb

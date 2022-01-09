@@ -1,0 +1,74 @@
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Test.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Test.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Models.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Service.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Views.exe
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Methods.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Models.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Service.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Views.pdb
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Views.exe.config
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.csprojAssemblyReference.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.csproj.CopyComplete
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.dll
+D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Test.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Test.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\FinAndTime.DataAccess.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Core.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Entities.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Enums.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Methods.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Models.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Service.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Views.exe
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\SimpleInjector.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\System.Data.SQLite.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Core.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\FinAndTime.DataAccess.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\FinAndTime.DataAccess.dll.config
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Entities.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Enums.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Methods.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Models.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Service.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Views.pdb
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\MyFinance.Views.exe.config
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\SimpleInjector.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\System.Data.SQLite.xml
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.csprojAssemblyReference.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.csproj.CoreCompileInputs.cache
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.csproj.CopyComplete
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.dll
+C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.pdb

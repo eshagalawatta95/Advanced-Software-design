@@ -1,0 +1,422 @@
+﻿<Mappings><Entry OldName="MyFinance.Entities.AppSettingsEntity.&lt;MainMenuWidth&gt;k__BackingField" NewName="MyFinance.Entities.AppSettingsEntity.c73bdd90311f71f4a347f38fa8e11e644" />
+<Entry OldName="MyFinance.Entities.AppSettingsEntity.&lt;SQLiteDatabaseConnectionString&gt;k__BackingField" NewName="MyFinance.Entities.AppSettingsEntity.c03e383e4b438062551ecfb5e1f7102ff" />
+<Entry OldName="MyFinance.Entities.AppSettingsEntity.&lt;SQLiteDatabasePath&gt;k__BackingField" NewName="MyFinance.Entities.AppSettingsEntity.ca3e3167186be1d659f4602f102872ccb" />
+<Entry OldName="MyFinance.Entities.AppSettingsEntity.&lt;LogFileFolderPath&gt;k__BackingField" NewName="MyFinance.Entities.AppSettingsEntity.c04a5c6a0692503b308968e097f47c571" />
+<Entry OldName="MyFinance.Entities.AppSettingsEntity.&lt;UserInfoXmlPath&gt;k__BackingField" NewName="MyFinance.Entities.AppSettingsEntity.c1228973bde35bfbff07fb62f43a37f51" />
+<Entry OldName="MyFinance.Entities.DailyBreakDownPredictionEntity.&lt;DayOfWeek&gt;k__BackingField" NewName="MyFinance.Entities.DailyBreakDownPredictionEntity.c7bd1f90fc85462830f3e2232cb05f189" />
+<Entry OldName="MyFinance.Entities.DailyBreakDownPredictionEntity.&lt;AverageIncome&gt;k__BackingField" NewName="MyFinance.Entities.DailyBreakDownPredictionEntity.c8d40f4ceda94b46edc6bde4cce0cbda7" />
+<Entry OldName="MyFinance.Entities.DailyBreakDownPredictionEntity.&lt;AverageExpense&gt;k__BackingField" NewName="MyFinance.Entities.DailyBreakDownPredictionEntity.c79b0c189dc4d39eaeabbc40ca9d437cf" />
+<Entry OldName="MyFinance.Entities.MyFinanceApplication.&lt;DependancyContainer&gt;k__BackingField" NewName="MyFinance.Entities.MyFinanceApplication.c55a1fd3f9ed2aaa4067913cfc5403d64" />
+<Entry OldName="MyFinance.Entities.MyFinanceApplication.&lt;AppSettings&gt;k__BackingField" NewName="MyFinance.Entities.MyFinanceApplication.c11ec8ff2b7fd6562aa89a900e9032c2f" />
+<Entry OldName="MyFinance.Entities.MyFinanceApplication.&lt;CurrentUser&gt;k__BackingField" NewName="MyFinance.Entities.MyFinanceApplication.c880aae34b29606b0fea3eadc9d11c3f1" />
+<Entry OldName="MyFinance.Entities.PredictionEntity.&lt;PredictBalanace&gt;k__BackingField" NewName="MyFinance.Entities.PredictionEntity.cd65aed4acd583f81733c0706725a1a36" />
+<Entry OldName="MyFinance.Entities.PredictionEntity.&lt;TodayBalanace&gt;k__BackingField" NewName="MyFinance.Entities.PredictionEntity.c5b29a12e7c15961bbdd19599b2eb933a" />
+<Entry OldName="MyFinance.Entities.PredictionEntity.&lt;AverageIncome&gt;k__BackingField" NewName="MyFinance.Entities.PredictionEntity.c8d40f4ceda94b46edc6bde4cce0cbda7" />
+<Entry OldName="MyFinance.Entities.PredictionEntity.&lt;AverageExpense&gt;k__BackingField" NewName="MyFinance.Entities.PredictionEntity.c79b0c189dc4d39eaeabbc40ca9d437cf" />
+<Entry OldName="MyFinance.Entities.PredictionEntity.&lt;WarningMessage&gt;k__BackingField" NewName="MyFinance.Entities.PredictionEntity.cd65da5b40375913102b6c4ec00c1da4e" />
+<Entry OldName="MyFinance.Entities.PredictionEntity.&lt;IsPredicted&gt;k__BackingField" NewName="MyFinance.Entities.PredictionEntity.cf344b84cf50115e6fa2a84fbbd93d280" />
+<Entry OldName="MyFinance.Entities.PredictionEntity.&lt;DailyBreakDownPredictions&gt;k__BackingField" NewName="MyFinance.Entities.PredictionEntity.cbd7e810e5db6a0880a572a6ecc3efb0e" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;Id&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c987ad01d4bde42753af3ec8998e43206" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;Type&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c6bd0d87361fbb0bed2f0ea33f4dd5932" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;Comments&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c2497a5f541a7bc7ab18fcdfc8368a36b" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;Duration&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c241b4ad68d30d19aef45c2c21782d3ec" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;ReferenceNumber&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.cdda8e16225bc2d53a3faa81efe9df2b7" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;CreatedUser&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c22b4dbf6d3385a9148771367e7d79cfe" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;IsDelete&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c0a5e5377f3797332fb4d474d7f691ee6" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;CreatedDateTime&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c57c30ac5a3106a714670c903e7715f1a" />
+<Entry OldName="MyFinance.Entities.OneTimeTasks.&lt;Effectivedate&gt;k__BackingField" NewName="MyFinance.Entities.OneTimeTasks.c3e756b047bcfc1f5eb60f6d954f97e27" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;Id&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c987ad01d4bde42753af3ec8998e43206" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;Type&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c6bd0d87361fbb0bed2f0ea33f4dd5932" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;RepeatType&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.cc7f3666c740f16f1fffb69874e4fb147" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;Comments&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c2497a5f541a7bc7ab18fcdfc8368a36b" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;Duration&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c241b4ad68d30d19aef45c2c21782d3ec" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;ReferenceNumber&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.cdda8e16225bc2d53a3faa81efe9df2b7" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;CreatedUser&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c22b4dbf6d3385a9148771367e7d79cfe" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;IsDelete&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c0a5e5377f3797332fb4d474d7f691ee6" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;IsActive&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c8bbd3c5c334c15b0707aa8fa5ecbc0fa" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;CreatedDateTime&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c57c30ac5a3106a714670c903e7715f1a" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;StartDateTime&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c3ff5f5ae2d7f90a479cdb540350834e6" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;EndDateTime&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c4aaf95d07d1ca0cf819e4356b10b58cb" />
+<Entry OldName="MyFinance.Entities.ScheduledTasks.&lt;Effectivedate&gt;k__BackingField" NewName="MyFinance.Entities.ScheduledTasks.c3e756b047bcfc1f5eb60f6d954f97e27" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;Id&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.c987ad01d4bde42753af3ec8998e43206" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;ReferenceNumber&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.cdda8e16225bc2d53a3faa81efe9df2b7" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;TransactionPartyId&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.cdf0fd5b3239ee8640964d0ff17110a07" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;Amount&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.c1aa3733af3c18154733cd22919771f4d" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;ScheduledTransactionId&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.c3b4a42c130b48234bcd7d97e35773fc8" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;IsIncome&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.ca62d60517e189ce2bac798225e95a349" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;TransactionDateTime&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.cf0d3d27d2769217ab9a18e18e98c9575" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;Remarks&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.c4f442f095e912dde620501c6b5c04c31" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;IsUserPerformed&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.c2eb9d06f86a730797d697720c270eb74" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;CreatedDateTime&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.c57c30ac5a3106a714670c903e7715f1a" />
+<Entry OldName="MyFinance.Entities.TransactionEntity.&lt;IsActive&gt;k__BackingField" NewName="MyFinance.Entities.TransactionEntity.c8bbd3c5c334c15b0707aa8fa5ecbc0fa" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;Id&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c987ad01d4bde42753af3ec8998e43206" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;ReferenceNumber&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.cdda8e16225bc2d53a3faa81efe9df2b7" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;TransactionPartyId&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.cdf0fd5b3239ee8640964d0ff17110a07" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;RepeatType&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.cc7f3666c740f16f1fffb69874e4fb147" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;Amount&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c1aa3733af3c18154733cd22919771f4d" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;StartDateTime&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c3ff5f5ae2d7f90a479cdb540350834e6" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;EndDateTime&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c4aaf95d07d1ca0cf819e4356b10b58cb" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;NextTransactionDate&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c4d82161ab939b8af1917651ca2ae38b8" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;InfiniteSchedule&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c41f5700a04f3fe7caad7a478943c8acf" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;Remarks&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c4f442f095e912dde620501c6b5c04c31" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;CreatedDateTime&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c57c30ac5a3106a714670c903e7715f1a" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;CreatedUser&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c22b4dbf6d3385a9148771367e7d79cfe" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;IsIncome&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.ca62d60517e189ce2bac798225e95a349" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;IsDelete&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c0a5e5377f3797332fb4d474d7f691ee6" />
+<Entry OldName="MyFinance.Entities.SheduledTransactionList.&lt;IsActive&gt;k__BackingField" NewName="MyFinance.Entities.SheduledTransactionList.c8bbd3c5c334c15b0707aa8fa5ecbc0fa" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;Id&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.c987ad01d4bde42753af3ec8998e43206" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;TransactionId&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.cc7c0f47a13c78a3e999d5ce6beae9b04" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;ScheduledTransactionId&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.c3b4a42c130b48234bcd7d97e35773fc8" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;TransactionPartyId&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.cdf0fd5b3239ee8640964d0ff17110a07" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;IsDeletedTransaction&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.c467dfbcab06261e5895d84a0cdc35028" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;IsIncome&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.ca62d60517e189ce2bac798225e95a349" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;TransactionDateTime&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.cf0d3d27d2769217ab9a18e18e98c9575" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;Amount&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.c1aa3733af3c18154733cd22919771f4d" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;StartingBalance&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.cef82e7eb7d151fc3790cf10537f23a80" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;FinalBalance&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.cf745973ad3f60e786fed75d7ffb2aee4" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;Remarks&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.c4f442f095e912dde620501c6b5c04c31" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;CreatedDateTime&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.c57c30ac5a3106a714670c903e7715f1a" />
+<Entry OldName="MyFinance.Entities.TransactionLogEntity.&lt;IsUserPerformed&gt;k__BackingField" NewName="MyFinance.Entities.TransactionLogEntity.c2eb9d06f86a730797d697720c270eb74" />
+<Entry OldName="MyFinance.Entities.TransactionPartyEntity.&lt;Id&gt;k__BackingField" NewName="MyFinance.Entities.TransactionPartyEntity.c987ad01d4bde42753af3ec8998e43206" />
+<Entry OldName="MyFinance.Entities.TransactionPartyEntity.&lt;Code&gt;k__BackingField" NewName="MyFinance.Entities.TransactionPartyEntity.c1eda23235f912c157d2a78943beab019" />
+<Entry OldName="MyFinance.Entities.TransactionPartyEntity.&lt;Description&gt;k__BackingField" NewName="MyFinance.Entities.TransactionPartyEntity.c921c89721404fbf066c4852d4be8486e" />
+<Entry OldName="MyFinance.Entities.TransactionPartyEntity.&lt;CreatedDateTime&gt;k__BackingField" NewName="MyFinance.Entities.TransactionPartyEntity.c57c30ac5a3106a714670c903e7715f1a" />
+<Entry OldName="MyFinance.Entities.TransactionPartyEntity.&lt;IsActive&gt;k__BackingField" NewName="MyFinance.Entities.TransactionPartyEntity.c8bbd3c5c334c15b0707aa8fa5ecbc0fa" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;Id&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.c987ad01d4bde42753af3ec8998e43206" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;FirstName&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.c7259b0b9a9c7ddb499c8dccae0c5b068" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;LastName&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.c212f272883dc700f1e6ecf68ffc80c92" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;SID&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.c75930fcd65d352c32fd0d0cc432008f2" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;StartingAmount&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.c1fd348b5cd9843db2784a9692ce9b522" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;CurrentBalance&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.cdcef6cf101df9c2806974a13e6cf0cad" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;RegisteredDateTime&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.cc9324002f82828a661e2274245c5bc17" />
+<Entry OldName="MyFinance.Entities.UserEntity.&lt;LastCheckDateTime&gt;k__BackingField" NewName="MyFinance.Entities.UserEntity.cdcf73c055187e9bc42c38a9318f58c2a" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\AppSettingsEntity.cs" NewName="File0" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\DailyBreakDownPredictionEntity.cs" NewName="File1" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\MyFinanceApplication.cs" NewName="File2" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\PredictionEntity.cs" NewName="File3" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TaskEntity.cs" NewName="File4" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TransactionEntity.cs" NewName="File5" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TransactionLogEntity.cs" NewName="File6" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TransactionPartyEntity.cs" NewName="File7" />
+<Entry OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\UserEntity.cs" NewName="File8" />
+<Assembly Name="MyFinance.Entities"><Type Token="33554433" Name="&lt;Module&gt;" />
+<Method Token="100663297" Name="" Variables="" ParamCnt="0" />
+<Type Token="33554434" Name="MyFinance.Entities.AppSettingsEntity" />
+<Method Token="100663298" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663299" Name="get_MainMenuWidth" Variables="this;" ParamCnt="1" />
+<Method Token="100663300" Name="set_MainMenuWidth" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663301" Name="get_SQLiteDatabaseConnectionString" Variables="this;" ParamCnt="1" />
+<Method Token="100663302" Name="set_SQLiteDatabaseConnectionString" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663303" Name="get_SQLiteDatabasePath" Variables="this;" ParamCnt="1" />
+<Method Token="100663304" Name="set_SQLiteDatabasePath" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663305" Name="get_LogFileFolderPath" Variables="this;" ParamCnt="1" />
+<Method Token="100663306" Name="set_LogFileFolderPath" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663307" Name="get_UserInfoXmlPath" Variables="this;" ParamCnt="1" />
+<Method Token="100663308" Name="set_UserInfoXmlPath" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108865" Name="&lt;MainMenuWidth&gt;k__BackingField" />
+<Field Token="67108866" Name="&lt;SQLiteDatabaseConnectionString&gt;k__BackingField" />
+<Field Token="67108867" Name="&lt;SQLiteDatabasePath&gt;k__BackingField" />
+<Field Token="67108868" Name="&lt;LogFileFolderPath&gt;k__BackingField" />
+<Field Token="67108869" Name="&lt;UserInfoXmlPath&gt;k__BackingField" />
+<Type Token="33554436" Name="MyFinance.Entities.DailyBreakDownPredictionEntity" />
+<Method Token="100663310" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663311" Name="get_DayOfWeek" Variables="this;" ParamCnt="1" />
+<Method Token="100663312" Name="set_DayOfWeek" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663313" Name="get_AverageIncome" Variables="this;" ParamCnt="1" />
+<Method Token="100663314" Name="set_AverageIncome" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663315" Name="get_AverageExpense" Variables="this;" ParamCnt="1" />
+<Method Token="100663316" Name="set_AverageExpense" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108870" Name="&lt;DayOfWeek&gt;k__BackingField" />
+<Field Token="67108871" Name="&lt;AverageIncome&gt;k__BackingField" />
+<Field Token="67108872" Name="&lt;AverageExpense&gt;k__BackingField" />
+<Type Token="33554438" Name="MyFinance.Entities.NotifyDataChangesEvent`1" />
+<Method Token="100663323" Name=".ctor" Variables="this;object;method;" ParamCnt="3" />
+<Method Token="100663324" Name="Invoke" Variables="this;currentValue;" ParamCnt="2" />
+<Method Token="100663325" Name="BeginInvoke" Variables="this;currentValue;callback;object;" ParamCnt="4" />
+<Method Token="100663326" Name="EndInvoke" Variables="this;result;" ParamCnt="2" />
+<Type Token="33554439" Name="MyFinance.Entities.NotifyDataChangesListEvent`1" />
+<Method Token="100663327" Name=".ctor" Variables="this;object;method;" ParamCnt="3" />
+<Method Token="100663328" Name="Invoke" Variables="this;currentValueList;" ParamCnt="2" />
+<Method Token="100663329" Name="BeginInvoke" Variables="this;currentValueList;callback;object;" ParamCnt="4" />
+<Method Token="100663330" Name="EndInvoke" Variables="this;result;" ParamCnt="2" />
+<Type Token="33554440" Name="MyFinance.Entities.MyFinanceApplication" />
+<Method Token="100663331" Name="get_DependancyContainer" Variables="" ParamCnt="0" />
+<Method Token="100663332" Name="set_DependancyContainer" Variables="value;" ParamCnt="1" />
+<Method Token="100663333" Name="get_AppSettings" Variables="" ParamCnt="0" />
+<Method Token="100663334" Name="set_AppSettings" Variables="value;" ParamCnt="1" />
+<Method Token="100663335" Name="get_CurrentUser" Variables="" ParamCnt="0" />
+<Method Token="100663336" Name="set_CurrentUser" Variables="value;" ParamCnt="1" />
+<Field Token="67108874" Name="&lt;DependancyContainer&gt;k__BackingField" />
+<Field Token="67108875" Name="&lt;AppSettings&gt;k__BackingField" />
+<Field Token="67108876" Name="&lt;CurrentUser&gt;k__BackingField" />
+<Type Token="33554441" Name="MyFinance.Entities.PredictionEntity" />
+<Method Token="100663337" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663338" Name="get_PredictBalanace" Variables="this;" ParamCnt="1" />
+<Method Token="100663339" Name="set_PredictBalanace" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663340" Name="get_TodayBalanace" Variables="this;" ParamCnt="1" />
+<Method Token="100663341" Name="set_TodayBalanace" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663342" Name="get_AverageIncome" Variables="this;" ParamCnt="1" />
+<Method Token="100663343" Name="set_AverageIncome" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663344" Name="get_AverageExpense" Variables="this;" ParamCnt="1" />
+<Method Token="100663345" Name="set_AverageExpense" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663346" Name="get_WarningMessage" Variables="this;" ParamCnt="1" />
+<Method Token="100663347" Name="set_WarningMessage" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663348" Name="get_IsPredicted" Variables="this;" ParamCnt="1" />
+<Method Token="100663349" Name="set_IsPredicted" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663350" Name="get_DailyBreakDownPredictions" Variables="this;" ParamCnt="1" />
+<Method Token="100663351" Name="set_DailyBreakDownPredictions" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108877" Name="&lt;PredictBalanace&gt;k__BackingField" />
+<Field Token="67108878" Name="&lt;TodayBalanace&gt;k__BackingField" />
+<Field Token="67108879" Name="&lt;AverageIncome&gt;k__BackingField" />
+<Field Token="67108880" Name="&lt;AverageExpense&gt;k__BackingField" />
+<Field Token="67108881" Name="&lt;WarningMessage&gt;k__BackingField" />
+<Field Token="67108882" Name="&lt;IsPredicted&gt;k__BackingField" />
+<Field Token="67108883" Name="&lt;DailyBreakDownPredictions&gt;k__BackingField" />
+<Type Token="33554442" Name="MyFinance.Entities.OneTimeTasks" />
+<Method Token="100663352" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663353" Name="get_Id" Variables="this;" ParamCnt="1" />
+<Method Token="100663354" Name="set_Id" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663355" Name="get_Type" Variables="this;" ParamCnt="1" />
+<Method Token="100663356" Name="set_Type" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663357" Name="get_Comments" Variables="this;" ParamCnt="1" />
+<Method Token="100663358" Name="set_Comments" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663359" Name="get_Duration" Variables="this;" ParamCnt="1" />
+<Method Token="100663360" Name="set_Duration" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663361" Name="get_ReferenceNumber" Variables="this;" ParamCnt="1" />
+<Method Token="100663362" Name="set_ReferenceNumber" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663363" Name="get_CreatedUser" Variables="this;" ParamCnt="1" />
+<Method Token="100663364" Name="set_CreatedUser" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663365" Name="get_IsDelete" Variables="this;" ParamCnt="1" />
+<Method Token="100663366" Name="set_IsDelete" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663367" Name="get_CreatedDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663368" Name="set_CreatedDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663369" Name="get_Effectivedate" Variables="this;" ParamCnt="1" />
+<Method Token="100663370" Name="set_Effectivedate" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108884" Name="&lt;Id&gt;k__BackingField" />
+<Field Token="67108885" Name="&lt;Type&gt;k__BackingField" />
+<Field Token="67108886" Name="&lt;Comments&gt;k__BackingField" />
+<Field Token="67108887" Name="&lt;Duration&gt;k__BackingField" />
+<Field Token="67108888" Name="&lt;ReferenceNumber&gt;k__BackingField" />
+<Field Token="67108889" Name="&lt;CreatedUser&gt;k__BackingField" />
+<Field Token="67108890" Name="&lt;IsDelete&gt;k__BackingField" />
+<Field Token="67108891" Name="&lt;CreatedDateTime&gt;k__BackingField" />
+<Field Token="67108892" Name="&lt;Effectivedate&gt;k__BackingField" />
+<Type Token="33554443" Name="MyFinance.Entities.ScheduledTasks" />
+<Method Token="100663371" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663372" Name="get_Id" Variables="this;" ParamCnt="1" />
+<Method Token="100663373" Name="set_Id" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663374" Name="get_Type" Variables="this;" ParamCnt="1" />
+<Method Token="100663375" Name="set_Type" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663376" Name="get_RepeatType" Variables="this;" ParamCnt="1" />
+<Method Token="100663377" Name="set_RepeatType" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663378" Name="get_Comments" Variables="this;" ParamCnt="1" />
+<Method Token="100663379" Name="set_Comments" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663380" Name="get_Duration" Variables="this;" ParamCnt="1" />
+<Method Token="100663381" Name="set_Duration" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663382" Name="get_ReferenceNumber" Variables="this;" ParamCnt="1" />
+<Method Token="100663383" Name="set_ReferenceNumber" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663384" Name="get_CreatedUser" Variables="this;" ParamCnt="1" />
+<Method Token="100663385" Name="set_CreatedUser" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663386" Name="get_IsDelete" Variables="this;" ParamCnt="1" />
+<Method Token="100663387" Name="set_IsDelete" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663388" Name="get_IsActive" Variables="this;" ParamCnt="1" />
+<Method Token="100663389" Name="set_IsActive" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663390" Name="get_CreatedDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663391" Name="set_CreatedDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663392" Name="get_StartDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663393" Name="set_StartDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663394" Name="get_EndDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663395" Name="set_EndDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663396" Name="get_Effectivedate" Variables="this;" ParamCnt="1" />
+<Method Token="100663397" Name="set_Effectivedate" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108893" Name="&lt;Id&gt;k__BackingField" />
+<Field Token="67108894" Name="&lt;Type&gt;k__BackingField" />
+<Field Token="67108895" Name="&lt;RepeatType&gt;k__BackingField" />
+<Field Token="67108896" Name="&lt;Comments&gt;k__BackingField" />
+<Field Token="67108897" Name="&lt;Duration&gt;k__BackingField" />
+<Field Token="67108898" Name="&lt;ReferenceNumber&gt;k__BackingField" />
+<Field Token="67108899" Name="&lt;CreatedUser&gt;k__BackingField" />
+<Field Token="67108900" Name="&lt;IsDelete&gt;k__BackingField" />
+<Field Token="67108901" Name="&lt;IsActive&gt;k__BackingField" />
+<Field Token="67108902" Name="&lt;CreatedDateTime&gt;k__BackingField" />
+<Field Token="67108903" Name="&lt;StartDateTime&gt;k__BackingField" />
+<Field Token="67108904" Name="&lt;EndDateTime&gt;k__BackingField" />
+<Field Token="67108905" Name="&lt;Effectivedate&gt;k__BackingField" />
+<Type Token="33554444" Name="MyFinance.Entities.TransactionEntity" />
+<Method Token="100663398" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663399" Name="get_Id" Variables="this;" ParamCnt="1" />
+<Method Token="100663400" Name="set_Id" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663401" Name="get_ReferenceNumber" Variables="this;" ParamCnt="1" />
+<Method Token="100663402" Name="set_ReferenceNumber" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663403" Name="get_TransactionPartyId" Variables="this;" ParamCnt="1" />
+<Method Token="100663404" Name="set_TransactionPartyId" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663405" Name="get_Amount" Variables="this;" ParamCnt="1" />
+<Method Token="100663406" Name="set_Amount" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663407" Name="get_ScheduledTransactionId" Variables="this;" ParamCnt="1" />
+<Method Token="100663408" Name="set_ScheduledTransactionId" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663409" Name="get_IsIncome" Variables="this;" ParamCnt="1" />
+<Method Token="100663410" Name="set_IsIncome" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663411" Name="get_TransactionDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663412" Name="set_TransactionDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663413" Name="get_Remarks" Variables="this;" ParamCnt="1" />
+<Method Token="100663414" Name="set_Remarks" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663415" Name="get_IsUserPerformed" Variables="this;" ParamCnt="1" />
+<Method Token="100663416" Name="set_IsUserPerformed" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663417" Name="get_CreatedDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663418" Name="set_CreatedDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663419" Name="get_IsActive" Variables="this;" ParamCnt="1" />
+<Method Token="100663420" Name="set_IsActive" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108906" Name="&lt;Id&gt;k__BackingField" />
+<Field Token="67108907" Name="&lt;ReferenceNumber&gt;k__BackingField" />
+<Field Token="67108908" Name="&lt;TransactionPartyId&gt;k__BackingField" />
+<Field Token="67108909" Name="&lt;Amount&gt;k__BackingField" />
+<Field Token="67108910" Name="&lt;ScheduledTransactionId&gt;k__BackingField" />
+<Field Token="67108911" Name="&lt;IsIncome&gt;k__BackingField" />
+<Field Token="67108912" Name="&lt;TransactionDateTime&gt;k__BackingField" />
+<Field Token="67108913" Name="&lt;Remarks&gt;k__BackingField" />
+<Field Token="67108914" Name="&lt;IsUserPerformed&gt;k__BackingField" />
+<Field Token="67108915" Name="&lt;CreatedDateTime&gt;k__BackingField" />
+<Field Token="67108916" Name="&lt;IsActive&gt;k__BackingField" />
+<Type Token="33554445" Name="MyFinance.Entities.SheduledTransactionList" />
+<Method Token="100663421" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663422" Name="get_Id" Variables="this;" ParamCnt="1" />
+<Method Token="100663423" Name="set_Id" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663424" Name="get_ReferenceNumber" Variables="this;" ParamCnt="1" />
+<Method Token="100663425" Name="set_ReferenceNumber" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663426" Name="get_TransactionPartyId" Variables="this;" ParamCnt="1" />
+<Method Token="100663427" Name="set_TransactionPartyId" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663428" Name="get_RepeatType" Variables="this;" ParamCnt="1" />
+<Method Token="100663429" Name="set_RepeatType" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663430" Name="get_Amount" Variables="this;" ParamCnt="1" />
+<Method Token="100663431" Name="set_Amount" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663432" Name="get_StartDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663433" Name="set_StartDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663434" Name="get_EndDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663435" Name="set_EndDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663436" Name="get_NextTransactionDate" Variables="this;" ParamCnt="1" />
+<Method Token="100663437" Name="set_NextTransactionDate" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663438" Name="get_InfiniteSchedule" Variables="this;" ParamCnt="1" />
+<Method Token="100663439" Name="set_InfiniteSchedule" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663440" Name="get_Remarks" Variables="this;" ParamCnt="1" />
+<Method Token="100663441" Name="set_Remarks" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663442" Name="get_CreatedDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663443" Name="set_CreatedDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663444" Name="get_CreatedUser" Variables="this;" ParamCnt="1" />
+<Method Token="100663445" Name="set_CreatedUser" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663446" Name="get_IsIncome" Variables="this;" ParamCnt="1" />
+<Method Token="100663447" Name="set_IsIncome" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663448" Name="get_IsDelete" Variables="this;" ParamCnt="1" />
+<Method Token="100663449" Name="set_IsDelete" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663450" Name="get_IsActive" Variables="this;" ParamCnt="1" />
+<Method Token="100663451" Name="set_IsActive" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108917" Name="&lt;Id&gt;k__BackingField" />
+<Field Token="67108918" Name="&lt;ReferenceNumber&gt;k__BackingField" />
+<Field Token="67108919" Name="&lt;TransactionPartyId&gt;k__BackingField" />
+<Field Token="67108920" Name="&lt;RepeatType&gt;k__BackingField" />
+<Field Token="67108921" Name="&lt;Amount&gt;k__BackingField" />
+<Field Token="67108922" Name="&lt;StartDateTime&gt;k__BackingField" />
+<Field Token="67108923" Name="&lt;EndDateTime&gt;k__BackingField" />
+<Field Token="67108924" Name="&lt;NextTransactionDate&gt;k__BackingField" />
+<Field Token="67108925" Name="&lt;InfiniteSchedule&gt;k__BackingField" />
+<Field Token="67108926" Name="&lt;Remarks&gt;k__BackingField" />
+<Field Token="67108927" Name="&lt;CreatedDateTime&gt;k__BackingField" />
+<Field Token="67108928" Name="&lt;CreatedUser&gt;k__BackingField" />
+<Field Token="67108929" Name="&lt;IsIncome&gt;k__BackingField" />
+<Field Token="67108930" Name="&lt;IsDelete&gt;k__BackingField" />
+<Field Token="67108931" Name="&lt;IsActive&gt;k__BackingField" />
+<Type Token="33554446" Name="MyFinance.Entities.TransactionLogEntity" />
+<Method Token="100663452" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663453" Name="get_Id" Variables="this;" ParamCnt="1" />
+<Method Token="100663454" Name="set_Id" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663455" Name="get_TransactionId" Variables="this;" ParamCnt="1" />
+<Method Token="100663456" Name="set_TransactionId" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663457" Name="get_ScheduledTransactionId" Variables="this;" ParamCnt="1" />
+<Method Token="100663458" Name="set_ScheduledTransactionId" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663459" Name="get_TransactionPartyId" Variables="this;" ParamCnt="1" />
+<Method Token="100663460" Name="set_TransactionPartyId" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663461" Name="get_IsDeletedTransaction" Variables="this;" ParamCnt="1" />
+<Method Token="100663462" Name="set_IsDeletedTransaction" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663463" Name="get_IsIncome" Variables="this;" ParamCnt="1" />
+<Method Token="100663464" Name="set_IsIncome" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663465" Name="get_TransactionDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663466" Name="set_TransactionDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663467" Name="get_Amount" Variables="this;" ParamCnt="1" />
+<Method Token="100663468" Name="set_Amount" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663469" Name="get_StartingBalance" Variables="this;" ParamCnt="1" />
+<Method Token="100663470" Name="set_StartingBalance" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663471" Name="get_FinalBalance" Variables="this;" ParamCnt="1" />
+<Method Token="100663472" Name="set_FinalBalance" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663473" Name="get_Remarks" Variables="this;" ParamCnt="1" />
+<Method Token="100663474" Name="set_Remarks" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663475" Name="get_CreatedDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663476" Name="set_CreatedDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663477" Name="get_IsUserPerformed" Variables="this;" ParamCnt="1" />
+<Method Token="100663478" Name="set_IsUserPerformed" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108932" Name="&lt;Id&gt;k__BackingField" />
+<Field Token="67108933" Name="&lt;TransactionId&gt;k__BackingField" />
+<Field Token="67108934" Name="&lt;ScheduledTransactionId&gt;k__BackingField" />
+<Field Token="67108935" Name="&lt;TransactionPartyId&gt;k__BackingField" />
+<Field Token="67108936" Name="&lt;IsDeletedTransaction&gt;k__BackingField" />
+<Field Token="67108937" Name="&lt;IsIncome&gt;k__BackingField" />
+<Field Token="67108938" Name="&lt;TransactionDateTime&gt;k__BackingField" />
+<Field Token="67108939" Name="&lt;Amount&gt;k__BackingField" />
+<Field Token="67108940" Name="&lt;StartingBalance&gt;k__BackingField" />
+<Field Token="67108941" Name="&lt;FinalBalance&gt;k__BackingField" />
+<Field Token="67108942" Name="&lt;Remarks&gt;k__BackingField" />
+<Field Token="67108943" Name="&lt;CreatedDateTime&gt;k__BackingField" />
+<Field Token="67108944" Name="&lt;IsUserPerformed&gt;k__BackingField" />
+<Type Token="33554447" Name="MyFinance.Entities.TransactionPartyEntity" />
+<Method Token="100663479" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663480" Name="get_Id" Variables="this;" ParamCnt="1" />
+<Method Token="100663481" Name="set_Id" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663482" Name="get_Code" Variables="this;" ParamCnt="1" />
+<Method Token="100663483" Name="set_Code" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663484" Name="get_Description" Variables="this;" ParamCnt="1" />
+<Method Token="100663485" Name="set_Description" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663486" Name="get_CreatedDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663487" Name="set_CreatedDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663488" Name="get_IsActive" Variables="this;" ParamCnt="1" />
+<Method Token="100663489" Name="set_IsActive" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108945" Name="&lt;Id&gt;k__BackingField" />
+<Field Token="67108946" Name="&lt;Code&gt;k__BackingField" />
+<Field Token="67108947" Name="&lt;Description&gt;k__BackingField" />
+<Field Token="67108948" Name="&lt;CreatedDateTime&gt;k__BackingField" />
+<Field Token="67108949" Name="&lt;IsActive&gt;k__BackingField" />
+<Type Token="33554448" Name="MyFinance.Entities.UserEntity" />
+<Method Token="100663490" Name=".ctor" Variables="this;" ParamCnt="1" />
+<Method Token="100663491" Name="get_Id" Variables="this;" ParamCnt="1" />
+<Method Token="100663492" Name="set_Id" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663493" Name="get_FirstName" Variables="this;" ParamCnt="1" />
+<Method Token="100663494" Name="set_FirstName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663495" Name="get_LastName" Variables="this;" ParamCnt="1" />
+<Method Token="100663496" Name="set_LastName" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663497" Name="get_SID" Variables="this;" ParamCnt="1" />
+<Method Token="100663498" Name="set_SID" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663499" Name="get_StartingAmount" Variables="this;" ParamCnt="1" />
+<Method Token="100663500" Name="set_StartingAmount" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663501" Name="get_CurrentBalance" Variables="this;" ParamCnt="1" />
+<Method Token="100663502" Name="set_CurrentBalance" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663503" Name="get_RegisteredDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663504" Name="set_RegisteredDateTime" Variables="this;value;" ParamCnt="2" />
+<Method Token="100663505" Name="get_LastCheckDateTime" Variables="this;" ParamCnt="1" />
+<Method Token="100663506" Name="set_LastCheckDateTime" Variables="this;value;" ParamCnt="2" />
+<Field Token="67108950" Name="&lt;Id&gt;k__BackingField" />
+<Field Token="67108951" Name="&lt;FirstName&gt;k__BackingField" />
+<Field Token="67108952" Name="&lt;LastName&gt;k__BackingField" />
+<Field Token="67108953" Name="&lt;SID&gt;k__BackingField" />
+<Field Token="67108954" Name="&lt;StartingAmount&gt;k__BackingField" />
+<Field Token="67108955" Name="&lt;CurrentBalance&gt;k__BackingField" />
+<Field Token="67108956" Name="&lt;RegisteredDateTime&gt;k__BackingField" />
+<Field Token="67108957" Name="&lt;LastCheckDateTime&gt;k__BackingField" />
+<Type Token="33554435" Name="A.AssemblyInfoAttribute" />
+<Method Token="100663309" Name="" Variables="this;str;" ParamCnt="2" />
+</Assembly><File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\AppSettingsEntity.cs" NewName="File0" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\DailyBreakDownPredictionEntity.cs" NewName="File1" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\MyFinanceApplication.cs" NewName="File2" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\PredictionEntity.cs" NewName="File3" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TaskEntity.cs" NewName="File4" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TransactionEntity.cs" NewName="File5" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TransactionLogEntity.cs" NewName="File6" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\TransactionPartyEntity.cs" NewName="File7" />
+<File OldName="D:\my doc\IIT M.Sc\EAD\CW2\MyFinance\MyFinance.Entities\UserEntity.cs" NewName="File8" />
+</Mappings>

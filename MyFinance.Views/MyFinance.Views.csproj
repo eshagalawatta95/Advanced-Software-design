@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{96CD4271-282C-4F0D-B0F4-2913CC621A89}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyFinance.Views</RootNamespace>
+    <AssemblyName>MyFinance.Views</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CircularProgressBar">
+      <HintPath>C:\Users\eha\Desktop\Dashboard Resource pack By Iweb Makers\Dashboard\Dashboard\bin\Debug\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks">
+      <HintPath>C:\Users\eha\Desktop\Login-Plano-Moderno-Transparente-Placeholder-WinForm-C-Sharp-master\FlatLoginWatermark\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleInjector, Version=4.10.2.0, Culture=neutral, PublicKeyToken=984cb50dea722e99, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleInjector.4.10.2\lib\net45\SimpleInjector.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.112.1, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.112.2\lib\net40\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation">
+      <HintPath>C:\Users\eha\Desktop\Dashboard Resource pack By Iweb Makers\Dashboard\Dashboard\bin\Debug\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomElements\TransparentPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Forms\BaseForm.cs" />
+    <Compile Include="Forms\MainScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainScreenForm.Designer.cs">
+      <DependentUpon>MainScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\SplashScreenForm.Designer.cs">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ActionsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ActionsUserControl.Designer.cs">
+      <DependentUpon>ActionsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ContentHeaderUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\ContentHeaderUserControl.Designer.cs">
+      <DependentUpon>ContentHeaderUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\FormTextFieldUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\FormTextFieldUserControl.Designer.cs">
+      <DependentUpon>FormTextFieldUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Logs\LogsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Logs\LogsUserControl.Designer.cs">
+      <DependentUpon>LogsUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MenuItemUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\MenuItemUserControl.Designer.cs">
+      <DependentUpon>MenuItemUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Passbook\PassbookUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Passbook\PassbookUserControl.Designer.cs">
+      <DependentUpon>PassbookUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Reports\ReportUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Reports\ReportUserControl.Designer.cs">
+      <DependentUpon>ReportUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Summary\PredictionUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Summary\PredictionUserControl.Designer.cs">
+      <DependentUpon>PredictionUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Summary\DashboardUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Summary\DashboardUserControl.Designer.cs">
+      <DependentUpon>DashboardUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Summary\SummarizeUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Summary\SummarizeUserControl.Designer.cs">
+      <DependentUpon>SummarizeUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Task\ManageTaskUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Task\ManageTaskUserControl.Designer.cs">
+      <DependentUpon>ManageTaskUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Task\TaskUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Task\TaskUserControl.Designer.cs">
+      <DependentUpon>TaskUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\TransactionParty\TransactionPartyUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\TransactionParty\TransactionPartyUserControl.Designer.cs">
+      <DependentUpon>TransactionPartyUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\ManageTransactionUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Transaction\ManageTransactionUserControl.Designer.cs">
+      <DependentUpon>ManageTransactionUserControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Transaction\TransactionUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Transaction\TransactionUserControl.Designer.cs">
+      <DependentUpon>TransactionUserControl.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Forms\MainScreenForm.resx">
+      <DependentUpon>MainScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SplashScreenForm.resx">
+      <DependentUpon>SplashScreenForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ActionsUserControl.resx">
+      <DependentUpon>ActionsUserControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\ContentHeaderUserControl.resx">
+      <DependentUpon>ContentHeaderUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\FormTextFieldUserControl.resx">
+      <DependentUpon>FormTextFieldUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Logs\LogsUserControl.resx">
+      <DependentUpon>LogsUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\MenuItemUserControl.resx">
+      <DependentUpon>MenuItemUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Passbook\PassbookUserControl.resx">
+      <DependentUpon>PassbookUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Reports\ReportUserControl.resx">
+      <DependentUpon>ReportUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Summary\PredictionUserControl.resx">
+      <DependentUpon>PredictionUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Summary\DashboardUserControl.resx">
+      <DependentUpon>DashboardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Summary\SummarizeUserControl.resx">
+      <DependentUpon>SummarizeUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Task\ManageTaskUserControl.resx">
+      <DependentUpon>ManageTaskUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Task\TaskUserControl.resx">
+      <DependentUpon>TaskUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\TransactionParty\TransactionPartyUserControl.resx">
+      <DependentUpon>TransactionPartyUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Transaction\ManageTransactionUserControl.resx">
+      <DependentUpon>ManageTransactionUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Transaction\TransactionUserControl.resx">
+      <DependentUpon>TransactionUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back_button_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hamburger_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recent-history.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alerts_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\notifications_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FinTim_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Predict_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyFinance.Core\MyFinance.Core.csproj">
+      <Project>{b4130eeb-cf18-430a-828c-2259628e7aa2}</Project>
+      <Name>MyFinance.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyFinance.DataAccess\MyFinance.DataAccess.csproj">
+      <Project>{873ef2b8-8df8-4f35-a8c1-696520e812a2}</Project>
+      <Name>MyFinance.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyFinance.Entities\MyFinance.Entities.csproj">
+      <Project>{6d261b77-ad95-4fe4-82d1-16500dc3d912}</Project>
+      <Name>MyFinance.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyFinance.Enums\MyFinance.Enums.csproj">
+      <Project>{d58e2fa4-69f9-497d-bf99-5c4a8fde7f3f}</Project>
+      <Name>MyFinance.Enums</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyFinance.Methods\MyFinance.Methods.csproj">
+      <Project>{65e31ab7-cb1f-4d6a-b544-84a117fdb968}</Project>
+      <Name>MyFinance.Methods</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyFinance.Models\MyFinance.Models.csproj">
+      <Project>{eb58b28c-5c99-428c-baf3-844758c0a9b7}</Project>
+      <Name>MyFinance.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MyFinance.Service\MyFinance.Service.csproj">
+      <Project>{aa671376-0478-4274-bdf0-37ce0599d857}</Project>
+      <Name>MyFinance.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_21540568.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frontImage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frontImageforapp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\21540568.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clipart1246578.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Passbook_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Reports_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summary_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tasks_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transaction_party_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Transaction_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset_icon2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logs.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.112.2\build\net40\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.112.2\build\net40\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.112.2\build\net40\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.112.2\build\net40\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>
