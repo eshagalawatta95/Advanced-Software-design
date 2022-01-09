@@ -47,3 +47,20 @@ C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Se
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.CopyComplete
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.dll
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Service.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Service.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\MyFinance.Methods.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.AssemblyReference.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.csproj.CopyComplete
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Service\obj\Debug\MyFinance.Service.pdb

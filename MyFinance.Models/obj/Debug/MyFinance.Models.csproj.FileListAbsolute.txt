@@ -65,3 +65,26 @@ C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Mod
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.csproj.CopyComplete
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.dll
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Models.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Models.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Methods.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.csproj.AssemblyReference.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.csproj.CopyComplete
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Models\obj\Debug\MyFinance.Models.pdb

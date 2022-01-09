@@ -54,7 +54,7 @@ namespace MyFinance.Enums
 
                 if (!exists)
                     System.IO.Directory.CreateDirectory(subPath);
-                    subPath = subPath + @"\Error_Log.txt";
+                subPath += @"\Error_Log.txt";
 
                 if (!File.Exists(subPath))
                 {

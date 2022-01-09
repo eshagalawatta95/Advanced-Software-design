@@ -31,3 +31,14 @@ C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.CopyComplete
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.dll
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Core.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.AssemblyReference.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.csproj.CopyComplete
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Core\obj\Debug\MyFinance.Core.pdb

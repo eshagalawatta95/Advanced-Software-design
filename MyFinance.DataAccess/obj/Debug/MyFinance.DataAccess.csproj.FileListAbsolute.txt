@@ -71,3 +71,28 @@ C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.DataAccess\obj\Debug\MyFinance
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.DataAccess\obj\Debug\MyFinance.DataAccess.csproj.CopyComplete
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.DataAccess\obj\Debug\FinAndTime.DataAccess.dll
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.DataAccess\obj\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\FinAndTime.DataAccess.dll.config
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\FinAndTime.DataAccess.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\EntityFramework.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\MyFinance.Entities.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\MyFinance.Methods.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\System.Data.SQLite.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\System.Data.SQLite.EF6.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\System.Data.SQLite.Linq.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\MyFinance.Entities.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\MyFinance.Methods.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\EntityFramework.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\System.Data.SQLite.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\obj\Debug\MyFinance.DataAccess.csproj.AssemblyReference.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\obj\Debug\MyFinance.DataAccess.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\obj\Debug\MyFinance.DataAccess.csproj.CopyComplete
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\obj\Debug\FinAndTime.DataAccess.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.DataAccess\obj\Debug\FinAndTime.DataAccess.pdb

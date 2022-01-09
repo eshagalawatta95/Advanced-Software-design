@@ -15,3 +15,9 @@ C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enum
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enums.csproj.CoreCompileInputs.cache
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enums.dll
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Enums\bin\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Enums\bin\Debug\MyFinance.Enums.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enums.csproj.AssemblyReference.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enums.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enums.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Enums\obj\Debug\MyFinance.Enums.pdb
