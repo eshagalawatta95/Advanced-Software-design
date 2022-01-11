@@ -27,10 +27,8 @@ namespace MyFinance.Views.UserControls.Summary
             InitializeComponent();
 
             _applicationService.TransactionsOnChange += TransactionsOnChange;
-            _applicationService.TasksOnChange += TasksOnChange;
             _applicationService.CurrentUserOnChange += CurrentUserOnChange;
             _applicationService.TransactionPartiesOnChange += TransactionPartiesOnChange;
-            _applicationService.ScheduledTasksOnChange += schTasksOnChange;
             _applicationService.ScheduleTransactionsOnChange += schTransactionsOnChange;
         }
 
@@ -49,25 +47,18 @@ namespace MyFinance.Views.UserControls.Summary
         {
             UpdateTransactionBinders(dtFrom, dtTo);
         }
-        private void TasksOnChange(IEnumerable<OneTimeTasks> currentValueList)
-        {
-            UpdateTransactionBinders(dtFrom, dtTo);
-        }
+      
 
         private void schTransactionsOnChange(IEnumerable<SheduledTransactionList> currentValueList)
         {
             UpdateTransactionBinders(dtFrom, dtTo);
         }
-        private void schTasksOnChange(IEnumerable<ScheduledTasks> currentValueList)
-        {
-            UpdateTransactionBinders(dtFrom, dtTo);
-        }
+
 
         private void UpdateTransactionBinders(DateTime dtFrom, DateTime dtTo)
         {
             BindingList<TransactionBinder> transactionBinders = new BindingList<TransactionBinder>();
             BindingList<CommonTransactionBinder> transdataobj = new BindingList<CommonTransactionBinder>();
-            BindingList<CommmonTaskBinder> taskdataobj = new BindingList<CommmonTaskBinder>();
 
             IEnumerable<TransactionEntity> trans = _applicationService.Transactions.Where(x => x.TransactionDateTime >= dtFrom.AddDays(-1) && x.TransactionDateTime <= dtTo.AddDays(1)).OrderByDescending(t => t.TransactionDateTime);
             foreach (TransactionEntity transaction in trans)
@@ -115,59 +106,10 @@ namespace MyFinance.Views.UserControls.Summary
 
             }
             dataGridView.DataSource = transdataobj;
-
-            // single task to datagrid
-
-            BindingList<OneTImeTaskBinder> taskBinders = new BindingList<OneTImeTaskBinder>();
-            IEnumerable<OneTimeTasks> task = _applicationService.OneTimeTasks.Where(x => x.Effectivedate >= dtFrom && x.Effectivedate <= dtTo).OrderByDescending(t => t.Effectivedate);
-
-            foreach (OneTimeTasks itemtask in task)
-            {
-                if (!itemtask.IsDelete)
-                {
-                    taskBinders.Add(new OneTImeTaskBinder(itemtask));
-                }
-            }
-
-            foreach (OneTImeTaskBinder objtask in taskBinders)
-            {
-                CommmonTaskBinder obj = new CommmonTaskBinder();
-                obj.Duration = objtask.Duration;
-                obj.Comments = objtask.Comments;
-                obj.Effectivedate = objtask.Effectivedate;
-                obj.ReferenceNumber = objtask.ReferenceNumber;
-                obj.Type = objtask.Task_Type;
-                obj.Task_Type = objtask.Type;
-                taskdataobj.Add(obj);
-            }
-                // schduled task to datagrid
-
-           BindingList<ScheduleTaskBinder> scheduletaskBinders = new BindingList<ScheduleTaskBinder>();
-
-            IEnumerable<ScheduledTasks> schtask = _applicationService.ScheduledTasks.Where(x => x.Effectivedate >= dtFrom && x.Effectivedate <= dtTo && x.IsDelete == false).OrderByDescending(t => t.Effectivedate);
-
-            foreach (ScheduledTasks itemtask in schtask)
-            {
-                if (itemtask.IsActive)
-                {
-                    scheduletaskBinders.Add(new ScheduleTaskBinder(itemtask));
-                }
-            }
-            foreach (ScheduleTaskBinder objtask in scheduletaskBinders)
-            {
-                CommmonTaskBinder obj = new CommmonTaskBinder();
-                obj.Duration = objtask.Duration;
-                obj.Comments = objtask.Comments;
-                obj.Effectivedate = objtask.Effectivedate;
-                obj.ReferenceNumber = objtask.ReferenceNumber;
-                obj.Type = objtask.Task_Type;
-                obj.Task_Type = objtask.Type;
-                taskdataobj.Add(obj);
-            }
-
-            dataGridViewTask.DataSource = taskdataobj;
         }
 
+
+           
         public new void Dispose()
         {
             _applicationService.TransactionsOnChange -= TransactionsOnChange;
@@ -237,53 +179,6 @@ namespace MyFinance.Views.UserControls.Summary
         public string Amount { get; set; }
         public string Type { get; set; }
     }
-
-    class OneTImeTaskBinder
-    {
-        public OneTImeTaskBinder()
-        { }
-
-        public OneTImeTaskBinder(OneTimeTasks taskEntity)
-        {
-            ReferenceNumber = taskEntity.ReferenceNumber;
-            Duration = taskEntity.Duration.ToString();
-            Effectivedate = taskEntity.Effectivedate;
-            Task_Type = "One Time";
-            Comments = taskEntity.Comments;
-            Type = taskEntity.Type == 1 ? ContentTaskTypesEnum.Appointment.ToString() : ContentTaskTypesEnum.Task.ToString();
-        }
-
-        public string ReferenceNumber { get; set; }
-        public string Type { get; set; }
-        public string Task_Type { get; set; }
-        public string Comments { get; set; }
-        public string Duration { get; set; }
-        public DateTime Effectivedate { get; set; }
-    }
-
-    class ScheduleTaskBinder
-    {
-        public ScheduleTaskBinder()
-        { }
-
-        public ScheduleTaskBinder(ScheduledTasks taskEntity)
-        {
-            ReferenceNumber = taskEntity.ReferenceNumber;
-            Duration = taskEntity.Duration.ToString();
-            Effectivedate = taskEntity.Effectivedate;
-            Task_Type = "Scheduled";
-            Comments = taskEntity.Comments;
-            Type = taskEntity.Type == 1 ? ContentTaskTypesEnum.Appointment.ToString() : ContentTaskTypesEnum.Task.ToString();
-        }
-
-        public string ReferenceNumber { get; set; }
-        public string Type { get; set; }
-        public string Task_Type { get; set; }
-        public string Comments { get; set; }
-        public string Duration { get; set; }
-        public DateTime Effectivedate { get; set; }
-    }
-
 
 
     class CommonTransactionBinder

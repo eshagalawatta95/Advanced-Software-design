@@ -45,7 +45,6 @@
     <Compile Include="Models\IApplicationModel.cs" />
     <Compile Include="Models\IModel.cs" />
     <Compile Include="Models\ITransactionLogModel.cs" />
-    <Compile Include="Models\ITaskModel.cs" />
     <Compile Include="Models\ITransactionModel.cs" />
     <Compile Include="Models\ITransactionPartyModel.cs" />
     <Compile Include="Models\IUserModel.cs" />
@@ -54,11 +53,7 @@
     <Compile Include="Views\Forms\IMainScreenForm.cs" />
     <Compile Include="Views\Forms\ISplashScreenForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\UserControls\ITaskUserControl.cs" />
     <Compile Include="Views\UserControls\ITransactionUserControl.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MyFinance.Entities\MyFinance.Entities.csproj">

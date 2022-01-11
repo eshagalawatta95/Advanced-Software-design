@@ -19,10 +19,8 @@ namespace MyFinance.Service
         private ITransactionLogModel _transactionLogModel;
         private ITransactionPartyModel _transactionPartyModel;
         private ITransactionModel _transactionModel;
-        private ITaskModel _taskModel; 
 
         public event NotifyDataChangesEvent<UserEntity> CurrentUserOnChange;
-        public event NotifyDataChangesListEvent<OneTimeTasks> TasksOnChange;
         public UserEntity CurrentUser
         {
             get => MyFinanceApplication.CurrentUser;
@@ -47,9 +45,6 @@ namespace MyFinance.Service
         public event NotifyDataChangesListEvent<TransactionEntity> TransactionsOnChange;
         private IEnumerable<TransactionEntity> _transactions = new List<TransactionEntity>();
         private IEnumerable<SheduledTransactionList> _schtransactions = new List<SheduledTransactionList>();
-        private IEnumerable<OneTimeTasks> _onetimetasks = new List<OneTimeTasks>();
-        private IEnumerable<ScheduledTasks> _schtasks = new List<ScheduledTasks>();
-        public event NotifyDataChangesListEvent<ScheduledTasks> ScheduledTasksOnChange;
         public event NotifyDataChangesListEvent<SheduledTransactionList> ScheduleTransactionsOnChange;
         public IEnumerable<TransactionEntity> Transactions
         {
@@ -80,7 +75,6 @@ namespace MyFinance.Service
             _transactionLogModel = MyFinanceApplication.DependancyContainer.GetInstance<ITransactionLogModel>();
             _transactionPartyModel = MyFinanceApplication.DependancyContainer.GetInstance<ITransactionPartyModel>();
             _transactionModel = MyFinanceApplication.DependancyContainer.GetInstance<ITransactionModel>();
-            _taskModel = MyFinanceApplication.DependancyContainer.GetInstance<ITaskModel>();
         }
 
         public async Task InitialLoadingProcessAsync(Action<string> setProgressStatusTextAction, Action loadMainForm, Action showUserRegistraion)
@@ -134,8 +128,6 @@ namespace MyFinance.Service
             TransactionParties = await _transactionPartyModel.GetTransactionPartiesAsync();
             Transactions = await _transactionModel.GetTransactionsAsync();
             SheduledTransactions = await _transactionModel.GetSheduledTransactionsAsync();
-            OneTimeTasks = await _taskModel.GetTaskAsync();
-            ScheduledTasks = await _taskModel.GetScheduledTasksAsync();
         }
 
         public void ReleaseResourcesToExit(Action<string> SetProgressStatusText, Action preventApplicationExitAction, Action exitApplicationAction)
@@ -232,83 +224,9 @@ namespace MyFinance.Service
             {
                 File.AppendAllText("Schedule_Transaction_File.txt", DateTime.Now.ToString("dd/MM/yyyy") + "-Error\n");
             }
-
-            //for tasks
-
-            try
-            {
-                if (File.Exists("Schedule_Task_File.txt"))
-                {
-                    try
-                    {
-                        var LastLine = File.ReadLines("Schedule_Task_File.txt").Last();
-                        LastLine = LastLine.Split('-')[0];
-                        dtLastDate = DateTime.ParseExact(LastLine, "dd/MM/yyyy", null);
-                    }
-                    catch(Exception k)
-                    {
-                        File.AppendAllText("Schedule_Task_File.txt", DateTime.Now.AddDays(-1).ToString("dd/MM/yyyy") + "-Initial\n");
-                        var LastLine = File.ReadLines("Schedule_Task_File.txt").Last();
-                        LastLine = LastLine.Split('-')[0];
-                        dtLastDate = DateTime.ParseExact(LastLine, "dd/MM/yyyy", null);
-                    }
-
-                }
-                else
-                {
-                    FileStream fs = File.Create("Schedule_Task_File.txt");
-                    File.AppendAllText("Schedule_Task_File.txt", DateTime.Now.AddDays(-1).ToString("dd/MM/yyyy") + "-Initial\n");
-                    fs.Close();
-                    var LastLine = File.ReadLines("Schedule_Task_File.txt").Last();
-                    LastLine = LastLine.Split('-')[0];
-                    dtLastDate = DateTime.ParseExact(LastLine, "dd/MM/yyyy", null);
-                }
-                //var xy = dtLastDate.ToShortDateString();
-                if (!dtLastDate.ToShortDateString().Equals(DateTime.Now.ToShortDateString()))
-                {
-                    var list = await _taskModel.GetTodayActiveScheduleTasksAsync();
-                    if (list.Count() > 0)
-                    {
-                        var TodayList = list.Where(x => x.Effectivedate <= DateTime.Now && x.EndDateTime > DateTime.Now && x.IsActive == true).ToList();
-
-                        foreach (var item in TodayList)
-                        {
-                            OneTimeTasks taskEntity = new OneTimeTasks();
-                            taskEntity.Duration = item.Duration;
-                            taskEntity.Type = item.Type;
-                            taskEntity.Comments = item.Comments;
-                            taskEntity.ReferenceNumber = item.ReferenceNumber;
-                            taskEntity.IsDelete = false;
-                            taskEntity.CreatedDateTime = DateTime.Now;
-                            taskEntity.Effectivedate = DateTime.Now;
-                            await _taskModel.InsertTaskAsync(taskEntity, false);
-
-                            //modifiying next date
-                            if (item.RepeatType == ContentRepeatItemEnum.Daily.ToString())
-                                dtNextDate = item.Effectivedate.AddDays(1);
-                            if (item.RepeatType == ContentRepeatItemEnum.Weekly.ToString())
-                                dtNextDate = item.Effectivedate.AddDays(7);
-                            if (item.RepeatType == ContentRepeatItemEnum.Monthly.ToString())
-                                dtNextDate = item.Effectivedate.AddDays(30);
-                            if (item.RepeatType == ContentRepeatItemEnum.Yearly.ToString())
-                                dtNextDate = item.Effectivedate.AddYears(1);
-
-                            _taskModel.UpdateNextTransactionDate(item.Id, dtNextDate);
-
-                        }
-                        //file write 
-                        File.AppendAllText("Schedule_Task_File.txt", DateTime.Now.ToString("dd/MM/yyyy") + "-Success\n");
-
-                    }
-                }
-
-            }
-            catch (Exception k)
-            {
-                File.AppendAllText("Schedule_Task_File.txt", DateTime.Now.ToString("dd/MM/yyyy") + "-Error\n");
-            }
         }
 
+   
         public IEnumerable<SheduledTransactionList> SheduledTransactions
         {
             get => _schtransactions;
@@ -318,26 +236,5 @@ namespace MyFinance.Service
                 ScheduleTransactionsOnChange?.Invoke(_schtransactions);
             }
         }
-
-        public IEnumerable<OneTimeTasks> OneTimeTasks
-        {
-            get => _onetimetasks;
-            private set
-            {
-                _onetimetasks = value?.OrderByDescending(tl => tl.Effectivedate).ToList() ?? new List<OneTimeTasks>();
-                TasksOnChange?.Invoke(_onetimetasks);
-            }
-        }
-
-        public IEnumerable<ScheduledTasks> ScheduledTasks
-        {
-            get => _schtasks;
-            private set
-            {
-                _schtasks = value?.OrderByDescending(tl => tl.Effectivedate).ToList() ?? new List<ScheduledTasks>();
-                ScheduledTasksOnChange?.Invoke(_schtasks);
-            }
-        }
-
     }
 }

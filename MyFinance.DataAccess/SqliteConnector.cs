@@ -15,7 +15,6 @@ namespace MyFinance.DataAccess
     public static class SqliteConnector
     {
         private static readonly object readWriteLock = new object();
-        private static readonly string _password = "1234";
         private static readonly string _databasePath = MyFinanceApplication.AppSettings.SQLiteDatabasePath;
         public static readonly string LastInsertedIdQuery = "SELECT last_insert_rowid()";
         public static readonly ApplicationErrorLog applicationErrorLog = new ApplicationErrorLog();
@@ -440,22 +439,6 @@ namespace MyFinance.DataAccess
                         cmd.ExecuteNonQuery();
                         Thread.Sleep(500);
 
-                        //cmd.CommandText =
-                        //    @"CREATE TABLE `ScheduledTransaction` (
-	                       //     `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-	                       //     `Amount`	NUMERIC NOT NULL,
-	                       //     `TransactionPartyId`	INTEGER NOT NULL,
-	                       //     `Remarks`	TEXT NOT NULL,
-	                       //     `RepeatPeriod`	INTEGER NOT NULL,
-	                       //     `RepeatValue`	INTEGER NOT NULL,
-	                       //     `RepeatCount`	INTEGER NOT NULL DEFAULT 1,
-	                       //     `OccuredCount`	INTEGER NOT NULL DEFAULT 0,
-	                       //     `LastOccuredDateTime`	INTEGER,
-	                       //     `CreatedDateTime`	INTEGER NOT NULL,
-	                       //     `IsActive`	INTEGER NOT NULL DEFAULT 1
-                        //    );";
-                        //cmd.ExecuteNonQuery();
-                        //Thread.Sleep(500);
 
                         cmd.CommandText =
                             @"CREATE TABLE `TransactionParty` (
@@ -474,41 +457,7 @@ namespace MyFinance.DataAccess
                         cmd.ExecuteNonQuery();
 
                         Thread.Sleep(500);
-
-                        cmd.CommandText =
-                            @"CREATE TABLE `OneTimeTasks` (
-	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                                 `ReferenceNumber`	TEXT,
-                                  `Duration`	NUMERIC NOT NULL,
-                                `Type`	INTEGER NOT NULL,
-	                            `Comments`	TEXT NOT NULL,
-	                            `IsDelete`	INTEGER NOT NULL DEFAULT 0,
-	                            `CreatedDateTime`	INTEGER NOT NULL,
-                                 `CreatedUser`	INTEGER NOT NULL,
-	                            `Effectivedate`	INTEGER NOT NULL
-                            );";
-                        cmd.ExecuteNonQuery();
-                        Thread.Sleep(500);
-
-                        cmd.CommandText =
-                           @"CREATE TABLE `ScheduledTasks` (
-	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
-                                 `ReferenceNumber`	TEXT,
-                                 `Duration`	NUMERIC NOT NULL,
-                                `Type`	INTEGER NOT NULL,
-                                `RepeatType`	TEXT NOT NULL,
-	                            `Comments`	TEXT NOT NULL,
-	                            `IsDelete`	INTEGER NOT NULL DEFAULT 0,
-                                `IsActive`	INTEGER NOT NULL DEFAULT 1,
-	                            `CreatedDateTime`	INTEGER NOT NULL,
-                                 `StartDateTime`	INTEGER NOT NULL,
-                                `EndDateTime`	INTEGER NOT NULL ,
-                                `CreatedUser`	INTEGER NOT NULL,
-	                            `Effectivedate`	INTEGER NOT NULL
-                            );";
-                        cmd.ExecuteNonQuery();
-                        Thread.Sleep(500);
-
+                      
                         cmd.CommandText =
                            @"CREATE TABLE `ScheduledTransaction` (
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,

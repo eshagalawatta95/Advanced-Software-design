@@ -19,9 +19,6 @@ namespace MyFinance.Views.UserControls.Report
     {
         private IApplicationService _applicationService;
         private BindingList<TransactionBinder> _transactionBinders;
-        private BindingList<ScheduleTransactionBinder> _scheduletransactionBinders;
-        private BindingList<OneTImeTaskBinder> _OneTImeTaskBinder;
-        private BindingList<ScheduleTaskBinder> _ScheduleTaskBinder;
 
         public ReportUserControl()
         {
@@ -48,63 +45,9 @@ namespace MyFinance.Views.UserControls.Report
             _transactionBinders = transactionBinders;
             dataGridView.DataSource = _transactionBinders;
 
-            //bind schduled transactions to datagrid
-
-            BindingList<ScheduleTransactionBinder> scheduletransactionBinders = new BindingList<ScheduleTransactionBinder>();
-
-            IEnumerable<SheduledTransactionList> schtrans = _applicationService.SheduledTransactions.Where(x => x.NextTransactionDate >= dtFrom && x.NextTransactionDate <= dtTo && x.IsDelete == false).OrderByDescending(t => t.NextTransactionDate);
-            foreach (SheduledTransactionList schtransaction in schtrans)
-            {
-                if (schtransaction.IsActive)
-                {
-                    TransactionPartyEntity transactionParty = _applicationService.TransactionParties.First(tp => tp.Id == schtransaction.TransactionPartyId);
-                    scheduletransactionBinders.Add(new ScheduleTransactionBinder(schtransaction, transactionParty));
-                }
-            }
-
-            _scheduletransactionBinders = scheduletransactionBinders;
-            dataGridViewScheduled.DataSource = _scheduletransactionBinders;
-
-
+          
         }
 
-        private void UpdateTaskBinders(DateTime dtFrom, DateTime dtTo)
-        {
-            //bind single task to datagrid
-
-            BindingList<OneTImeTaskBinder> taskBinders = new BindingList<OneTImeTaskBinder>();
-            IEnumerable<OneTimeTasks> task = _applicationService.OneTimeTasks.Where(x => x.Effectivedate >= dtFrom && x.Effectivedate <= dtTo && x.IsDelete == false).OrderByDescending(t => t.Effectivedate);
-            //IEnumerable<OneTimeTasks> task = _applicationService.OneTimeTasks.Where(x => x.Effectivedate >= dtFrom && x.Effectivedate <= dtTo);
-
-            foreach (OneTimeTasks itemtask in task)
-            {
-                if (!itemtask.IsDelete)
-                {
-                    taskBinders.Add(new OneTImeTaskBinder(itemtask));
-                }
-            }
-            _OneTImeTaskBinder = taskBinders;
-            dataGridView.DataSource = _OneTImeTaskBinder;
-
-            //bind schduled task to datagrid
-
-            BindingList<ScheduleTaskBinder> scheduletaskBinders = new BindingList<ScheduleTaskBinder>();
-
-            IEnumerable<ScheduledTasks> schtask = _applicationService.ScheduledTasks.Where(x => x.Effectivedate >= dtFrom && x.Effectivedate <= dtTo && x.IsDelete==false).OrderByDescending(t => t.Effectivedate);
-
-            foreach (ScheduledTasks itemtask in schtask)
-            {
-                if (itemtask.IsActive)
-                {
-                    scheduletaskBinders.Add(new ScheduleTaskBinder(itemtask));
-                }
-            }
-
-            _ScheduleTaskBinder = scheduletaskBinders;
-            dataGridViewScheduled.DataSource = _ScheduleTaskBinder;
-
-
-        }
 
         private void contentHeaderUserControl_AddButtonOnClick(object sender, EventArgs e)
         {
@@ -127,11 +70,7 @@ namespace MyFinance.Views.UserControls.Report
             {
                 UpdateTransactionBinders(dtFrom, dtTo);
             }
-            else if (ReportVal == 1)
-            {
-                UpdateTaskBinders(dtFrom, dtTo);
-            }
-
+  
             tabControlReports.Visible = true;
         }
     }
@@ -184,49 +123,5 @@ namespace MyFinance.Views.UserControls.Report
         public string RepeatType { get; set; }
         public string Amount { get; set; }
         public string Remarks { get; set; }
-    }
-
-    class OneTImeTaskBinder
-    {
-        public OneTImeTaskBinder()
-        { }
-
-        public OneTImeTaskBinder(OneTimeTasks taskEntity)
-        {
-            ReferenceNumber = taskEntity.ReferenceNumber;
-            Comments = taskEntity.Comments;
-            Duration = taskEntity.Duration.ToString();
-            Effectivedate = taskEntity.Effectivedate;
-            Type = taskEntity.Type == 1 ? ContentTaskTypesEnum.Appointment.ToString() : ContentTaskTypesEnum.Task.ToString();
-        }
-
-        public string ReferenceNumber { get; set; }
-        public string Type { get; set; }
-        public string Comments { get; set; }
-        public string Duration { get; set; }
-        public DateTime Effectivedate { get; set; }
-    }
-
-    class ScheduleTaskBinder
-    {
-        public ScheduleTaskBinder()
-        { }
-
-        public ScheduleTaskBinder(ScheduledTasks taskEntity)
-        {
-            ReferenceNumber = taskEntity.ReferenceNumber;
-            Comments = taskEntity.Comments;
-            Duration = taskEntity.Duration.ToString();
-            Effectivedate = taskEntity.Effectivedate;
-            RepeatType = taskEntity.RepeatType;
-            Type = taskEntity.Type == 1 ? ContentTaskTypesEnum.Appointment.ToString() : ContentTaskTypesEnum.Task.ToString();
-        }
-
-        public string ReferenceNumber { get; set; }
-        public string RepeatType { get; set; }
-        public string Type { get; set; }
-        public string Comments { get; set; }
-        public string Duration { get; set; }
-        public DateTime Effectivedate { get; set; }
     }
 }

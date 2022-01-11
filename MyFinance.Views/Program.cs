@@ -54,7 +54,6 @@ namespace MyFinance.Views
             MyFinance.Entities.MyFinanceApplication.DependancyContainer.Register<ITransactionLogModel, TransactionLogModel>(Lifestyle.Singleton);
             MyFinance.Entities.MyFinanceApplication.DependancyContainer.Register<ITransactionPartyModel, TransactionPartyModel>(Lifestyle.Singleton);
             MyFinance.Entities.MyFinanceApplication.DependancyContainer.Register<ITransactionModel, TransactionModel>(Lifestyle.Singleton);
-            MyFinance.Entities.MyFinanceApplication.DependancyContainer.Register<ITaskModel,TaskModel>(Lifestyle.Singleton);
            
             // Services
             MyFinance.Entities.MyFinanceApplication.DependancyContainer.Register<IApplicationService, ApplicationService>(Lifestyle.Singleton);

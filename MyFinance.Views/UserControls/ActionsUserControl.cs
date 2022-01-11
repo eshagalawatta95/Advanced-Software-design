@@ -23,9 +23,6 @@ namespace MyFinance.Views.UserControls
         [Browsable(true)]
         [Description("Trigger when reset button clicked"), Category("Action"),]
         public event EventHandler ResetButtonOnClick;
-        [Browsable(true)]
-        [Description("Trigger when predict button clicked"), Category("Action"),]
-        public event EventHandler PredictButtonOnClick;
 
         [Browsable(true)]
         [DefaultValue(true)]
@@ -54,14 +51,7 @@ namespace MyFinance.Views.UserControls
             set => resetButton.Visible = value;
         }
 
-        [Browsable(true)]
-        [DefaultValue(false)]
-        [Description("Predict button visibility"), Category("Data")]
-        public bool PredictButtonVisible
-        {
-            get => predictButton.Visible;
-            set => predictButton.Visible = value;
-        }
+     
 
         [Browsable(true)]
         [DefaultValue("Not defined...")]
@@ -83,7 +73,6 @@ namespace MyFinance.Views.UserControls
                 saveButton.Enabled = value;
                 deleteButton.Enabled = value;
                 resetButton.Enabled = value;
-                predictButton.Enabled = value;
             }
         }
 
@@ -114,14 +103,7 @@ namespace MyFinance.Views.UserControls
             set => _toolTip.SetToolTip(resetButton, value);
         }
 
-        [Browsable(true)]
-        [DefaultValue("Predict")]
-        [Description("Tool tip of predict button"), Category("Data"),]
-        public string PredictButtonToolTip
-        {
-            get => _toolTip.GetToolTip(predictButton);
-            set => _toolTip.SetToolTip(predictButton, value);
-        }
+      
 
         public ActionsUserControl()
         {
@@ -131,7 +113,6 @@ namespace MyFinance.Views.UserControls
             _toolTip.SetToolTip(this.saveButton, "Save");
             _toolTip.SetToolTip(this.deleteButton, "Delete");
             _toolTip.SetToolTip(this.resetButton, "Reset");
-            _toolTip.SetToolTip(this.predictButton, "Predict");
         }
 
         private void deleteButton_Click(object sender, EventArgs e)
@@ -147,11 +128,6 @@ namespace MyFinance.Views.UserControls
         private void resetButton_Click(object sender, EventArgs e)
         {
             ResetButtonOnClick?.Invoke(sender, e);
-        }
-
-        private void predictButton_Click(object sender, EventArgs e)
-        {
-            PredictButtonOnClick?.Invoke(sender, e);
         }
     }
 }

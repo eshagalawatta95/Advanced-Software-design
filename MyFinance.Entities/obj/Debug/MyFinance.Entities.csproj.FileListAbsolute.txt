@@ -28,7 +28,6 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\bin\Debug\MyFina
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\bin\Debug\MyFinance.Entities.pdb
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\bin\Debug\SimpleInjector.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\bin\Debug\SimpleInjector.xml
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\MyFinance.Entities.csproj.AssemblyReference.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\MyFinance.Entities.csproj.CoreCompileInputs.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\MyFinance.Entities.csproj.CopyComplete
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\MyFinance.Entities.dll

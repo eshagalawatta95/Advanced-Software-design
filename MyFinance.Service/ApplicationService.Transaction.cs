@@ -12,7 +12,7 @@ namespace MyFinance.Service
     public partial class ApplicationService
     {
         static SemaphoreSlim _insertTransactionSemaphoreSlim = new SemaphoreSlim(1, 1);
-        //ApplicationErrorLog applicationErrorLog = new ApplicationErrorLog();
+        ApplicationErrorLog applicationErrorLog = new ApplicationErrorLog();
 
         public async Task<TransactionEntity> InsertTransactionAsync(TransactionEntity transaction, bool isUserPerformed = false)
         {

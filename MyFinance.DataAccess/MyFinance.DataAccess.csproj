@@ -64,10 +64,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FileConnector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SqliteConnector.cs" />
-    <Compile Include="XmlConnector.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

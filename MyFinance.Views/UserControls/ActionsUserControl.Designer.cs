@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ActionsUserControl));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.predictButton = new System.Windows.Forms.Button();
             this.resetButton = new System.Windows.Forms.Button();
             this.deleteButton = new System.Windows.Forms.Button();
             this.saveButton = new System.Windows.Forms.Button();
@@ -45,7 +44,6 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 147F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 147F));
-            this.tableLayoutPanel1.Controls.Add(this.predictButton, 3, 0);
             this.tableLayoutPanel1.Controls.Add(this.resetButton, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.deleteButton, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.saveButton, 3, 0);
@@ -60,22 +58,7 @@
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 48F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1333, 131);
             this.tableLayoutPanel1.TabIndex = 0;
-            // 
-            // predictButton
-            // 
-            this.predictButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("predictButton.BackgroundImage")));
-            this.predictButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.predictButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.predictButton.FlatAppearance.BorderSize = 0;
-            this.predictButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.predictButton.Location = new System.Drawing.Point(1186, 0);
-            this.predictButton.Margin = new System.Windows.Forms.Padding(0);
-            this.predictButton.Name = "predictButton";
-            this.predictButton.Size = new System.Drawing.Size(147, 83);
-            this.predictButton.TabIndex = 5;
-            this.predictButton.UseVisualStyleBackColor = true;
-            this.predictButton.Visible = false;
-            this.predictButton.Click += new System.EventHandler(this.predictButton_Click);
+           
             // 
             // resetButton
             // 
@@ -156,7 +139,6 @@
         private System.Windows.Forms.Button deleteButton;
         private System.Windows.Forms.Label errorLabel;
         private System.Windows.Forms.Button resetButton;
-        private System.Windows.Forms.Button predictButton;
         private System.Windows.Forms.Button saveButton;
     }
 }

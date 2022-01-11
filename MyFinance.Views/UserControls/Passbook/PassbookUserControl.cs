@@ -23,7 +23,7 @@ namespace MyFinance.Views.UserControls.Passbook
             InitializeComponent();
 
             _applicationService.TransactionLogsOnChange += TransactionLogsOnChange;
-            _applicationService.TransactionPartiesOnChange += TransactionPartiesOnChange; ;
+            _applicationService.TransactionPartiesOnChange += TransactionPartiesOnChange; 
             UpdateTransactionLogBinders();
             dataGridView.Columns["Amount"].HeaderText = "Amount (LKR)";
             dataGridView.Columns["Balance"].HeaderText = "Balance (LKR)";

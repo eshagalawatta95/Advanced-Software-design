@@ -1,10 +1,7 @@
 ﻿using MyFinance.Core.Models;
 using MyFinance.DataAccess;
 using MyFinance.Methods;
-using MyFinance.Core.Models;
-using MyFinance.DataAccess;
 using MyFinance.Entities;
-using MyFinance.Methods;
 using System;
 using System.Collections.Generic;
 using System.Data.SQLite;

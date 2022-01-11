@@ -9,5 +9,6 @@ namespace MyFinance.Core.Views.UserControls
 {
     public interface ITransactionUserControl : IContainerControl
     {
+        void Dispose();
     }
 }

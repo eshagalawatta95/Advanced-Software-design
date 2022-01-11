@@ -12,7 +12,7 @@ namespace MyFinance.Test
     [TestClass]
     public class LoginRegistrationTest
     {
-        private IApplicationService _applicationService;
+        private readonly IApplicationService _applicationService;
 
         public LoginRegistrationTest(){
             _applicationService = new ApplicationService();

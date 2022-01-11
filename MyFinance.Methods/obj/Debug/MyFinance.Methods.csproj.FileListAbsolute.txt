@@ -17,7 +17,6 @@ C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Me
 C:\Users\eha\Desktop\EAD VIVA\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.pdb
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\bin\Debug\MyFinance.Methods.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\bin\Debug\MyFinance.Methods.pdb
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.csproj.AssemblyReference.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.csproj.CoreCompileInputs.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.pdb

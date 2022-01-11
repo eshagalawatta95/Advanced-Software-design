@@ -8,13 +8,10 @@ namespace MyFinance.Enums
     {
         Summary,
         Passbook,
-        Predict,
         TransactionParty,
         Transaction,
         ManageTransaction,
         ManageScheduleTransaction,
-        Task,
-        ManageTask,
         LogAlert,
         Reports,
         Logs
@@ -28,16 +25,11 @@ namespace MyFinance.Enums
         Yearly
     }
 
-    public enum ContentTaskTypesEnum : short
-    {
-        Appointment,       //-1
-        Task              //-2
-    }
+   
 
     public enum ContentReportsTypesEnum : short
     {
-        Transactions,
-        Tasks
+        Transactions
 
     }
 

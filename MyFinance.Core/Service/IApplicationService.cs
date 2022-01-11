@@ -17,7 +17,7 @@ namespace MyFinance.Core.Service
         event NotifyDataChangesListEvent<TransactionEntity> TransactionsOnChange;
 
         event NotifyDataChangesListEvent<SheduledTransactionList> ScheduleTransactionsOnChange;
-        event NotifyDataChangesListEvent<ScheduledTasks> ScheduledTasksOnChange;
+
         IEnumerable<TransactionEntity> Transactions { get; }
         event NotifyDataChangesListEvent<TransactionPartyEntity> TransactionPartiesOnChange;
         IEnumerable<TransactionPartyEntity> TransactionParties { get; }
@@ -39,21 +39,10 @@ namespace MyFinance.Core.Service
         Task DeleteSheduledTransactionAsync(int id);
         Task<SheduledTransactionList> InsertSheduledTransactionListAsync(SheduledTransactionList transaction);
         Task<SheduledTransactionList> UpdateSheduledTransactionListAsync(SheduledTransactionList transaction);
-        bool IsAvailableEnoughtData(int monthBack);
-        Task<PredictionEntity> GetPredictionsAsync(int monthsBack, DateTime predictDate);
+     
         Task AutoRunMethod();
 
-        event NotifyDataChangesListEvent<OneTimeTasks> TasksOnChange;
+
         IEnumerable<SheduledTransactionList> SheduledTransactions { get; }
-
-        IEnumerable<OneTimeTasks> OneTimeTasks { get; }
-        IEnumerable<ScheduledTasks> ScheduledTasks { get; }
-
-        Task<OneTimeTasks> InsertTaskAsync(OneTimeTasks task, bool isUserPerformed = false);
-        Task<OneTimeTasks> UpdateTaskAsync(OneTimeTasks task);
-        Task<ScheduledTasks> InsertSheduledTasktAsync(ScheduledTasks task);
-        Task<ScheduledTasks> UpdateSheduledTaskListAsync(ScheduledTasks task);
-        Task DeleteTaskAsync(int id);
-        Task DeleteSheduledTaskAsync(int id);
     }
 }

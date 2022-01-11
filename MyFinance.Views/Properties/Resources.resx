@@ -154,17 +154,11 @@
   <data name="log_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\log_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Predict_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Predict_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Plus_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Plus_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Transaction_party_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Transaction_party_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Tasks_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tasks_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="frontImageforapp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\frontImageforapp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

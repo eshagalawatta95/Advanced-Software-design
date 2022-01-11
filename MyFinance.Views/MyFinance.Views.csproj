@@ -129,12 +129,6 @@
     <Compile Include="UserControls\Reports\ReportUserControl.Designer.cs">
       <DependentUpon>ReportUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\Summary\PredictionUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\Summary\PredictionUserControl.Designer.cs">
-      <DependentUpon>PredictionUserControl.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserControls\Summary\DashboardUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -146,18 +140,6 @@
     </Compile>
     <Compile Include="UserControls\Summary\SummarizeUserControl.Designer.cs">
       <DependentUpon>SummarizeUserControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\Task\ManageTaskUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\Task\ManageTaskUserControl.Designer.cs">
-      <DependentUpon>ManageTaskUserControl.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControls\Task\TaskUserControl.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControls\Task\TaskUserControl.Designer.cs">
-      <DependentUpon>TaskUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\TransactionParty\TransactionPartyUserControl.cs">
       <SubType>UserControl</SubType>
@@ -210,20 +192,11 @@
     <EmbeddedResource Include="UserControls\Reports\ReportUserControl.resx">
       <DependentUpon>ReportUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\Summary\PredictionUserControl.resx">
-      <DependentUpon>PredictionUserControl.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Summary\DashboardUserControl.resx">
       <DependentUpon>DashboardUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Summary\SummarizeUserControl.resx">
       <DependentUpon>SummarizeUserControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\Task\ManageTaskUserControl.resx">
-      <DependentUpon>ManageTaskUserControl.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\Task\TaskUserControl.resx">
-      <DependentUpon>TaskUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\TransactionParty\TransactionPartyUserControl.resx">
       <DependentUpon>TransactionPartyUserControl.cs</DependentUpon>
@@ -234,7 +207,6 @@
     <EmbeddedResource Include="UserControls\Transaction\TransactionUserControl.resx">
       <DependentUpon>TransactionUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="ClassDiagram1.cd" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

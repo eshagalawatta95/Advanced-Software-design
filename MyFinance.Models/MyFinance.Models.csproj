@@ -50,7 +50,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ApplicationModel.cs" />
     <Compile Include="TransactionLogModel.cs" />
-    <Compile Include="TaskModel.cs" />
     <Compile Include="TransactionModel.cs" />
     <Compile Include="TransactionPartyModel.cs" />
     <Compile Include="UserModel.cs" />

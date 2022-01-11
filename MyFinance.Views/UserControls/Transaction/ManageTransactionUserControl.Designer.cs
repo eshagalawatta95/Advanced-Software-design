@@ -233,7 +233,7 @@
             this.incomeCheckBox.Location = new System.Drawing.Point(99, 69);
             this.incomeCheckBox.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.incomeCheckBox.Name = "incomeCheckBox";
-            this.incomeCheckBox.Size = new System.Drawing.Size(214, 50);
+            this.incomeCheckBox.Size = new System.Drawing.Size(251, 50);
             this.incomeCheckBox.TabIndex = 0;
             this.incomeCheckBox.Text = "Is Income";
             this.incomeCheckBox.UseVisualStyleBackColor = true;
@@ -417,7 +417,7 @@
             this.checkBoxNever.Location = new System.Drawing.Point(23, 122);
             this.checkBoxNever.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.checkBoxNever.Name = "checkBoxNever";
-            this.checkBoxNever.Size = new System.Drawing.Size(150, 50);
+            this.checkBoxNever.Size = new System.Drawing.Size(187, 50);
             this.checkBoxNever.TabIndex = 16;
             this.checkBoxNever.Text = "Never";
             this.checkBoxNever.UseVisualStyleBackColor = true;
@@ -561,7 +561,7 @@
             this.checkBoxActive.Location = new System.Drawing.Point(68, 55);
             this.checkBoxActive.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.checkBoxActive.Name = "checkBoxActive";
-            this.checkBoxActive.Size = new System.Drawing.Size(190, 50);
+            this.checkBoxActive.Size = new System.Drawing.Size(227, 50);
             this.checkBoxActive.TabIndex = 1;
             this.checkBoxActive.Text = "Is Active";
             this.checkBoxActive.UseVisualStyleBackColor = true;

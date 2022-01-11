@@ -171,11 +171,8 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.MenuItemUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Passbook.PassbookUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Report.ReportUserControl.resources
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.PredictionUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.DashboardUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Summary.SummarizeUserControl.resources
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Task.ManageTaskUserControl.ManageTaskUserControl.resources
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Task.TaskUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Transaction.ManageTransactionUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Views\obj\Debug\MyFinance.Views.UserControls.Transaction.TransactionUserControl.resources

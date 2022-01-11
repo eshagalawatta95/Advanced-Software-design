@@ -2,28 +2,17 @@
 using MyFinance.Core.Views.Forms;
 using MyFinance.Entities;
 using MyFinance.Enums;
-using MyFinance.Service;
-using MyFinance.Views;
 using MyFinance.Views.Forms;
 using MyFinance.Views.UserControls;
 using MyFinance.Views.UserControls.Logs;
 using MyFinance.Views.UserControls.Passbook;
 using MyFinance.Views.UserControls.Report;
 using MyFinance.Views.UserControls.Summary;
-using MyFinance.Views.UserControls.Task;
-using MyFinance.Views.UserControls.Task.ManageTaskUserControl;
 using MyFinance.Views.UserControls.Transaction;
 using MyFinance.Views.UserControls.TransactionParty;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Configuration;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace MyFinance.Views.Forms
@@ -33,7 +22,6 @@ namespace MyFinance.Views.Forms
         private DashboardUserControl _summaryUserControl;
         private TransactionPartyUserControl _transactionPartyUserControl;
         private TransactionUserControl _transactionUserControl;
-        private TaskUserControl _taskUserControl;
         private PassbookUserControl _passbookUserControl;
         private ReportUserControl _reportUserControl; 
         private ContentItemEnum _selectedContentItemEnum;
@@ -81,7 +69,6 @@ namespace MyFinance.Views.Forms
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Passbook, Properties.Resources.Passbook_icon, "Passbook"));
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.TransactionParty, Properties.Resources.Transaction_party_icon, "Transaction Party"));
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Transaction, Properties.Resources.Transaction_icon, "Transactions"));
-            menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Task, Properties.Resources.Tasks_icon, "Tasks"));
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Reports, Properties.Resources.Reports_Icon, "Reports"));
             menuFlowLayoutPanel.Controls.Add(CreateLogMenuItem(ContentItemEnum.Logs, Properties.Resources.logs, "My Actions"));
             #endregion
@@ -125,14 +112,7 @@ namespace MyFinance.Views.Forms
                 Padding = new Padding(0),
                 Margin = new Padding(0)
             };
-
-            _taskUserControl = new TaskUserControl(OnMenuItemButton_Click)
-            {
-                Dock = DockStyle.Fill,
-                Visible = true,
-                Padding = new Padding(0),
-                Margin = new Padding(0)
-            };
+          
             _reportUserControl = new ReportUserControl()
             {
                 Dock = DockStyle.Fill,
@@ -189,22 +169,7 @@ namespace MyFinance.Views.Forms
                             Margin = new Padding(0)
                         }
                     );
-                    break;
-                case ContentItemEnum.Task:
-                    mainContentPanel.Controls.Add(_taskUserControl);
-                    break;
-                case ContentItemEnum.ManageTask:
-                    mainContentPanel.Controls.Add
-                    (
-                        new ManageTaskUserControl(OnMenuItemButton_Click, parameter as OneTimeTasks, parameter as ScheduledTasks)
-                        {
-                            Dock = DockStyle.Fill,
-                            Visible = true,
-                            Padding = new Padding(0),
-                            Margin = new Padding(0)
-                        }
-                    );
-                    break;
+                    break;             
                 case ContentItemEnum.Reports:
                     mainContentPanel.Controls.Add(_reportUserControl);
                     break;

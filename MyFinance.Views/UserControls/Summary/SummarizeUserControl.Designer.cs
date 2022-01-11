@@ -34,8 +34,6 @@
             this.tabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridViewTask = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label3 = new System.Windows.Forms.Label();
             this.currentBalanceLabel = new System.Windows.Forms.Label();
@@ -46,8 +44,6 @@
             this.tabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTask)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -91,7 +87,6 @@
             // tabControl
             // 
             this.tabControl.Controls.Add(this.tabPage1);
-            this.tabControl.Controls.Add(this.tabPage2);
             this.tabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControl.Location = new System.Drawing.Point(0, 10);
             this.tabControl.Name = "tabControl";
@@ -127,33 +122,7 @@
             this.dataGridView.Size = new System.Drawing.Size(452, 217);
             this.dataGridView.TabIndex = 6;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.dataGridViewTask);
-            this.tabPage2.Location = new System.Drawing.Point(10, 53);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(458, 223);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Tasks";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridViewTask
-            // 
-            this.dataGridViewTask.AllowUserToAddRows = false;
-            this.dataGridViewTask.AllowUserToDeleteRows = false;
-            this.dataGridViewTask.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridViewTask.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dataGridViewTask.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewTask.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewTask.Location = new System.Drawing.Point(3, 3);
-            this.dataGridViewTask.Margin = new System.Windows.Forms.Padding(0);
-            this.dataGridViewTask.Name = "dataGridViewTask";
-            this.dataGridViewTask.ReadOnly = true;
-            this.dataGridViewTask.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewTask.ShowEditingIcon = false;
-            this.dataGridViewTask.Size = new System.Drawing.Size(452, 217);
-            this.dataGridViewTask.TabIndex = 6;
+           
             // 
             // panel2
             // 
@@ -196,7 +165,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(624, 45);
             this.label4.TabIndex = 4;
-            this.label4.Text = "This week Transactions and Tasks,";
+            this.label4.Text = "This week,";
             // 
             // greetingLabel
             // 
@@ -224,8 +193,7 @@
             this.tabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewTask)).EndInit();
+          
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -246,6 +214,5 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.DataGridView dataGridView;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.DataGridView dataGridViewTask;
     }
 }
