@@ -444,7 +444,7 @@ namespace BudgetMe.DataAccess
                             @"CREATE TABLE `TransactionCategory` (
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	                            `Code`	TEXT NOT NULL UNIQUE,
-                                `MaxAmount`	NUMERIC,
+                                `MaxAmount`	NUMERIC NOT NULL DEFAULT 0,
 	                            `Description`	TEXT NOT NULL,                              
 	                            `CreatedDateTime`	INTEGER NOT NULL,
 	                            `IsActive`	INTEGER NOT NULL DEFAULT 1

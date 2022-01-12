@@ -7,3 +7,11 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\Budget
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\MyFinance.Entities.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\MyFinance.Entities.pdb
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Entities\obj\Debug\BudgetMe.Entities.csproj.AssemblyReference.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\bin\Debug\BudgetMe.Entities.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\bin\Debug\BudgetMe.Entities.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\bin\Debug\SimpleInjector.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\bin\Debug\SimpleInjector.xml
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.csproj.CoreCompileInputs.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.csproj.CopyComplete
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.dll
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.pdb
