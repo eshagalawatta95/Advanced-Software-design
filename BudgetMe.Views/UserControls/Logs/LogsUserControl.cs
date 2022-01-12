@@ -23,14 +23,14 @@ namespace BudgetMe.Views.UserControls.Logs
             InitializeComponent();
 
             _applicationService.TransactionLogsOnChange += TransactionLogsOnChange;
-            _applicationService.TransactionPartiesOnChange += TransactionPartiesOnChange; 
+            _applicationService.TransactionCategoriesOnChange += TransactionCategoriesOnChange; 
             UpdateTransactionLogBinders();
             dataGridView.Columns["Amount"].HeaderText = "Amount (LKR)";
             dataGridView.Columns["Balance"].HeaderText = "Balance (LKR)";
 
         }
 
-        private void TransactionPartiesOnChange(IEnumerable<TransactionPartyEntity> currentValueList)
+        private void TransactionCategoriesOnChange(IEnumerable<TransactionCategoryEntity> currentValueList)
         {
             UpdateTransactionLogBinders();
         }
@@ -47,8 +47,8 @@ namespace BudgetMe.Views.UserControls.Logs
             IEnumerable<TransactionLogEntity> tranLogs = _applicationService.TransactionLogs.OrderBy(t => t.TransactionDateTime);
             foreach (TransactionLogEntity transactionLog in tranLogs)
             {
-                TransactionPartyEntity transactionParty = _applicationService.TransactionParties.First(tp => tp.Id == transactionLog.TransactionPartyId);
-                transactionLogBinders.Add(new TransactionLogBinder(transactionLog, transactionParty));
+                TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == transactionLog.TransactionPartyId);
+                transactionLogBinders.Add(new TransactionLogBinder(transactionLog, transactionCategory));
             }
 
             _transactionLogs = new BindingList<TransactionLogBinder>(transactionLogBinders);
@@ -95,13 +95,13 @@ namespace BudgetMe.Views.UserControls.Logs
             public TransactionLogBinder()
             { }
 
-            public TransactionLogBinder(TransactionLogEntity transactionLog, TransactionPartyEntity transactionParty)
+            public TransactionLogBinder(TransactionLogEntity transactionLog, TransactionCategoryEntity transactionCategory)
             {
                 TransactionDate = transactionLog.TransactionDateTime.ToString("dd-MM-yyyy h:mm tt");
                 Remarks = transactionLog.Remarks;
                 Amount = (transactionLog.IsIncome ? transactionLog.Amount : -1.0 * transactionLog.Amount).ToString("0.00");
                 Balance = (transactionLog.FinalBalance).ToString("0.00");
-                TransactionParty = transactionParty.Code;
+                TransactionParty = transactionCategory.Code;
                 isDeleted = transactionLog.IsDeletedTransaction == true ? "Yes" : "No";
                 Type = transactionLog.ScheduledTransactionId == null ? "One Time" : "Scheduled";
                 CreatedDate = transactionLog.CreatedDateTime.ToString("dd-MM-yyyy h:mm tt");

@@ -50,3 +50,5 @@
 2022-01-11_10:01:32_Start_Loading Application_--------
 2022-01-11_10:01:45_End_Ending Application_--------
 2022-01-11_10:01:46_End_Ending Application_--------
+2022-01-12_11:01:21_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-12_11:01:22_Database_DB Transaction_DB Transaction Main queries Error

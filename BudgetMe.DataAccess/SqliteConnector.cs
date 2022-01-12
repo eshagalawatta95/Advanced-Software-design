@@ -441,19 +441,20 @@ namespace BudgetMe.DataAccess
 
 
                         cmd.CommandText =
-                            @"CREATE TABLE `TransactionParty` (
+                            @"CREATE TABLE `TransactionCategory` (
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	                            `Code`	TEXT NOT NULL UNIQUE,
-	                            `Description`	TEXT NOT NULL,
+                                `MaxAmount`	NUMERIC,
+	                            `Description`	TEXT NOT NULL,                              
 	                            `CreatedDateTime`	INTEGER NOT NULL,
 	                            `IsActive`	INTEGER NOT NULL DEFAULT 1
                             );";
                         cmd.ExecuteNonQuery();
 
                         cmd.CommandText =
-                            @"INSERT INTO `TransactionParty`
+                            @"INSERT INTO `TransactionCategory`
                             (`Id`,`Code`,`Description`,`CreatedDateTime`) 
-                            VALUES (1,'OWN','Owner Party'," + TimeConverterMethods.ConvertDateTimeToTimeStamp(DateTime.Now).ToString() + ");";
+                            VALUES (1,'Other','Other Transaction Category'," + TimeConverterMethods.ConvertDateTimeToTimeStamp(DateTime.Now).ToString() + ");";
                         cmd.ExecuteNonQuery();
 
                         Thread.Sleep(500);

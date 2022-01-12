@@ -53,7 +53,7 @@ namespace BudgetMe.Views
             BudgetMe.Entities.BudgetMeApplication.DependancyContainer.Register<IApplicationModel, ApplicationModel>(Lifestyle.Singleton);
             BudgetMe.Entities.BudgetMeApplication.DependancyContainer.Register<IUserModel, UserModel>(Lifestyle.Singleton);
             BudgetMe.Entities.BudgetMeApplication.DependancyContainer.Register<ITransactionLogModel, TransactionLogModel>(Lifestyle.Singleton);
-            BudgetMe.Entities.BudgetMeApplication.DependancyContainer.Register<ITransactionPartyModel, TransactionPartyModel>(Lifestyle.Singleton);
+            BudgetMe.Entities.BudgetMeApplication.DependancyContainer.Register<ITransactionCategoryModel, TransactionCategoryModel>(Lifestyle.Singleton);
             BudgetMe.Entities.BudgetMeApplication.DependancyContainer.Register<ITransactionModel, TransactionModel>(Lifestyle.Singleton);
 
             // Services

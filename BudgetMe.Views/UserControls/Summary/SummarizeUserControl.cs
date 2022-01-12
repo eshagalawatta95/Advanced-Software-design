@@ -28,11 +28,11 @@ namespace BudgetMe.Views.UserControls.Summary
 
             _applicationService.TransactionsOnChange += TransactionsOnChange;
             _applicationService.CurrentUserOnChange += CurrentUserOnChange;
-            _applicationService.TransactionPartiesOnChange += TransactionPartiesOnChange;
+            _applicationService.TransactionCategoriesOnChange += TransactionCategoriesOnChange;
             _applicationService.ScheduleTransactionsOnChange += schTransactionsOnChange;
         }
 
-        private void TransactionPartiesOnChange(IEnumerable<TransactionPartyEntity> currentValueList)
+        private void TransactionCategoriesOnChange(IEnumerable<TransactionCategoryEntity> currentValueList)
         {
             UpdateTransactionBinders(dtFrom, dtTo);
         }
@@ -65,8 +65,8 @@ namespace BudgetMe.Views.UserControls.Summary
             {
                 if (transaction.IsActive)
                 {
-                    TransactionPartyEntity transactionParty = _applicationService.TransactionParties.First(tp => tp.Id == transaction.TransactionPartyId);
-                    transactionBinders.Add(new TransactionBinder(transaction, transactionParty));
+                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == transaction.TransactionPartyId);
+                    transactionBinders.Add(new TransactionBinder(transaction, transactionCategoryEntity));
                 }
             }
             foreach (TransactionBinder transaction in transactionBinders)
@@ -89,8 +89,8 @@ namespace BudgetMe.Views.UserControls.Summary
             {
                 if (schtransaction.IsActive)
                 {
-                    TransactionPartyEntity transactionParty = _applicationService.TransactionParties.First(tp => tp.Id == schtransaction.TransactionPartyId);
-                    scheduletransactionBinders.Add(new ScheduleTransactionBinder(schtransaction, transactionParty));
+                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == schtransaction.TransactionPartyId);
+                    scheduletransactionBinders.Add(new ScheduleTransactionBinder(schtransaction, transactionCategoryEntity));
                 }
             }
 
@@ -114,7 +114,7 @@ namespace BudgetMe.Views.UserControls.Summary
         {
             _applicationService.TransactionsOnChange -= TransactionsOnChange;
             _applicationService.CurrentUserOnChange -= CurrentUserOnChange;
-            _applicationService.TransactionPartiesOnChange -= TransactionPartiesOnChange;
+            _applicationService.TransactionCategoriesOnChange -= TransactionCategoriesOnChange;
             base.Dispose();
         }
 
@@ -143,10 +143,10 @@ namespace BudgetMe.Views.UserControls.Summary
         public TransactionBinder()
         { }
 
-        public TransactionBinder(TransactionEntity transactionEntity, TransactionPartyEntity transactionPartyEntity)
+        public TransactionBinder(TransactionEntity transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionPartyCode = transactionPartyEntity.Code;
+            TransactionPartyCode = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             TransactionDateTime = transactionEntity.TransactionDateTime.ToString("dd-MM-yyyy h:mm tt");
             Type = "One Time";
@@ -164,10 +164,10 @@ namespace BudgetMe.Views.UserControls.Summary
         public ScheduleTransactionBinder()
         { }
 
-        public ScheduleTransactionBinder(SheduledTransactionList transactionEntity, TransactionPartyEntity transactionPartyEntity)
+        public ScheduleTransactionBinder(SheduledTransactionList transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionPartyCode = transactionPartyEntity.Code;
+            TransactionPartyCode = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             TransactionDateTime = transactionEntity.NextTransactionDate.ToString("dd-MM-yyyy h:mm tt");
             Type = "Scheduled";
@@ -189,18 +189,6 @@ namespace BudgetMe.Views.UserControls.Summary
         public string TransactionDateTime { get; set; }
         public string TransactionPartyCode { get; set; }
         public string Amount { get; set; }
-        public string Type { get; set; }
-    }
-
-    class CommmonTaskBinder
-    {
-        public CommmonTaskBinder()
-        { }
-        public string ReferenceNumber { get; set; }
-        public DateTime Effectivedate { get; set; }
-        public string Task_Type { get; set; }
-        public string Duration { get; set; }
-        public string Comments { get; set; }     
         public string Type { get; set; }
     }
 }

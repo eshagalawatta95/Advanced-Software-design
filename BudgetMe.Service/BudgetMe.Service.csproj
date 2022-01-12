@@ -49,7 +49,7 @@
     <Compile Include="ApplicationService.TransactionLog.cs" />
     <Compile Include="ApplicationService.User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ApplicationService.TransactionParty.cs" />
+    <Compile Include="ApplicationService.TransactionCategory.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BudgetMe.Core\BudgetMe.Core.csproj">

@@ -142,11 +142,11 @@
     <Compile Include="UserControls\Summary\SummarizeUserControl.Designer.cs">
       <DependentUpon>SummarizeUserControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControls\TransactionParty\TransactionPartyUserControl.cs">
+    <Compile Include="UserControls\TransactionCategory\TransactionCategoryUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControls\TransactionParty\TransactionPartyUserControl.Designer.cs">
-      <DependentUpon>TransactionPartyUserControl.cs</DependentUpon>
+    <Compile Include="UserControls\TransactionCategory\TransactionCategoryUserControl.Designer.cs">
+      <DependentUpon>TransactionCategoryUserControl.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControls\Transaction\ManageTransactionUserControl.cs">
       <SubType>UserControl</SubType>
@@ -199,8 +199,8 @@
     <EmbeddedResource Include="UserControls\Summary\SummarizeUserControl.resx">
       <DependentUpon>SummarizeUserControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControls\TransactionParty\TransactionPartyUserControl.resx">
-      <DependentUpon>TransactionPartyUserControl.cs</DependentUpon>
+    <EmbeddedResource Include="UserControls\TransactionCategory\TransactionCategoryUserControl.resx">
+      <DependentUpon>TransactionCategoryUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Transaction\ManageTransactionUserControl.resx">
       <DependentUpon>ManageTransactionUserControl.cs</DependentUpon>

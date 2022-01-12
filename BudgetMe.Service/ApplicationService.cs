@@ -17,7 +17,7 @@ namespace BudgetMe.Service
         private IApplicationModel _applicationModel;
         private IUserModel _userModel;
         private ITransactionLogModel _transactionLogModel;
-        private ITransactionPartyModel _transactionPartyModel;
+        private ITransactionCategoryModel _transactionCategoryModel;
         private ITransactionModel _transactionModel;
 
         public event NotifyDataChangesEvent<UserEntity> CurrentUserOnChange;
@@ -56,15 +56,15 @@ namespace BudgetMe.Service
             }
         }
 
-        public event NotifyDataChangesListEvent<TransactionPartyEntity> TransactionPartiesOnChange;
-        private IEnumerable<TransactionPartyEntity> _transactionParties = new List<TransactionPartyEntity>();
-        public IEnumerable<TransactionPartyEntity> TransactionParties
+        public event NotifyDataChangesListEvent<TransactionCategoryEntity> TransactionCategoriesOnChange;
+        private IEnumerable<TransactionCategoryEntity> _transactionCategories = new List<TransactionCategoryEntity>();
+        public IEnumerable<TransactionCategoryEntity> TransactionCategories
         {
-            get => _transactionParties;
+            get => _transactionCategories;
             private set
             {
-                _transactionParties = value ?? new List<TransactionPartyEntity>();
-                TransactionPartiesOnChange?.Invoke(_transactionParties);
+                _transactionCategories = value ?? new List<TransactionCategoryEntity>();
+                TransactionCategoriesOnChange?.Invoke(_transactionCategories);
             }
         }
 
@@ -73,7 +73,7 @@ namespace BudgetMe.Service
             _applicationModel = BudgetMeApplication.DependancyContainer.GetInstance<IApplicationModel>();
             _userModel = BudgetMeApplication.DependancyContainer.GetInstance<IUserModel>();
             _transactionLogModel = BudgetMeApplication.DependancyContainer.GetInstance<ITransactionLogModel>();
-            _transactionPartyModel = BudgetMeApplication.DependancyContainer.GetInstance<ITransactionPartyModel>();
+            _transactionCategoryModel = BudgetMeApplication.DependancyContainer.GetInstance<ITransactionCategoryModel>();
             _transactionModel = BudgetMeApplication.DependancyContainer.GetInstance<ITransactionModel>();
         }
 
@@ -125,7 +125,7 @@ namespace BudgetMe.Service
         {
             CurrentUser = await _userModel.GetUserDetailsAsync();
             TransactionLogs = await _transactionLogModel.GetTransactionLogsAsync();
-            TransactionParties = await _transactionPartyModel.GetTransactionPartiesAsync();
+            TransactionCategories = await _transactionCategoryModel.GetTransactionCategoriesAsync();
             Transactions = await _transactionModel.GetTransactionsAsync();
             SheduledTransactions = await _transactionModel.GetSheduledTransactionsAsync();
         }
@@ -226,7 +226,6 @@ namespace BudgetMe.Service
             }
         }
 
-   
         public IEnumerable<SheduledTransactionList> SheduledTransactions
         {
             get => _schtransactions;

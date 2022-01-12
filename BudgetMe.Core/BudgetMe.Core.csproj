@@ -46,7 +46,7 @@
     <Compile Include="Models\IModel.cs" />
     <Compile Include="Models\ITransactionLogModel.cs" />
     <Compile Include="Models\ITransactionModel.cs" />
-    <Compile Include="Models\ITransactionPartyModel.cs" />
+    <Compile Include="Models\ITransactionCategoryModel.cs" />
     <Compile Include="Models\IUserModel.cs" />
     <Compile Include="Service\IApplicationService.cs" />
     <Compile Include="Views\Forms\IForm.cs" />

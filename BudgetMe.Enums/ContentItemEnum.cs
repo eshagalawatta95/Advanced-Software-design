@@ -8,7 +8,7 @@ namespace BudgetMe.Enums
     {
         Summary,
         Passbook,
-        TransactionParty,
+        TransactionCategory,
         Transaction,
         ManageTransaction,
         ManageScheduleTransaction,
@@ -24,8 +24,6 @@ namespace BudgetMe.Enums
         Monthly,
         Yearly
     }
-
-   
 
     public enum ContentReportsTypesEnum : short
     {

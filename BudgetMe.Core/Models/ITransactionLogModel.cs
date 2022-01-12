@@ -1,5 +1,4 @@
-﻿using BudgetMe.Core.Models;
-using BudgetMe.Entities;
+﻿using BudgetMe.Entities;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 

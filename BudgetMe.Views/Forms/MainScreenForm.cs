@@ -67,7 +67,7 @@ namespace BudgetMe.Views.Forms
             //Image image = global::BudgetMe.Views.Properties.Resources.summary_icon;
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Summary, Properties.Resources.summary_icon, "Dashboard"));
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Passbook, Properties.Resources.Passbook_icon, "Passbook"));
-            menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.TransactionParty, Properties.Resources.Transaction_party_icon, "Transaction Party"));
+            menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.TransactionCategory, Properties.Resources.Transaction_party_icon, "Transaction Party"));
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Transaction, Properties.Resources.Transaction_icon, "Transactions"));
             menuFlowLayoutPanel.Controls.Add(CreateMenuItem(ContentItemEnum.Reports, Properties.Resources.Reports_Icon, "Reports"));
             menuFlowLayoutPanel.Controls.Add(CreateLogMenuItem(ContentItemEnum.Logs, Properties.Resources.logs, "My Actions"));
@@ -152,7 +152,7 @@ namespace BudgetMe.Views.Forms
                 case ContentItemEnum.Logs:
                     mainContentPanel.Controls.Add(_logsUserControl);
                     break;
-                case ContentItemEnum.TransactionParty:
+                case ContentItemEnum.TransactionCategory:
                     mainContentPanel.Controls.Add(_transactionPartyUserControl);
                     break;
                 case ContentItemEnum.Transaction:

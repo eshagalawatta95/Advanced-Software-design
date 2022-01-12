@@ -37,8 +37,8 @@ namespace BudgetMe.Views.UserControls.Report
             {
                 if (transaction.IsActive)
                 {
-                    TransactionPartyEntity transactionParty = _applicationService.TransactionParties.First(tp => tp.Id == transaction.TransactionPartyId);
-                    transactionBinders.Add(new TransactionBinder(transaction, transactionParty));
+                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == transaction.TransactionPartyId);
+                    transactionBinders.Add(new TransactionBinder(transaction, transactionCategoryEntity));
                 }
             }
 
@@ -80,10 +80,10 @@ namespace BudgetMe.Views.UserControls.Report
         public TransactionBinder()
         { }
 
-        public TransactionBinder(TransactionEntity transactionEntity, TransactionPartyEntity transactionPartyEntity)
+        public TransactionBinder(TransactionEntity transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionParty = transactionPartyEntity.Code;
+            TransactionParty = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             IsScheduledTransaction = transactionEntity.ScheduledTransactionId == null ? "No" : "Yes";
             TransactionDateTime = transactionEntity.TransactionDateTime;
@@ -105,10 +105,10 @@ namespace BudgetMe.Views.UserControls.Report
         public ScheduleTransactionBinder()
         { }
 
-        public ScheduleTransactionBinder(SheduledTransactionList transactionEntity, TransactionPartyEntity transactionPartyEntity)
+        public ScheduleTransactionBinder(SheduledTransactionList transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionParty = transactionPartyEntity.Code;
+            TransactionParty = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             RepeatType = transactionEntity.RepeatType;
             NextTransactionDate = transactionEntity.NextTransactionDate;
