@@ -17,7 +17,7 @@ namespace BudgetMe.Models
             {
                 Id = int.Parse(reader["Id"].ToString()),
                 TransactionId = int.Parse(reader["TransactionId"].ToString()),
-                TransactionPartyId = int.Parse(reader["TransactionPartyId"].ToString()),
+                TransactionCategoryId = int.Parse(reader["TransactionCategoryId"].ToString()),
                 ScheduledTransactionId = reader["ScheduledTransactionId"] == DBNull.Value ? null : (int?)int.Parse(reader["ScheduledTransactionId"].ToString()),
                 IsDeletedTransaction = Convert.ToBoolean(int.Parse(reader["IsDeletedTransaction"].ToString())),
                 IsIncome = Convert.ToBoolean(int.Parse(reader["IsIncome"].ToString())),
@@ -50,14 +50,14 @@ namespace BudgetMe.Models
         public async Task<int> InsertTransactionLogAsync(TransactionLogEntity transactionLogEntity)
         {
             string query = "INSERT INTO `TransactionLog`" +
-                "(`TransactionId`,`ScheduledTransactionId`,`TransactionPartyId`,`IsDeletedTransaction`,`IsIncome`,`TransactionDateTime`,`Amount`,`StartingBalance`,`FinalBalance`,`Remarks`,`CreatedDateTime`,`IsUserPerformed`) " +
-                "VALUES(@TransactionId,@ScheduledTransactionId,@TransactionPartyId,@IsDeletedTransaction,@IsIncome,@TransactionDateTime,@Amount,@StartingBalance,@FinalBalance,@Remarks,@CreatedDateTime,@IsUserPerformed);";
+                "(`TransactionId`,`ScheduledTransactionId`,`TransactionCategoryId`,`IsDeletedTransaction`,`IsIncome`,`TransactionDateTime`,`Amount`,`StartingBalance`,`FinalBalance`,`Remarks`,`CreatedDateTime`,`IsUserPerformed`) " +
+                "VALUES(@TransactionId,@ScheduledTransactionId,@TransactionCategoryId,@IsDeletedTransaction,@IsIncome,@TransactionDateTime,@Amount,@StartingBalance,@FinalBalance,@Remarks,@CreatedDateTime,@IsUserPerformed);";
 
             IEnumerable<KeyValuePair<string, object>> parameters = new List<KeyValuePair<string, object>>()
             {
                 new KeyValuePair<string, object>("@TransactionId", transactionLogEntity.TransactionId),
                 new KeyValuePair<string, object>("@ScheduledTransactionId", transactionLogEntity.ScheduledTransactionId),
-                new KeyValuePair<string, object>("@TransactionPartyId", transactionLogEntity.TransactionPartyId),
+                new KeyValuePair<string, object>("@TransactionCategoryId", transactionLogEntity.TransactionCategoryId),
                 new KeyValuePair<string, object>("@IsDeletedTransaction", transactionLogEntity.IsDeletedTransaction ? 1 : 0),
                 new KeyValuePair<string, object>("@IsIncome", transactionLogEntity.IsIncome ? 1 : 0),
                 new KeyValuePair<string, object>("@Amount", transactionLogEntity.Amount),

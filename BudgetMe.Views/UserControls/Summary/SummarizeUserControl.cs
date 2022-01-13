@@ -65,7 +65,7 @@ namespace BudgetMe.Views.UserControls.Summary
             {
                 if (transaction.IsActive)
                 {
-                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == transaction.TransactionPartyId);
+                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == transaction.TransactionCategoryId);
                     transactionBinders.Add(new TransactionBinder(transaction, transactionCategoryEntity));
                 }
             }
@@ -75,7 +75,7 @@ namespace BudgetMe.Views.UserControls.Summary
                 obj.Amount = transaction.Amount;
                 obj.ReferenceNumber = transaction.ReferenceNumber;
                 obj.TransactionDateTime = transaction.TransactionDateTime;
-                obj.TransactionPartyCode = transaction.TransactionPartyCode;
+                obj.TransactionCategoryCode = transaction.TransactionCategoryCode;
                 obj.Type = transaction.Type;
                 transdataobj.Add(obj);
 
@@ -89,7 +89,7 @@ namespace BudgetMe.Views.UserControls.Summary
             {
                 if (schtransaction.IsActive)
                 {
-                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == schtransaction.TransactionPartyId);
+                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == schtransaction.TransactionCategoryId);
                     scheduletransactionBinders.Add(new ScheduleTransactionBinder(schtransaction, transactionCategoryEntity));
                 }
             }
@@ -100,7 +100,7 @@ namespace BudgetMe.Views.UserControls.Summary
                 obj.Amount = transaction.Amount;
                 obj.ReferenceNumber = transaction.ReferenceNumber;
                 obj.TransactionDateTime = transaction.TransactionDateTime;
-                obj.TransactionPartyCode = transaction.TransactionPartyCode;
+                obj.TransactionCategoryCode = transaction.TransactionCategoryCode;
                 obj.Type = transaction.Type;
                 transdataobj.Add(obj);
 
@@ -146,7 +146,7 @@ namespace BudgetMe.Views.UserControls.Summary
         public TransactionBinder(TransactionEntity transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionPartyCode = transactionCategoryEntity.Code;
+            TransactionCategoryCode = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             TransactionDateTime = transactionEntity.TransactionDateTime.ToString("dd-MM-yyyy h:mm tt");
             Type = "One Time";
@@ -154,7 +154,7 @@ namespace BudgetMe.Views.UserControls.Summary
 
         public string ReferenceNumber { get; set; }
         public string TransactionDateTime { get; set; }
-        public string TransactionPartyCode { get; set; }
+        public string TransactionCategoryCode { get; set; }
         public string Amount { get; set; }
         public string Type { get; set; }
     }
@@ -167,7 +167,7 @@ namespace BudgetMe.Views.UserControls.Summary
         public ScheduleTransactionBinder(SheduledTransactionList transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionPartyCode = transactionCategoryEntity.Code;
+            TransactionCategoryCode = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             TransactionDateTime = transactionEntity.NextTransactionDate.ToString("dd-MM-yyyy h:mm tt");
             Type = "Scheduled";
@@ -175,7 +175,7 @@ namespace BudgetMe.Views.UserControls.Summary
 
         public string ReferenceNumber { get; set; }
         public string TransactionDateTime { get; set; }
-        public string TransactionPartyCode { get; set; }
+        public string TransactionCategoryCode { get; set; }
         public string Amount { get; set; }
         public string Type { get; set; }
     }
@@ -187,7 +187,7 @@ namespace BudgetMe.Views.UserControls.Summary
         { }
         public string ReferenceNumber { get; set; }
         public string TransactionDateTime { get; set; }
-        public string TransactionPartyCode { get; set; }
+        public string TransactionCategoryCode { get; set; }
         public string Amount { get; set; }
         public string Type { get; set; }
     }

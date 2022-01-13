@@ -17,7 +17,7 @@ namespace BudgetMe.Models
             {
                 Id = int.Parse(reader["Id"].ToString()),
                 ReferenceNumber = reader["ReferenceNumber"].ToString(),
-                TransactionPartyId = int.Parse(reader["TransactionPartyId"].ToString()),
+                TransactionCategoryId = int.Parse(reader["TransactionCategoryId"].ToString()),
                 ScheduledTransactionId = reader["ScheduledTransactionId"] == DBNull.Value ? null : (int?)int.Parse(reader["ScheduledTransactionId"].ToString()),
                 IsIncome = Convert.ToBoolean(int.Parse(reader["IsIncome"].ToString())),
                 Amount = double.Parse(reader["Amount"].ToString()),
@@ -35,7 +35,7 @@ namespace BudgetMe.Models
             {
                 Id = int.Parse(reader["Id"].ToString()),
                 ReferenceNumber = reader["ReferenceNumber"].ToString(),
-                TransactionPartyId = int.Parse(reader["TransactionPartyId"].ToString()),
+                TransactionCategoryId = int.Parse(reader["TransactionCategoryId"].ToString()),
                 IsIncome = Convert.ToBoolean(int.Parse(reader["IsIncome"].ToString())),
                 IsActive = Convert.ToBoolean(int.Parse(reader["IsActive"].ToString())),
                 InfiniteSchedule = Convert.ToBoolean(int.Parse(reader["InfiniteSchedule"].ToString())),
@@ -66,12 +66,12 @@ namespace BudgetMe.Models
         public async Task<int> InsertTransactionAsync(TransactionEntity transactionEntity, bool isUserPerformed = false)
         {
             string query = "INSERT INTO `Transaction`" +
-                "(`TransactionPartyId`,`Amount`,`IsIncome`,`TransactionDateTime`,`ScheduledTransactionId`,`Remarks`,`CreatedDateTime`,`IsUserPerformed`) " +
-                "VALUES (@TransactionPartyId,@Amount,@IsIncome,@TransactionDateTime,@ScheduledTransactionId,@Remarks,@CreatedDateTime,@IsUserPerformed);";
+                "(`TransactionCategoryId`,`Amount`,`IsIncome`,`TransactionDateTime`,`ScheduledTransactionId`,`Remarks`,`CreatedDateTime`,`IsUserPerformed`) " +
+                "VALUES (@TransactionCategoryId,@Amount,@IsIncome,@TransactionDateTime,@ScheduledTransactionId,@Remarks,@CreatedDateTime,@IsUserPerformed);";
 
             IEnumerable<KeyValuePair<string, object>> parameters = new List<KeyValuePair<string, object>>()
             {
-                new KeyValuePair<string, object>("@TransactionPartyId", transactionEntity.TransactionPartyId),
+                new KeyValuePair<string, object>("@TransactionCategoryId", transactionEntity.TransactionCategoryId),
                 new KeyValuePair<string, object>("@Amount", transactionEntity.Amount),
                 new KeyValuePair<string, object>("@IsIncome", transactionEntity.IsIncome ? 1 : 0),
                 new KeyValuePair<string, object>("@TransactionDateTime", TimeConverterMethods.ConvertDateTimeToTimeStamp(transactionEntity.TransactionDateTime)),
@@ -99,12 +99,12 @@ namespace BudgetMe.Models
         public async Task<int> UpdateTransactionAsync(TransactionEntity transactionEntity)
         {
             string query = "UPDATE `Transaction` " +
-                "SET `TransactionPartyId`=@TransactionPartyId,`Amount`=@Amount,`IsIncome`=@IsIncome,`Remarks`=@Remarks,`TransactionDateTime`=@TransactionDateTime " +
+                "SET `TransactionCategoryId`=@TransactionCategoryId,`Amount`=@Amount,`IsIncome`=@IsIncome,`Remarks`=@Remarks,`TransactionDateTime`=@TransactionDateTime " +
                 "WHERE `Id` = @Id";
 
             IEnumerable<KeyValuePair<string, object>> parameters = new List<KeyValuePair<string, object>>()
             {
-                new KeyValuePair<string, object>("@TransactionPartyId", transactionEntity.TransactionPartyId),
+                new KeyValuePair<string, object>("@TransactionCategoryId", transactionEntity.TransactionCategoryId),
                 new KeyValuePair<string, object>("@Amount", transactionEntity.Amount),
                 new KeyValuePair<string, object>("@IsIncome", transactionEntity.IsIncome ? 1 : 0),
                 new KeyValuePair<string, object>("@Remarks", transactionEntity.Remarks),
@@ -133,12 +133,12 @@ namespace BudgetMe.Models
         public async Task<int> InsertScheduledTransactionListAsync(SheduledTransactionList transactionEntity)
         {
             string query = "INSERT INTO `ScheduledTransaction`" +
-                "(`TransactionPartyId`,`Amount`,`IsIncome`,`RepeatType`,`StartDateTime`,`Remarks`,`CreatedDateTime`,`EndDateTime`,`NextTransactionDate`,`InfiniteSchedule`,`IsDelete`,`CreatedUser`,`IsActive`) " +
-                "VALUES (@TransactionPartyId,@Amount,@IsIncome,@RepeatType,@StartDateTime,@Remarks,@CreatedDateTime,@EndDateTime,@NextTransactionDate,@InfiniteSchedule,@IsDelete,@CreatedUser,@IsActive);";
+                "(`TransactionCategoryId`,`Amount`,`IsIncome`,`RepeatType`,`StartDateTime`,`Remarks`,`CreatedDateTime`,`EndDateTime`,`NextTransactionDate`,`InfiniteSchedule`,`IsDelete`,`CreatedUser`,`IsActive`) " +
+                "VALUES (@TransactionCategoryId,@Amount,@IsIncome,@RepeatType,@StartDateTime,@Remarks,@CreatedDateTime,@EndDateTime,@NextTransactionDate,@InfiniteSchedule,@IsDelete,@CreatedUser,@IsActive);";
 
             IEnumerable<KeyValuePair<string, object>> parameters = new List<KeyValuePair<string, object>>()
             {
-                new KeyValuePair<string, object>("@TransactionPartyId", transactionEntity.TransactionPartyId),
+                new KeyValuePair<string, object>("@TransactionCategoryId", transactionEntity.TransactionCategoryId),
                 new KeyValuePair<string, object>("@Amount", transactionEntity.Amount),
                 new KeyValuePair<string, object>("@IsIncome", transactionEntity.IsIncome ? 1 : 0),
                 new KeyValuePair<string, object>("@RepeatType", transactionEntity.RepeatType),
@@ -172,12 +172,12 @@ namespace BudgetMe.Models
         public async Task<int> UpdateScheduledTransactionListAsync(SheduledTransactionList transactionEntity)
         {
             string query = "UPDATE `ScheduledTransaction` " +
-                "SET `TransactionPartyId`=@TransactionPartyId,`Amount`=@Amount,`RepeatType`=@RepeatType,`StartDateTime`=@StartDateTime,`EndDateTime`=@EndDateTime,`InfiniteSchedule`=@InfiniteSchedule,`NextTransactionDate`=@NextTransactionDate,`IsActive`=@IsActive,`Remarks`=@Remarks " +
+                "SET `TransactionCategoryId`=@TransactionCategoryId,`Amount`=@Amount,`RepeatType`=@RepeatType,`StartDateTime`=@StartDateTime,`EndDateTime`=@EndDateTime,`InfiniteSchedule`=@InfiniteSchedule,`NextTransactionDate`=@NextTransactionDate,`IsActive`=@IsActive,`Remarks`=@Remarks " +
                 "WHERE `Id` = @Id";
 
             IEnumerable<KeyValuePair<string, object>> parameters = new List<KeyValuePair<string, object>>()
             {
-                new KeyValuePair<string, object>("@TransactionPartyId", transactionEntity.TransactionPartyId),
+                new KeyValuePair<string, object>("@TransactionCategoryId", transactionEntity.TransactionCategoryId),
                 new KeyValuePair<string, object>("@Amount", transactionEntity.Amount),
                 new KeyValuePair<string, object>("@IsIncome", transactionEntity.IsIncome ? 1 : 0),
                 new KeyValuePair<string, object>("@Remarks", transactionEntity.Remarks),

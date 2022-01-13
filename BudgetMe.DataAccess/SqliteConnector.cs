@@ -1,5 +1,4 @@
-﻿
-using BudgetMe.Entities;
+﻿using BudgetMe.Entities;
 using BudgetMe.Enums;
 using BudgetMe.Methods;
 using System;
@@ -408,7 +407,7 @@ namespace BudgetMe.DataAccess
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	                            `TransactionId`	INTEGER NOT NULL,
 	                            `ScheduledTransactionId`	INTEGER,
-	                            `TransactionPartyId`	INTEGER NOT NULL,
+	                            `TransactionCategoryId`	INTEGER NOT NULL,
 	                            `IsDeletedTransaction`	INTEGER NOT NULL,
 	                            `IsIncome`	INTEGER NOT NULL,
 	                            `TransactionDateTime`	INTEGER NOT NULL,
@@ -426,7 +425,7 @@ namespace BudgetMe.DataAccess
                             @"CREATE TABLE `Transaction` (
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	                            `ReferenceNumber`	TEXT,
-	                            `TransactionPartyId`	INTEGER NOT NULL,
+	                            `TransactionCateoryId`	INTEGER NOT NULL,
 	                            `Amount`	NUMERIC NOT NULL,
 	                            `IsIncome`	INTEGER NOT NULL,
 	                            `TransactionDateTime`	INTEGER NOT NULL,
@@ -463,7 +462,7 @@ namespace BudgetMe.DataAccess
                            @"CREATE TABLE `ScheduledTransaction` (
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
                                 `ReferenceNumber`	TEXT,
-	                            `TransactionPartyId`	INTEGER NOT NULL,
+	                            `TransactionCategoryId`	INTEGER NOT NULL,
 	                            `Amount`	NUMERIC NOT NULL,
 	                            `RepeatType`	TEXT NOT NULL,
 	                            `Remarks`	TEXT NOT NULL,

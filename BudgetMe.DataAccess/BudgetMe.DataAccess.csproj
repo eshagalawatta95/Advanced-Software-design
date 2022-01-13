@@ -77,7 +77,7 @@
       <Name>BudgetMe.Entities</Name>
     </ProjectReference>
     <ProjectReference Include="..\BudgetMe.Enums\BudgetMe.Enums.csproj">
-      <Project>{D58E2FA4-69F9-497D-BF99-5C4A8FDE7F3F}</Project>
+      <Project>{d58e2fa4-69f9-497d-bf99-5c4a8fde7f3f}</Project>
       <Name>BudgetMe.Enums</Name>
     </ProjectReference>
     <ProjectReference Include="..\BudgetMe.Methods\BudgetMe.Methods.csproj">

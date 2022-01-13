@@ -19,7 +19,7 @@ namespace BudgetMe.Views.UserControls.Transaction
         private SheduledTransactionList _schtransactionEntity;
         private Action<ContentItemEnum> _changeContentMainFormAction;
         private IApplicationService _applicationService;
-        private BindingList<TransactionCategoryBinder> _transactionParties;
+        private BindingList<TransactionCategoryBinder> _transactionCategories;
 
         public ManageTransactionUserControl(Action<ContentItemEnum> changeContentMainFormAction)
         {
@@ -53,19 +53,19 @@ namespace BudgetMe.Views.UserControls.Transaction
                 Amount = 0D,
                 ReferenceNumber = "",
                 Remarks = "",
-                TransactionPartyId = 0
+                TransactionCategoryId = 0
             };
 
             if (_transactionEntity.Id == 0)
             {
                 referenceNumberPanel.Visible = false;
-                transactionPartyComboBox.SelectedIndex = -1;
+                transactionCategoryComboBox.SelectedIndex = -1;
             }
             else
             {
                 referenceNumberPanel.Visible = true;
                 referenceNumberTextBox.Text = _transactionEntity.ReferenceNumber;
-                transactionPartyComboBox.SelectedItem = _transactionParties.First(tp => tp.Id == _transactionEntity.TransactionPartyId);
+                transactionCategoryComboBox.SelectedItem = _transactionCategories.First(tp => tp.Id == _transactionEntity.TransactionCategoryId);
             }
 
             transactionPartErrorLabel.Text = "";
@@ -87,13 +87,13 @@ namespace BudgetMe.Views.UserControls.Transaction
                 Amount = 0D,
                 ReferenceNumber = "",
                 Remarks = "",
-                TransactionPartyId = 0
+                TransactionCategoryId = 0
             };
 
             if (_schtransactionEntity.Id == 0)
             {
                 referenceNumberPanel.Visible = false;
-                transactionPartyComboBox.SelectedIndex = -1;
+                transactionCategoryComboBox.SelectedIndex = -1;
             }
             else
             {
@@ -101,7 +101,7 @@ namespace BudgetMe.Views.UserControls.Transaction
                 comboBoxType.Enabled = false;
                 referenceNumberPanel.Visible = true;
                 referenceNumberTextBox.Text = _schtransactionEntity.ReferenceNumber;
-                transactionPartyComboBox.SelectedItem = _transactionParties.First(tp => tp.Id == _schtransactionEntity.TransactionPartyId);
+                transactionCategoryComboBox.SelectedItem = _transactionCategories.First(tp => tp.Id == _schtransactionEntity.TransactionCategoryId);
             }
 
             transactionPartErrorLabel.Text = "";
@@ -135,19 +135,19 @@ namespace BudgetMe.Views.UserControls.Transaction
 
         private void ManageTransactionUserControl_Load(object sender, EventArgs e)
         {
-            _transactionParties = new BindingList<TransactionCategoryBinder>();
+            _transactionCategories = new BindingList<TransactionCategoryBinder>();
 
             foreach (TransactionCategoryEntity trancat in _applicationService.TransactionCategories)
             {
                 if (trancat.IsActive)
                 {
-                    _transactionParties.Add(new TransactionCategoryBinder(trancat));
+                    _transactionCategories.Add(new TransactionCategoryBinder(trancat));
                 }
             }
 
-            transactionPartyComboBox.DataSource = _transactionParties;
-            transactionPartyComboBox.DisplayMember = "DisplayValue";
-            transactionPartyComboBox.ValueMember = "Id";
+            transactionCategoryComboBox.DataSource = _transactionCategories;
+            transactionCategoryComboBox.DisplayMember = "DisplayValue";
+            transactionCategoryComboBox.ValueMember = "Id";
 
             if (_transactionEntity!=null)
             SetTransactionEntity(_transactionEntity);
@@ -183,7 +183,7 @@ namespace BudgetMe.Views.UserControls.Transaction
             string remarks = remarksTextBox.Text;
             string amount = amountNumericUpDown.Text;
             double amountDouble;
-            int transactionParty = transactionPartyComboBox.SelectedIndex;
+            int transactionCategory = transactionCategoryComboBox.SelectedIndex;
 
             if (string.IsNullOrWhiteSpace(remarks))
             {
@@ -215,10 +215,10 @@ namespace BudgetMe.Views.UserControls.Transaction
                 amountErrorLabel.Text = "";
             }
 
-            if (transactionParty < 0)
+            if (transactionCategory < 0)
             {
                 isValid = false;
-                transactionPartErrorLabel.Text = "Transaction Party is required";
+                transactionPartErrorLabel.Text = "Transaction Category is required";
             }
             else
             {
@@ -272,7 +272,7 @@ namespace BudgetMe.Views.UserControls.Transaction
                 string remarks = remarksTextBox.Text;
                 int transactionId =comboBoxType.SelectedIndex;
                 double amount = double.Parse(amountNumericUpDown.Text);
-                TransactionCategoryBinder transactionCategory = transactionPartyComboBox.SelectedItem as TransactionCategoryBinder;
+                TransactionCategoryBinder transactionCategory = transactionCategoryComboBox.SelectedItem as TransactionCategoryBinder;
 
                 if (transactionId==0) {
 
@@ -283,7 +283,7 @@ namespace BudgetMe.Views.UserControls.Transaction
                         Amount = amount,
                         IsIncome = incomeCheckBox.Checked,
                         Remarks = remarks,
-                        TransactionPartyId = transactionCategory.Id,
+                        TransactionCategoryId = transactionCategory.Id,
                         IsUserPerformed = true,
                         ScheduledTransactionId = null,
                         TransactionDateTime = dateTimePickerOneTimeTransactionDate.Value
@@ -319,7 +319,7 @@ namespace BudgetMe.Views.UserControls.Transaction
                     SheduledTransactionList transactionSheduledEntity = new SheduledTransactionList()
                     {
                         Id = id,
-                        TransactionPartyId = transactionCategory.Id,
+                        TransactionCategoryId = transactionCategory.Id,
                         Amount = amount,
                         RepeatType = SelectedType,
                         StartDateTime = dateTimePickerForm.Value,

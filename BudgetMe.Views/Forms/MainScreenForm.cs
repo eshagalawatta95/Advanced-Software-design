@@ -9,7 +9,7 @@ using BudgetMe.Views.UserControls.Passbook;
 using BudgetMe.Views.UserControls.Report;
 using BudgetMe.Views.UserControls.Summary;
 using BudgetMe.Views.UserControls.Transaction;
-using BudgetMe.Views.UserControls.TransactionParty;
+using BudgetMe.Views.UserControls.TransactionCategory;
 using System;
 using System.Drawing;
 using System.Threading;
@@ -20,7 +20,7 @@ namespace BudgetMe.Views.Forms
     public partial class MainScreenForm : Form, IMainScreenForm
     {
         private DashboardUserControl _summaryUserControl;
-        private TransactionPartyUserControl _transactionPartyUserControl;
+        private TransactionCategoryUserControl _transactionCategoryUserControl;
         private TransactionUserControl _transactionUserControl;
         private PassbookUserControl _passbookUserControl;
         private ReportUserControl _reportUserControl; 
@@ -97,7 +97,7 @@ namespace BudgetMe.Views.Forms
                 Padding = new Padding(0),
                 Margin = new Padding(0)
             };
-            _transactionPartyUserControl = new TransactionPartyUserControl()
+            _transactionCategoryUserControl = new TransactionCategoryUserControl()
             {
                 Dock = DockStyle.Fill,
                 Visible = true,
@@ -153,7 +153,7 @@ namespace BudgetMe.Views.Forms
                     mainContentPanel.Controls.Add(_logsUserControl);
                     break;
                 case ContentItemEnum.TransactionCategory:
-                    mainContentPanel.Controls.Add(_transactionPartyUserControl);
+                    mainContentPanel.Controls.Add(_transactionCategoryUserControl);
                     break;
                 case ContentItemEnum.Transaction:
                     mainContentPanel.Controls.Add(_transactionUserControl);

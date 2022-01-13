@@ -8,9 +8,9 @@ using BudgetMe.Views.Forms;
 using System.Threading;
 using BudgetMe.Methods;
 
-namespace BudgetMe.Views.UserControls.TransactionParty
+namespace BudgetMe.Views.UserControls.TransactionCategory
 {
-    public partial class TransactionPartyUserControl : UserControl
+    public partial class TransactionCategoryUserControl : UserControl
     {
         private SynchronizationContext _currentSynchronizationContext;
         private BindingList<TransactionCategoryBinder> _transactionCategoriesBinders;
@@ -18,7 +18,7 @@ namespace BudgetMe.Views.UserControls.TransactionParty
         private TransactionCategoryBinder _selectedTransactionCategoryBinder;
 
 
-        public TransactionPartyUserControl()
+        public TransactionCategoryUserControl()
         {
             _currentSynchronizationContext = SynchronizationContext.Current;
             _applicationService = BudgetMe.Entities.BudgetMeApplication.DependancyContainer.GetInstance<IApplicationService>();
@@ -26,23 +26,23 @@ namespace BudgetMe.Views.UserControls.TransactionParty
 
             _applicationService.TransactionCategoriesOnChange += TransactionCategoriesOnChange;
             TransactionCategoriesOnChange(_applicationService.TransactionCategories);
-            SetSelectedTransactionPartyBinder();
+            SetSelectedTransactionCategoryBinder();
 
-            dataGridView.Columns["Id"].HeaderText = "Party Id";
-            dataGridView.Columns["Code"].HeaderText = "Party Code";
+            dataGridView.Columns["Id"].HeaderText = "Category Id";
+            dataGridView.Columns["Code"].HeaderText = "Category Code";
             dataGridView.Columns["AddedDateTime"].HeaderText = "Created Date";
         }
 
-        private TransactionCategoryBinder GetSelectedTransactionPartyBinder()
+        private TransactionCategoryBinder GetSelectedTransactionCategoryBinder()
         {
             if (_selectedTransactionCategoryBinder == null)
             {
-                SetSelectedTransactionPartyBinder();
+                SetSelectedTransactionCategoryBinder();
             }
             return _selectedTransactionCategoryBinder;
         }
 
-        private void SetSelectedTransactionPartyBinder(TransactionCategoryBinder value = null)
+        private void SetSelectedTransactionCategoryBinder(TransactionCategoryBinder value = null)
         {
             _selectedTransactionCategoryBinder = value ??
                 new TransactionCategoryBinder()
@@ -85,7 +85,7 @@ namespace BudgetMe.Views.UserControls.TransactionParty
         {
             bool isValid = true;
 
-            int id = GetSelectedTransactionPartyBinder().Id;
+            int id = GetSelectedTransactionCategoryBinder().Id;
             string code = codeTextBox.Text;
             string description = descriptionTextBox.Text;
 
@@ -124,15 +124,15 @@ namespace BudgetMe.Views.UserControls.TransactionParty
 
         private void actionsUserControl_ResetButtonOnClick(object sender, EventArgs e)
         {
-            SetSelectedTransactionPartyBinder();
+            SetSelectedTransactionCategoryBinder();
         }
 
         private async void actionsUserControl_SaveButtonOnClick(object sender, EventArgs e)
         {
             if (IsFormDataValid())
             {
-                TransactionCategoryBinder bindedValue = GetSelectedTransactionPartyBinder();
-                TransactionCategoryEntity transactionPartyEntity = new TransactionCategoryEntity()
+                TransactionCategoryBinder bindedValue = GetSelectedTransactionCategoryBinder();
+                TransactionCategoryEntity transactionCategoryEntity = new TransactionCategoryEntity()
                 {
                     Id = bindedValue.Id,
                     Code = codeTextBox.Text,
@@ -140,21 +140,21 @@ namespace BudgetMe.Views.UserControls.TransactionParty
                     CreatedDateTime = bindedValue.Id == 0 ? DateTime.Now : bindedValue.AddedDateTime
                 };
 
-                if (transactionPartyEntity.Id == 0)
+                if (transactionCategoryEntity.Id == 0)
                 {
-                    await _applicationService.InsertTransactionCategoryAsync(transactionPartyEntity);
+                    await _applicationService.InsertTransactionCategoryAsync(transactionCategoryEntity);
                 }
                 else
                 {
-                    await _applicationService.UpdateTransactionCategoryAsync(transactionPartyEntity);
+                    await _applicationService.UpdateTransactionCategoryAsync(transactionCategoryEntity);
                 }
-                SetSelectedTransactionPartyBinder();
+                SetSelectedTransactionCategoryBinder();
             }
         }
 
         private async void actionsUserControl_DeleteButtonOnClick(object sender, EventArgs e)
         {
-            int id = GetSelectedTransactionPartyBinder().Id;
+            int id = GetSelectedTransactionCategoryBinder().Id;
 
             if (id > 0)
             {
@@ -162,7 +162,7 @@ namespace BudgetMe.Views.UserControls.TransactionParty
                 if (dr == DialogResult.Yes)
                 {
                     await _applicationService.DeleteTransactionCategoryAsync(id);
-                    SetSelectedTransactionPartyBinder();
+                    SetSelectedTransactionCategoryBinder();
                 }
             }
         }
@@ -171,11 +171,11 @@ namespace BudgetMe.Views.UserControls.TransactionParty
         {
             if (e.RowIndex >= 0)
             {
-                SetSelectedTransactionPartyBinder(_transactionCategoriesBinders[e.RowIndex]);
+                SetSelectedTransactionCategoryBinder(_transactionCategoriesBinders[e.RowIndex]);
             }
         }
 
-        private void TransactionPartyUserControl_Load(object sender, EventArgs e)
+        private void TransactionCategoryUserControl_Load(object sender, EventArgs e)
         {
             codeErrorLabel.Text = "";
             descriptionErrorLabel.Text = "";

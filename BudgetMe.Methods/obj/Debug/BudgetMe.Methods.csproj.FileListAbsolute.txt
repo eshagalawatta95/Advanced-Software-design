@@ -6,7 +6,6 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\obj\Debug\MyFinan
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Methods\obj\Debug\MyFinance.Methods.pdb
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Methods\bin\Debug\BudgetMe.Methods.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Methods\bin\Debug\BudgetMe.Methods.pdb
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Methods\obj\Debug\BudgetMe.Methods.csproj.AssemblyReference.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Methods\obj\Debug\BudgetMe.Methods.csproj.CoreCompileInputs.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Methods\obj\Debug\BudgetMe.Methods.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Methods\obj\Debug\BudgetMe.Methods.pdb

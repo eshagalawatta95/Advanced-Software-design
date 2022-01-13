@@ -1,6 +1,6 @@
-﻿namespace BudgetMe.Views.UserControls.TransactionParty
+﻿namespace BudgetMe.Views.UserControls.TransactionCategory
 {
-    partial class TransactionPartyUserControl
+    partial class TransactionCategoryUserControl
     {
         /// <summary> 
         /// Required designer variable.
@@ -120,7 +120,7 @@
             this.groupBox1.Size = new System.Drawing.Size(1738, 446);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Manage Transaction Party";
+            this.groupBox1.Text = "Manage Transaction Category";
             // 
             // tableLayoutPanel1
             // 
@@ -190,7 +190,7 @@
             // actionsUserControl
             // 
             this.tableLayoutPanel1.SetColumnSpan(this.actionsUserControl, 2);
-            this.actionsUserControl.DeleteButtonToolTip = "Delete transaction party";
+            this.actionsUserControl.DeleteButtonToolTip = "Delete transaction category";
             this.actionsUserControl.DeleteButtonVisible = false;
             this.actionsUserControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.actionsUserControl.ErrorMessageText = "";
@@ -199,7 +199,7 @@
             this.actionsUserControl.Margin = new System.Windows.Forms.Padding(0);
             this.actionsUserControl.Name = "actionsUserControl";
             this.actionsUserControl.ResetButtonToolTip = "Reset data";
-            this.actionsUserControl.SaveButtonToolTip = "Save transaction party";
+            this.actionsUserControl.SaveButtonToolTip = "Save transaction category";
             this.actionsUserControl.Size = new System.Drawing.Size(1684, 131);
             this.actionsUserControl.TabIndex = 6;
             this.actionsUserControl.SaveButtonOnClick += new System.EventHandler(this.actionsUserControl_SaveButtonOnClick);
@@ -260,23 +260,23 @@
             this.contentHeaderUserControl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.contentHeaderUserControl.Dock = System.Windows.Forms.DockStyle.Top;
             this.contentHeaderUserControl.Location = new System.Drawing.Point(0, 0);
-            this.contentHeaderUserControl.MainTitle = "Manage Transaction Parties";
+            this.contentHeaderUserControl.MainTitle = "Manage Transaction Categories";
             this.contentHeaderUserControl.Margin = new System.Windows.Forms.Padding(0);
             this.contentHeaderUserControl.Name = "contentHeaderUserControl";
             this.contentHeaderUserControl.Padding = new System.Windows.Forms.Padding(27, 24, 27, 0);
             this.contentHeaderUserControl.Size = new System.Drawing.Size(1792, 128);
             this.contentHeaderUserControl.TabIndex = 0;
             // 
-            // TransactionPartyUserControl
+            // TransactionCategoryUserControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.contentHeaderUserControl);
             this.Margin = new System.Windows.Forms.Padding(0);
-            this.Name = "TransactionPartyUserControl";
+            this.Name = "TransactionCategoryUserControl";
             this.Size = new System.Drawing.Size(1792, 1939);
-            this.Load += new System.EventHandler(this.TransactionPartyUserControl_Load);
+            this.Load += new System.EventHandler(this.TransactionCategoryUserControl_Load);
             this.panel1.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();

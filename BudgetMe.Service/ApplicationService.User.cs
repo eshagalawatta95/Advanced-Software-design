@@ -16,7 +16,7 @@ namespace BudgetMe.Service
             TransactionLogEntity transactionLogEntity = new TransactionLogEntity()
             {
                 TransactionId = 0,
-                TransactionPartyId = 1, // OWN
+                TransactionCategoryId = 1, // OWN
                 ScheduledTransactionId = null,
                 IsDeletedTransaction = false,
                 IsIncome = true,

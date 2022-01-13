@@ -40,7 +40,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.incomeCheckBox = new System.Windows.Forms.CheckBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.transactionPartyComboBox = new System.Windows.Forms.ComboBox();
+            this.transactionCategoryComboBox = new System.Windows.Forms.ComboBox();
             this.transactionPartErrorLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -241,7 +241,7 @@
             // panel1
             // 
             this.tableLayoutPanel.SetColumnSpan(this.panel1, 3);
-            this.panel1.Controls.Add(this.transactionPartyComboBox);
+            this.panel1.Controls.Add(this.transactionCategoryComboBox);
             this.panel1.Controls.Add(this.transactionPartErrorLabel);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -252,18 +252,18 @@
             this.panel1.Size = new System.Drawing.Size(1426, 212);
             this.panel1.TabIndex = 9;
             // 
-            // transactionPartyComboBox
+            // transactionCategoryComboBox
             // 
-            this.transactionPartyComboBox.Dock = System.Windows.Forms.DockStyle.Top;
-            this.transactionPartyComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.transactionPartyComboBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.transactionPartyComboBox.FormattingEnabled = true;
-            this.transactionPartyComboBox.ItemHeight = 45;
-            this.transactionPartyComboBox.Location = new System.Drawing.Point(27, 69);
-            this.transactionPartyComboBox.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.transactionPartyComboBox.Name = "transactionPartyComboBox";
-            this.transactionPartyComboBox.Size = new System.Drawing.Size(1372, 53);
-            this.transactionPartyComboBox.TabIndex = 3;
+            this.transactionCategoryComboBox.Dock = System.Windows.Forms.DockStyle.Top;
+            this.transactionCategoryComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.transactionCategoryComboBox.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.transactionCategoryComboBox.FormattingEnabled = true;
+            this.transactionCategoryComboBox.ItemHeight = 45;
+            this.transactionCategoryComboBox.Location = new System.Drawing.Point(27, 69);
+            this.transactionCategoryComboBox.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.transactionCategoryComboBox.Name = "transactionCategoryComboBox";
+            this.transactionCategoryComboBox.Size = new System.Drawing.Size(1372, 53);
+            this.transactionCategoryComboBox.TabIndex = 3;
             // 
             // transactionPartErrorLabel
             // 
@@ -286,7 +286,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(325, 45);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Transaction Party";
+            this.label3.Text = "Transaction Category";
             // 
             // panel4
             // 
@@ -648,7 +648,7 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.CheckBox incomeCheckBox;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ComboBox transactionPartyComboBox;
+        private System.Windows.Forms.ComboBox transactionCategoryComboBox;
         private System.Windows.Forms.Label transactionPartErrorLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Panel panel4;

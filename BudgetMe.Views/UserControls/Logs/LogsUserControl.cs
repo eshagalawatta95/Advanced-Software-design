@@ -47,7 +47,7 @@ namespace BudgetMe.Views.UserControls.Logs
             IEnumerable<TransactionLogEntity> tranLogs = _applicationService.TransactionLogs.OrderBy(t => t.TransactionDateTime);
             foreach (TransactionLogEntity transactionLog in tranLogs)
             {
-                TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == transactionLog.TransactionPartyId);
+                TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == transactionLog.TransactionCategoryId);
                 transactionLogBinders.Add(new TransactionLogBinder(transactionLog, transactionCategory));
             }
 
@@ -101,7 +101,7 @@ namespace BudgetMe.Views.UserControls.Logs
                 Remarks = transactionLog.Remarks;
                 Amount = (transactionLog.IsIncome ? transactionLog.Amount : -1.0 * transactionLog.Amount).ToString("0.00");
                 Balance = (transactionLog.FinalBalance).ToString("0.00");
-                TransactionParty = transactionCategory.Code;
+                TransactionCategory = transactionCategory.Code;
                 isDeleted = transactionLog.IsDeletedTransaction == true ? "Yes" : "No";
                 Type = transactionLog.ScheduledTransactionId == null ? "One Time" : "Scheduled";
                 CreatedDate = transactionLog.CreatedDateTime.ToString("dd-MM-yyyy h:mm tt");
@@ -113,7 +113,7 @@ namespace BudgetMe.Views.UserControls.Logs
             public string CreatedDate { get; set; }
             public string Type { get; set; }
             public string Remarks { get; set; }
-            public string TransactionParty { get; set; }
+            public string TransactionCategory { get; set; }
             public string Amount { get; set; }
             public string Balance { get; set; }
             public string isDeleted { get; set; }

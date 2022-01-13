@@ -78,7 +78,7 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Vi
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.UserControls.Report.ReportUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.UserControls.Summary.DashboardUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.UserControls.Summary.SummarizeUserControl.resources
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.UserControls.TransactionParty.TransactionPartyUserControl.resources
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.UserControls.TransactionCategory.TransactionCategoryUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.UserControls.Transaction.ManageTransactionUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.UserControls.Transaction.TransactionUserControl.resources
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Views\obj\Debug\BudgetMe.Views.csproj.GenerateResource.cache

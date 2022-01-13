@@ -8,21 +8,21 @@ namespace BudgetMe.Service
 {
     public partial class ApplicationService
     {
-        public async Task<TransactionCategoryEntity> InsertTransactionCategoryAsync(TransactionCategoryEntity transactionParty)
+        public async Task<TransactionCategoryEntity> InsertTransactionCategoryAsync(TransactionCategoryEntity transactionCategory)
         {
-            if (IsTransactionCategoryCodeUsed(transactionParty.Code))
+            if (IsTransactionCategoryCodeUsed(transactionCategory.Code))
             {
-                throw new Exception("Transaction Party already used");
+                throw new Exception("Transaction Category already used");
             }
 
-            int tpId = await _transactionCategoryModel.InsertTransactionCategoryAsync(transactionParty);
-            transactionParty = await _transactionCategoryModel.GetTransactionCategoryByIdAsync(tpId);
+            int tpId = await _transactionCategoryModel.InsertTransactionCategoryAsync(transactionCategory);
+            transactionCategory = await _transactionCategoryModel.GetTransactionCategoryByIdAsync(tpId);
 
             IList<TransactionCategoryEntity> transactionCategories = TransactionCategories.ToList();
-            transactionCategories.Add(transactionParty);
+            transactionCategories.Add(transactionCategory);
             TransactionCategories = transactionCategories;
 
-            return transactionParty;
+            return transactionCategory;
         }
 
         public bool IsTransactionCategoryCodeUsed(string code) =>
@@ -31,20 +31,20 @@ namespace BudgetMe.Service
         public bool IsTransactionCategoryCodeUsedWithoutCurrent(string code, int currentId) =>
             TransactionCategories.Any(tp => tp.Code?.ToUpper() == code?.ToUpper() && tp.Id != currentId);
 
-        public async Task<TransactionCategoryEntity> UpdateTransactionCategoryAsync(TransactionCategoryEntity transactionParty)
+        public async Task<TransactionCategoryEntity> UpdateTransactionCategoryAsync(TransactionCategoryEntity transactionCategory)
         {
-            if (IsTransactionCategoryCodeUsedWithoutCurrent(transactionParty.Code, transactionParty.Id))
+            if (IsTransactionCategoryCodeUsedWithoutCurrent(transactionCategory.Code, transactionCategory.Id))
             {
-                throw new Exception("Transaction Party already used");
+                throw new Exception("Transaction Category already used");
             }
 
-            await _transactionCategoryModel.UpdateTransactionCategoryAsync(transactionParty);
-            transactionParty = await _transactionCategoryModel.GetTransactionCategoryByIdAsync(transactionParty.Id);
+            await _transactionCategoryModel.UpdateTransactionCategoryAsync(transactionCategory);
+            transactionCategory = await _transactionCategoryModel.GetTransactionCategoryByIdAsync(transactionCategory.Id);
 
             IEnumerable<TransactionCategoryEntity> transactionCategories = await _transactionCategoryModel.GetTransactionCategoriesAsync();
             TransactionCategories = transactionCategories;
 
-            return transactionParty;
+            return transactionCategory;
         }
 
         public async Task DeleteTransactionCategoryAsync(int id)

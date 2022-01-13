@@ -46,7 +46,7 @@ namespace BudgetMe.Views.UserControls.Passbook
             IEnumerable<TransactionLogEntity> tranLogs = _applicationService.TransactionLogs.Where(x=>x.IsDeletedTransaction==false).OrderBy(t => t.TransactionDateTime);
             foreach (TransactionLogEntity transactionLog in tranLogs)
             {
-                TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == transactionLog.TransactionPartyId);
+                TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == transactionLog.TransactionCategoryId);
                 transactionLogBinders.Add(new TransactionLogBinder(transactionLog, transactionCategory));
             }
 
@@ -89,12 +89,12 @@ namespace BudgetMe.Views.UserControls.Passbook
             Remarks = transactionLog.Remarks;
             Amount = (transactionLog.IsIncome ? transactionLog.Amount : -1.0 * transactionLog.Amount).ToString("0.00");
             Balance = (transactionLog.FinalBalance).ToString("0.00");
-            TransactionPartyCode = transactionCategory.Code;
+            TransactionCategory = transactionCategory.Code;
         }
 
         public string TransactionDate { get; set; }
         public string Remarks { get; set; }
-        public string TransactionPartyCode { get; set; }
+        public string TransactionCategory { get; set; }
         public string Amount { get; set; }
         public string Balance { get; set; }
     }

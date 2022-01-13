@@ -57,7 +57,7 @@ namespace BudgetMe.Views.UserControls.Transaction
             {
                 if (transaction.IsActive)
                 {
-                    TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == transaction.TransactionPartyId);
+                    TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == transaction.TransactionCategoryId);
                     transactionBinders.Add(new TransactionBinder(transaction, transactionCategory));
                 }
             }
@@ -76,7 +76,7 @@ namespace BudgetMe.Views.UserControls.Transaction
             {
                 if (!schtransaction.IsDelete)
                 {
-                    TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == schtransaction.TransactionPartyId);
+                    TransactionCategoryEntity transactionCategory = _applicationService.TransactionCategories.First(tp => tp.Id == schtransaction.TransactionCategoryId);
                     scheduletransactionBinders.Add(new ScheduleTransactionBinder(schtransaction, transactionCategory));
                 }
             }
@@ -135,7 +135,7 @@ namespace BudgetMe.Views.UserControls.Transaction
         public TransactionBinder(TransactionEntity transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionParty = transactionCategoryEntity.Code;
+            TransactionCategory = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             IsScheduledTransaction = transactionEntity.ScheduledTransactionId == null ? "No" : "Yes";
             TransactionDateTime = transactionEntity.TransactionDateTime;
@@ -145,7 +145,7 @@ namespace BudgetMe.Views.UserControls.Transaction
 
         public string ReferenceNumber { get; set; }
         public DateTime TransactionDateTime { get; set; }
-        public string TransactionParty { get; set; }
+        public string TransactionCategory { get; set; }
         public string IsScheduledTransaction { get; set; }
         public string Amount { get; set; }
         public string Remarks { get; set; }
@@ -160,7 +160,7 @@ namespace BudgetMe.Views.UserControls.Transaction
         public ScheduleTransactionBinder(SheduledTransactionList transactionEntity, TransactionCategoryEntity transactionCategoryEntity)
         {
             ReferenceNumber = transactionEntity.ReferenceNumber;
-            TransactionParty = transactionCategoryEntity.Code;
+            TransactionCategory = transactionCategoryEntity.Code;
             Amount = ((transactionEntity.IsIncome ? 1 : -1) * transactionEntity.Amount).ToString("0.00");
             RepeatType = transactionEntity.RepeatType;
             NextTransactionDate = transactionEntity.NextTransactionDate;
@@ -172,7 +172,7 @@ namespace BudgetMe.Views.UserControls.Transaction
         public string ReferenceNumber { get; set; }
         public DateTime NextTransactionDate { get; set; }
         public string EndTransactionDate { get; set; }
-        public string TransactionParty { get; set; }
+        public string TransactionCategory { get; set; }
         public string RepeatType { get; set; }
         public string Amount { get; set; }
         public string Remarks { get; set; }

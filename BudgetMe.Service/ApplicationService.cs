@@ -192,7 +192,7 @@ namespace BudgetMe.Service
                         {
                             TransactionEntity transactionEntity = new TransactionEntity();
                             transactionEntity.Amount = item.Amount;
-                            transactionEntity.TransactionPartyId = item.TransactionPartyId;
+                            transactionEntity.TransactionCategoryId = item.TransactionCategoryId;
                             transactionEntity.IsIncome = item.IsIncome;
                             transactionEntity.ScheduledTransactionId = item.Id;
                             transactionEntity.Remarks = item.Remarks;

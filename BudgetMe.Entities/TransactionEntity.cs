@@ -6,7 +6,7 @@ namespace BudgetMe.Entities
     {
         public int Id { get; set; }
         public string ReferenceNumber { get; set; }
-        public int TransactionPartyId { get; set; }
+        public int TransactionCategoryId { get; set; }
         public double Amount { get; set; }
         public int? ScheduledTransactionId { get; set; }
         public bool IsIncome { get; set; }
@@ -21,7 +21,7 @@ namespace BudgetMe.Entities
     {
         public int Id { get; set; }
         public string ReferenceNumber { get; set; }
-        public int TransactionPartyId { get; set; }
+        public int TransactionCategoryId { get; set; }
         public string RepeatType { get; set; }
         public double Amount { get; set; }
         public DateTime StartDateTime { get; set; }
