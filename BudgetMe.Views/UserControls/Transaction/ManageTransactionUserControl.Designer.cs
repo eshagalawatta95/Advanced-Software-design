@@ -284,7 +284,7 @@
             this.label3.Location = new System.Drawing.Point(27, 24);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(325, 45);
+            this.label3.Size = new System.Drawing.Size(393, 45);
             this.label3.TabIndex = 0;
             this.label3.Text = "Transaction Category";
             // 

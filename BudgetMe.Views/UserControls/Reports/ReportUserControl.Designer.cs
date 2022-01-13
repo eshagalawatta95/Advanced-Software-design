@@ -41,16 +41,12 @@
             this.dateTimePickerTo = new System.Windows.Forms.DateTimePicker();
             this.dateTimePickerForm = new System.Windows.Forms.DateTimePicker();
             this.dataGridView = new System.Windows.Forms.DataGridView();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.dataGridViewScheduled = new System.Windows.Forms.DataGridView();
             this.contentHeaderUserControl = new BudgetMe.Views.UserControls.ContentHeaderUserControl();
             this.contentPanel.SuspendLayout();
             this.tabControlReports.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panelTools.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewScheduled)).BeginInit();
             this.SuspendLayout();
             // 
             // contentPanel
@@ -68,7 +64,6 @@
             // tabControlReports
             // 
             this.tabControlReports.Controls.Add(this.tabPage1);
-            this.tabControlReports.Controls.Add(this.tabPage2);
             this.tabControlReports.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabControlReports.Location = new System.Drawing.Point(27, 24);
             this.tabControlReports.Name = "tabControlReports";
@@ -85,7 +80,6 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1681, 1057);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Single Time";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // panelTools
@@ -126,9 +120,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(31, 26);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 45);
+            this.label1.Size = new System.Drawing.Size(317, 45);
             this.label1.TabIndex = 18;
-            this.label1.Text = "Type";
+            this.label1.Text = "Transaction Type";
             // 
             // btnOk
             // 
@@ -180,38 +174,11 @@
             this.dataGridView.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
+            this.dataGridView.RowHeadersWidth = 102;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.ShowEditingIcon = false;
             this.dataGridView.Size = new System.Drawing.Size(1675, 1051);
             this.dataGridView.TabIndex = 1;
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.dataGridViewScheduled);
-            this.tabPage2.Location = new System.Drawing.Point(10, 62);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1681, 1057);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Scheduled";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // dataGridViewScheduled
-            // 
-            this.dataGridViewScheduled.AllowUserToAddRows = false;
-            this.dataGridViewScheduled.AllowUserToDeleteRows = false;
-            this.dataGridViewScheduled.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridViewScheduled.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dataGridViewScheduled.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewScheduled.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridViewScheduled.Location = new System.Drawing.Point(3, 3);
-            this.dataGridViewScheduled.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
-            this.dataGridViewScheduled.Name = "dataGridViewScheduled";
-            this.dataGridViewScheduled.ReadOnly = true;
-            this.dataGridViewScheduled.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridViewScheduled.ShowEditingIcon = false;
-            this.dataGridViewScheduled.Size = new System.Drawing.Size(1675, 1051);
-            this.dataGridViewScheduled.TabIndex = 2;
             // 
             // contentHeaderUserControl
             // 
@@ -242,8 +209,6 @@
             this.panelTools.ResumeLayout(false);
             this.panelTools.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewScheduled)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -254,9 +219,6 @@
         private System.Windows.Forms.Panel contentPanel;
         private System.Windows.Forms.TabControl tabControlReports;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.DataGridView dataGridView;
-        private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.DataGridView dataGridViewScheduled;
         private System.Windows.Forms.Panel panelTools;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
@@ -265,5 +227,6 @@
         private System.Windows.Forms.ComboBox comboBoxType;
         private System.Windows.Forms.DateTimePicker dateTimePickerTo;
         private System.Windows.Forms.DateTimePicker dateTimePickerForm;
+        private System.Windows.Forms.DataGridView dataGridView;
     }
 }

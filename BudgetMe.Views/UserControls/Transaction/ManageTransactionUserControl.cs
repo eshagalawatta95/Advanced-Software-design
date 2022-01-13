@@ -274,6 +274,8 @@ namespace BudgetMe.Views.UserControls.Transaction
                 double amount = double.Parse(amountNumericUpDown.Text);
                 TransactionCategoryBinder transactionCategory = transactionCategoryComboBox.SelectedItem as TransactionCategoryBinder;
 
+                if (IsOverDraft(transactionCategoryComboBox.SelectedItem) == false) { 
+
                 if (transactionId==0) {
 
                     //single time transactions
@@ -343,8 +345,13 @@ namespace BudgetMe.Views.UserControls.Transaction
                         await _applicationService.UpdateSheduledTransactionListAsync(transactionSheduledEntity);
                     }
                 }
+                }
 
-           
+                else
+                {
+                    MessageBox.Show("Selected transaction category max amount exceeded", "Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+
                 _changeContentMainFormAction(ContentItemEnum.Transaction);
             }
         }
@@ -427,6 +434,16 @@ namespace BudgetMe.Views.UserControls.Transaction
             {
                 checkBoxNever.Enabled = true;
             }
+        }
+
+        private bool IsOverDraft(object category)
+        {
+            var maxmount = category;
+
+
+
+            bool flag=false;
+            return flag;
         }
     }
     class TransactionCategoryBinder

@@ -27,7 +27,8 @@ namespace BudgetMe.Enums
 
     public enum ContentReportsTypesEnum : short
     {
-        Transactions
+        OneTime,
+        Schedule
 
     }
 

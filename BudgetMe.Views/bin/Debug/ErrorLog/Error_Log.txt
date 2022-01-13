@@ -33,3 +33,42 @@
 2022-01-13_10:01:51_Start_Loading Application_--------
 2022-01-13_10:01:07_End_Ending Application_--------
 2022-01-13_10:01:08_End_Ending Application_--------
+2022-01-13_10:01:29_Start_Loading Application_--------
+2022-01-13_10:01:42_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-13_10:01:49_Transaction_Insert onetime transaction_code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+table Transaction has no column named TransactionCategoryId
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at BudgetMe.DataAccess.SqliteConnector.<>c__DisplayClass11_0.<ExecuteInsertQueryAsync>b__0() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.DataAccess\SqliteConnector.cs:line 287
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BudgetMe.DataAccess.SqliteConnector.<ExecuteInsertQueryAsync>d__11.MoveNext() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.DataAccess\SqliteConnector.cs:line 244
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BudgetMe.Models.TransactionModel.<InsertTransactionAsync>d__4.MoveNext() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Models\TransactionModel.cs:line 84
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BudgetMe.Service.ApplicationService.<InsertTransactionAsync>d__46.MoveNext() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Service\ApplicationService.Transaction.cs:line 22
+2022-01-13_10:01:21_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-13_10:01:17_Start_Loading Application_--------
+2022-01-13_10:01:35_End_Ending Application_--------
+2022-01-13_10:01:36_End_Ending Application_--------
+2022-01-13_10:01:07_Start_Loading Application_--------
+2022-01-13_10:01:34_End_Ending Application_--------
+2022-01-13_10:01:35_End_Ending Application_--------
+2022-01-13_10:01:31_Start_Loading Application_--------
+2022-01-13_10:01:15_Start_Loading Application_--------

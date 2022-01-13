@@ -425,7 +425,7 @@ namespace BudgetMe.DataAccess
                             @"CREATE TABLE `Transaction` (
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	                            `ReferenceNumber`	TEXT,
-	                            `TransactionCateoryId`	INTEGER NOT NULL,
+	                            `TransactionCategoryId`	INTEGER NOT NULL,
 	                            `Amount`	NUMERIC NOT NULL,
 	                            `IsIncome`	INTEGER NOT NULL,
 	                            `TransactionDateTime`	INTEGER NOT NULL,

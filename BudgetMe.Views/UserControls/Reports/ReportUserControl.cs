@@ -19,6 +19,7 @@ namespace BudgetMe.Views.UserControls.Report
     {
         private IApplicationService _applicationService;
         private BindingList<TransactionBinder> _transactionBinders;
+        private BindingList<ScheduleTransactionBinder> _scheduleTransactionBinder;
 
         public ReportUserControl()
         {
@@ -48,13 +49,32 @@ namespace BudgetMe.Views.UserControls.Report
           
         }
 
+        private void UpdateScheduleTransactionBinders(DateTime dtFrom, DateTime dtTo)
+        {
+            BindingList<ScheduleTransactionBinder> transactionBinders = new BindingList<ScheduleTransactionBinder>();
+
+            IEnumerable<SheduledTransactionList> trans = _applicationService.SheduledTransactions.Where(x => x.NextTransactionDate >= dtFrom && x.NextTransactionDate <= dtTo && x.IsActive == true).OrderByDescending(t => t.NextTransactionDate);
+            foreach (SheduledTransactionList transaction in trans)
+            {
+                if (transaction.IsActive)
+                {
+                    TransactionCategoryEntity transactionCategoryEntity = _applicationService.TransactionCategories.First(tp => tp.Id == transaction.TransactionCategoryId);
+                    transactionBinders.Add(new ScheduleTransactionBinder(transaction, transactionCategoryEntity));
+                }
+            }
+
+            _scheduleTransactionBinder = transactionBinders;
+            dataGridView.DataSource = _scheduleTransactionBinder;
+
+
+        }
 
         private void contentHeaderUserControl_AddButtonOnClick(object sender, EventArgs e)
         {
             panelTools.Visible = true;
             tabControlReports.SelectedIndex = 0;
             dataGridView.DataSource = null;
-            dataGridViewScheduled.DataSource = null;
+        
 
         }
  
@@ -69,6 +89,11 @@ namespace BudgetMe.Views.UserControls.Report
             if (ReportVal == 0)
             {
                 UpdateTransactionBinders(dtFrom, dtTo);
+            }
+
+            else if (ReportVal == 1)
+            {
+                UpdateScheduleTransactionBinders(dtFrom, dtTo);
             }
   
             tabControlReports.Visible = true;
