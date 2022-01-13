@@ -33,6 +33,10 @@
             this.dataGridView = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textMax = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.descriptionErrorLabel = new System.Windows.Forms.Label();
@@ -49,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.panel6.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -110,6 +115,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.panel6);
             this.groupBox1.Controls.Add(this.tableLayoutPanel1);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.groupBox1.Location = new System.Drawing.Point(0, 24);
@@ -121,6 +127,53 @@
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Manage Transaction Category";
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.label2);
+            this.panel6.Controls.Add(this.textMax);
+            this.panel6.Controls.Add(this.label3);
+            this.panel6.Location = new System.Drawing.Point(1364, 62);
+            this.panel6.Margin = new System.Windows.Forms.Padding(0);
+            this.panel6.Name = "panel6";
+            this.panel6.Padding = new System.Windows.Forms.Padding(27, 24, 27, 24);
+            this.panel6.Size = new System.Drawing.Size(347, 200);
+            this.panel6.TabIndex = 9;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(35, 145);
+            this.label2.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(0, 38);
+            this.label2.TabIndex = 2;
+            // 
+            // textMax
+            // 
+            this.textMax.Dock = System.Windows.Forms.DockStyle.Top;
+            this.textMax.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textMax.Location = new System.Drawing.Point(27, 69);
+            this.textMax.Margin = new System.Windows.Forms.Padding(0);
+            this.textMax.MaxLength = 100;
+            this.textMax.Name = "textMax";
+            this.textMax.Size = new System.Drawing.Size(293, 62);
+            this.textMax.TabIndex = 1;
+            this.textMax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textMax_KeyPress);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(27, 24);
+            this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(238, 45);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Max Amount";
             // 
             // tableLayoutPanel1
             // 
@@ -137,6 +190,7 @@
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 131F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(1684, 358);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
@@ -145,7 +199,6 @@
             this.panel4.Controls.Add(this.descriptionErrorLabel);
             this.panel4.Controls.Add(this.descriptionTextBox);
             this.panel4.Controls.Add(this.label4);
-            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel4.Location = new System.Drawing.Point(533, 0);
             this.panel4.Margin = new System.Windows.Forms.Padding(0);
             this.panel4.Name = "panel4";
@@ -211,7 +264,6 @@
             this.panel3.Controls.Add(this.codeErrorLabel);
             this.panel3.Controls.Add(this.codeTextBox);
             this.panel3.Controls.Add(this.label1);
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Margin = new System.Windows.Forms.Padding(0);
             this.panel3.Name = "panel3";
@@ -282,6 +334,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.panel2.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
@@ -309,5 +363,9 @@
         private System.Windows.Forms.Label codeErrorLabel;
         private System.Windows.Forms.TextBox codeTextBox;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textMax;
+        private System.Windows.Forms.Label label3;
     }
 }

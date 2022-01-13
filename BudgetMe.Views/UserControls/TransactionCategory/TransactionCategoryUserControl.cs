@@ -48,14 +48,15 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
                 new TransactionCategoryBinder()
                 {
                     Code = "",
-                    Description = ""
+                    Description = "",
+                    MaxAmount = 0,
                 };
 
             codeTextBox.Text = _selectedTransactionCategoryBinder.Code;
             codeErrorLabel.Text = "";
             descriptionTextBox.Text = _selectedTransactionCategoryBinder.Description;
             descriptionErrorLabel.Text = "";
-
+            textMax.Text = _selectedTransactionCategoryBinder.MaxAmount.ToString();
             actionsUserControl.DeleteButtonVisible = _selectedTransactionCategoryBinder.Id > 0;
         }
 
@@ -137,6 +138,7 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
                     Id = bindedValue.Id,
                     Code = codeTextBox.Text,
                     Description = descriptionTextBox.Text,
+                    MaxAmount=Math.Round(Convert.ToDouble(textMax.Text), 2),
                     CreatedDateTime = bindedValue.Id == 0 ? DateTime.Now : bindedValue.AddedDateTime
                 };
 
@@ -179,7 +181,26 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
         {
             codeErrorLabel.Text = "";
             descriptionErrorLabel.Text = "";
-        }   
+            textMax.Text = "0";
+        }
+
+      
+        private void textMax_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar)
+                && !char.IsDigit(e.KeyChar)
+                && e.KeyChar != '.')
+            {
+                e.Handled = true;
+            }
+
+            // only allow one decimal point
+            if (e.KeyChar == '.'
+                && (sender as TextBox).Text.IndexOf('.') > -1)
+            {
+                e.Handled = true;
+            }
+        }
     }
 
     class TransactionCategoryBinder
