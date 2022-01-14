@@ -190,28 +190,34 @@ namespace BudgetMe.Service
 
                         foreach (var item in TodayList)
                         {
-                            TransactionEntity transactionEntity = new TransactionEntity();
-                            transactionEntity.Amount = item.Amount;
-                            transactionEntity.TransactionCategoryId = item.TransactionCategoryId;
-                            transactionEntity.IsIncome = item.IsIncome;
-                            transactionEntity.ScheduledTransactionId = item.Id;
-                            transactionEntity.Remarks = item.Remarks;
-                            transactionEntity.CreatedDateTime = DateTime.Now;
+                            if (IsOverDraft(item.TransactionCategoryId, item.Amount,item.IsIncome))
+                            {
+                                TransactionEntity transactionEntity = new TransactionEntity();
+                                transactionEntity.Amount = item.Amount;
+                                transactionEntity.TransactionCategoryId = item.TransactionCategoryId;
+                                transactionEntity.IsIncome = item.IsIncome;
+                                transactionEntity.ScheduledTransactionId = item.Id;
+                                transactionEntity.Remarks = item.Remarks;
+                                transactionEntity.CreatedDateTime = DateTime.Now;
 
-                            await InsertTransactionAsync(transactionEntity, false);
+                                await InsertTransactionAsync(transactionEntity, false);
 
-                            //modifiying next date
-                            if (item.RepeatType == ContentRepeatItemEnum.Daily.ToString())
-                                dtNextDate = item.NextTransactionDate.AddDays(1);
-                            if (item.RepeatType == ContentRepeatItemEnum.Weekly.ToString())
-                                dtNextDate = item.NextTransactionDate.AddDays(7);
-                            if (item.RepeatType == ContentRepeatItemEnum.Monthly.ToString())
-                                dtNextDate = item.NextTransactionDate.AddDays(30);
-                            if (item.RepeatType == ContentRepeatItemEnum.Yearly.ToString())
-                                dtNextDate = item.NextTransactionDate.AddYears(1);
+                                //modifiying next date
+                                if (item.RepeatType == ContentRepeatItemEnum.Daily.ToString())
+                                    dtNextDate = item.NextTransactionDate.AddDays(1);
+                                if (item.RepeatType == ContentRepeatItemEnum.Weekly.ToString())
+                                    dtNextDate = item.NextTransactionDate.AddDays(7);
+                                if (item.RepeatType == ContentRepeatItemEnum.Monthly.ToString())
+                                    dtNextDate = item.NextTransactionDate.AddDays(30);
+                                if (item.RepeatType == ContentRepeatItemEnum.Yearly.ToString())
+                                    dtNextDate = item.NextTransactionDate.AddYears(1);
 
-                            _transactionModel.UpdateNextTransactionDate(item.Id, dtNextDate);
-
+                                _transactionModel.UpdateNextTransactionDate(item.Id, dtNextDate);
+                            }
+                            else
+                            {
+                                applicationErrorLog.ErrorLog("ScheduleTransaction", "ScheduleTransaction", $"Schedule Transaction Error, Because of insuffient balance.Schedule Transaction Id:" +item.Id);
+                            }
                         }
                         //file write 
                         File.AppendAllText("Schedule_Transaction_File.txt", DateTime.Now.ToString("dd/MM/yyyy") + "-Success\n");

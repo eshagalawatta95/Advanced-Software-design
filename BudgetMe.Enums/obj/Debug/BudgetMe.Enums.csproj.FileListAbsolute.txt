@@ -8,3 +8,4 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Enums\bin\Debug\BudgetMe.En
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Enums\obj\Debug\BudgetMe.Enums.csproj.CoreCompileInputs.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Enums\obj\Debug\BudgetMe.Enums.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Enums\obj\Debug\BudgetMe.Enums.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Enums\obj\Debug\BudgetMe.Enums.csproj.AssemblyReference.cache

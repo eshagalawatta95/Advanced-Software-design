@@ -31,6 +31,7 @@ namespace BudgetMe.Core.Service
         Task<SheduledTransactionList> InsertSheduledTransactionListAsync(SheduledTransactionList transaction);
         Task<SheduledTransactionList> UpdateSheduledTransactionListAsync(SheduledTransactionList transaction);     
         Task AutoRunMethod();
+        bool IsOverDraft(int transactionCategory, double amount, bool isIncome);
         IEnumerable<SheduledTransactionList> SheduledTransactions { get; }
     }
 }

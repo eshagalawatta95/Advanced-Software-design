@@ -274,7 +274,7 @@ namespace BudgetMe.Views.UserControls.Transaction
                 double amount = double.Parse(amountNumericUpDown.Text);
                 TransactionCategoryBinder transactionCategory = transactionCategoryComboBox.SelectedItem as TransactionCategoryBinder;
 
-                if (IsOverDraft(transactionCategoryComboBox.SelectedItem) == false) { 
+                if (IsOverDraft() == false) { 
 
                 if (transactionId==0) {
 
@@ -436,14 +436,10 @@ namespace BudgetMe.Views.UserControls.Transaction
             }
         }
 
-        private bool IsOverDraft(object category)
+        private bool IsOverDraft()
         {
-            var maxmount = category;
-
-
-
-            bool flag=false;
-            return flag;
+            TransactionCategoryBinder transactionCategory = transactionCategoryComboBox.SelectedItem as TransactionCategoryBinder;
+            return _applicationService.IsOverDraft(transactionCategory.Id, double.Parse(amountNumericUpDown.Text),incomeCheckBox.Checked);           
         }
     }
     class TransactionCategoryBinder

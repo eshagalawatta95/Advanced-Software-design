@@ -444,6 +444,7 @@ namespace BudgetMe.DataAccess
 	                            `Id`	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
 	                            `Code`	TEXT NOT NULL UNIQUE,
                                 `MaxAmount`	NUMERIC NOT NULL DEFAULT 0,
+                                `CurrentAmount`	NUMERIC NOT NULL DEFAULT 0,
 	                            `Description`	TEXT NOT NULL,                              
 	                            `CreatedDateTime`	INTEGER NOT NULL,
 	                            `IsActive`	INTEGER NOT NULL DEFAULT 1

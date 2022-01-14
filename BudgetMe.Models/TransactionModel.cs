@@ -244,5 +244,6 @@ namespace BudgetMe.Models
             };
             return await SqliteConnector.ExecuteQuerySingleOrDefaultAsync(query, ReaderToEntitySheduledTransactionList, parameters);
         }
+
     }
 }

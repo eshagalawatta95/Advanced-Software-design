@@ -11,5 +11,6 @@ namespace BudgetMe.Core.Models
         Task<int> InsertTransactionCategoryAsync(TransactionCategoryEntity transactionCategoryEntity);
         Task<int> UpdateTransactionCategoryAsync(TransactionCategoryEntity transactionCategoryEntity);
         Task<int> DeleteTransactionCategoryAsync(int id);
+        Task<int> UpdateTransactionCategoryBalanceAsync(int transactionCategoryId, double currentAmount, bool isIncome);
     }
 }

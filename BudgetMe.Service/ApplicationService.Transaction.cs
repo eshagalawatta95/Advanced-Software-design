@@ -28,6 +28,8 @@ namespace BudgetMe.Service
                 double startingBalance = CurrentUser.CurrentBalance;
                 double newBalance = startingBalance + ((transaction.IsIncome ? 1 : -1) * transaction.Amount);
 
+                await _transactionCategoryModel.UpdateTransactionCategoryBalanceAsync(transaction.TransactionCategoryId, transaction.Amount, transaction.IsIncome);
+
                 await _userModel.UpdateUserCurrentBalanceAsync(newBalance);
                 UserEntity userEntity = await _userModel.GetUserDetailsAsync();
 
@@ -104,6 +106,8 @@ namespace BudgetMe.Service
             double startingBalance = CurrentUser.CurrentBalance;
             double newBalance = startingBalance + (transaction.IsIncome ? -1 : 1) * transaction.Amount; // Reversed because transaction deleted
 
+            await _transactionCategoryModel.UpdateTransactionCategoryBalanceAsync(transaction.TransactionCategoryId, -1*transaction.Amount, transaction.IsIncome);
+
             await _userModel.UpdateUserCurrentBalanceAsync(newBalance);
             UserEntity userEntity = await _userModel.GetUserDetailsAsync();
 
@@ -150,7 +154,10 @@ namespace BudgetMe.Service
             double startingBalance = CurrentUser.CurrentBalance;
             double newBalance = startingBalance + differenceIncome;
 
+            await _transactionCategoryModel.UpdateTransactionCategoryBalanceAsync(transaction.TransactionCategoryId, differenceIncome, transaction.IsIncome);
+
             await _userModel.UpdateUserCurrentBalanceAsync(newBalance);
+
             UserEntity userEntity = await _userModel.GetUserDetailsAsync();
 
             TransactionLogEntity transactionLog = new TransactionLogEntity()
@@ -205,6 +212,19 @@ namespace BudgetMe.Service
             deletedTransaction.IsActive = false;
             SheduledTransactions = transactions;
             CurrentUser = userEntity;
+        }
+
+        public bool IsOverDraft(int transactionCategory,double amount, bool isIncome)
+        {
+            if (isIncome) return true;
+
+            TransactionCategoryEntity result = (TransactionCategoryEntity)TransactionCategories.Where(x => x.Id == transactionCategory);
+            double val = result.CurrentAmount + amount;
+            if (result.MaxAmount < val)
+            {
+                return false;
+            }
+            return true;
         }
     }
 }

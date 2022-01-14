@@ -88,5 +88,25 @@ namespace BudgetMe.Models
 
             return await SqliteConnector.ExecuteNonQueryAsync(query, parameters, true);
         }
+
+        public async Task<int> UpdateTransactionCategoryBalanceAsync(int transactionCategoryId, double currentAmount, bool isIncome)
+        {
+            if (isIncome) return 0;
+
+            TransactionCategoryEntity obj= await GetTransactionCategoryByIdAsync(transactionCategoryId);
+            currentAmount += obj.CurrentAmount;
+
+            string query = "UPDATE `TransactionCategory` " +
+                "SET `CurrentAmount`=@CurrentAmount " +
+                "WHERE `Id` = @Id";
+
+            IEnumerable<KeyValuePair<string, object>> parameters = new List<KeyValuePair<string, object>>()
+            {
+                new KeyValuePair<string, object>("@CurrentAmount", currentAmount),
+                new KeyValuePair<string, object>("@Id", transactionCategoryId)
+            };
+
+            return await SqliteConnector.ExecuteNonQueryAsync(query, parameters, true);
+        }
     }
 }

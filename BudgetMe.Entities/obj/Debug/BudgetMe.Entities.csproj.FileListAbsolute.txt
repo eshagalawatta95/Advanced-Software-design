@@ -15,3 +15,4 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.csproj.CopyComplete
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.pdb
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Entities\obj\Debug\BudgetMe.Entities.csproj.AssemblyReference.cache
