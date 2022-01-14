@@ -8,6 +8,7 @@ using BudgetMe.Core.Views.UserControls;
 using BudgetMe.Enums;
 using BudgetMe.Entities;
 using BudgetMe.Core.Service;
+using System.Drawing;
 
 namespace BudgetMe.Views.UserControls.Report
 {
@@ -93,6 +94,19 @@ namespace BudgetMe.Views.UserControls.Report
             }
   
             tabControlReports.Visible = true;
+        }
+
+        private void dataGridView_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            foreach (DataGridViewRow Myrow in dataGridView.Rows)
+                if (Myrow.Cells[4].Value.ToString().Contains("-"))
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Red;
+                }
+                else
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Green;
+                }
         }
     }
 

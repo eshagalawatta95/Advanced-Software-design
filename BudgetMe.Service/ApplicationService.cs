@@ -62,7 +62,7 @@ namespace BudgetMe.Service
             get => _transactionCategories;
             private set
             {
-                _transactionCategories = value ?? new List<TransactionCategoryEntity>();
+                _transactionCategories = value.OrderByDescending(tl => tl.CreatedDateTime).ToList() ?? new List<TransactionCategoryEntity>();
                 TransactionCategoriesOnChange?.Invoke(_transactionCategories);
             }
         }

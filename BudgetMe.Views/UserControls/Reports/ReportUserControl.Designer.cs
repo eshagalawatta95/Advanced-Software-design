@@ -179,6 +179,7 @@
             this.dataGridView.ShowEditingIcon = false;
             this.dataGridView.Size = new System.Drawing.Size(1675, 1051);
             this.dataGridView.TabIndex = 1;
+            this.dataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView_CellFormatting);
             // 
             // contentHeaderUserControl
             // 

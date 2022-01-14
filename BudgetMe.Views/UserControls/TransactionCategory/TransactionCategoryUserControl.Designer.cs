@@ -162,6 +162,7 @@
             this.textMax.Size = new System.Drawing.Size(293, 62);
             this.textMax.TabIndex = 1;
             this.textMax.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textMax_KeyPress);
+            this.textMax.MouseHover += new System.EventHandler(this.textMax_MouseHover);
             // 
             // label3
             // 

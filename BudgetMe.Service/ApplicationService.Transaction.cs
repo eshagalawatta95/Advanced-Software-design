@@ -31,6 +31,7 @@ namespace BudgetMe.Service
 
                 await _userModel.UpdateUserCurrentBalanceAsync(newBalance);
                 UserEntity userEntity = await _userModel.GetUserDetailsAsync();
+                TransactionCategories = await _transactionCategoryModel.GetTransactionCategoriesAsync();
 
                 TransactionLogEntity transactionLog = new TransactionLogEntity()
                 {
@@ -109,7 +110,7 @@ namespace BudgetMe.Service
 
             await _userModel.UpdateUserCurrentBalanceAsync(newBalance);
             UserEntity userEntity = await _userModel.GetUserDetailsAsync();
-
+            TransactionCategories = await _transactionCategoryModel.GetTransactionCategoriesAsync();
             TransactionLogEntity transactionLog = new TransactionLogEntity()
             {
                 Amount = transaction.Amount,
@@ -156,7 +157,7 @@ namespace BudgetMe.Service
             await _transactionCategoryModel.UpdateTransactionCategoryBalanceAsync(transaction.TransactionCategoryId, differenceIncome, transaction.IsIncome);
 
             await _userModel.UpdateUserCurrentBalanceAsync(newBalance);
-
+            TransactionCategories = await _transactionCategoryModel.GetTransactionCategoriesAsync();
             UserEntity userEntity = await _userModel.GetUserDetailsAsync();
 
             TransactionLogEntity transactionLog = new TransactionLogEntity()
@@ -215,15 +216,20 @@ namespace BudgetMe.Service
 
         public bool IsOverDraft(int transactionCategory,double amount, bool isIncome)
         {
-            if (isIncome) return true;
+            if (isIncome) return false;
 
-            TransactionCategoryEntity result = (TransactionCategoryEntity)TransactionCategories.Where(x => x.Id == transactionCategory);
+            TransactionCategoryEntity result = TransactionCategories.Where(x => x.Id == transactionCategory).FirstOrDefault();
             double val = result.CurrentAmount + amount;
-            if (result.MaxAmount < val)
+            if(result.MaxAmount != 0)
             {
+                if (result.MaxAmount < val)
+                {
+                    return true;
+                }
                 return false;
             }
-            return true;
+            return false;
         }
+
     }
 }

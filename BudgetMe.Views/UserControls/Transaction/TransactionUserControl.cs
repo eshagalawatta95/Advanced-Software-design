@@ -11,6 +11,7 @@ using BudgetMe.Core.Views.UserControls;
 using BudgetMe.Enums;
 using BudgetMe.Entities;
 using BudgetMe.Core.Service;
+using BudgetMe.Core.Models;
 
 namespace BudgetMe.Views.UserControls.Transaction
 {
@@ -92,7 +93,7 @@ namespace BudgetMe.Views.UserControls.Transaction
         {
             _changeContentMainFormAction(ContentItemEnum.ManageTransaction, null);
         }
-
+     
         public new void Dispose()
         {
             _applicationService.TransactionCategoriesOnChange -= TransactionCategoriesOnChange;
@@ -125,6 +126,31 @@ namespace BudgetMe.Views.UserControls.Transaction
             }
         }
 
+        private void dataGridView_CellFormatting_1(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            foreach (DataGridViewRow Myrow in dataGridView.Rows)
+                if (Myrow.Cells[4].Value.ToString().Contains("-"))
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Red;
+                }
+                else
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Green;
+                }
+        }
+
+        private void dataGridViewScheduled_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            foreach (DataGridViewRow Myrow in dataGridView.Rows)
+                if (Myrow.Cells[5].Value.ToString().Contains("-"))
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Red;
+                }
+                else
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Green;
+                }
+        }
     }
 
     class TransactionBinder

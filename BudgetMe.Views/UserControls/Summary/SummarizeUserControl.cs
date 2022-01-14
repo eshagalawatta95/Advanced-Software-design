@@ -127,6 +127,19 @@ namespace BudgetMe.Views.UserControls.Summary
                     Myrow.DefaultCellStyle.ForeColor = Color.Green;
                 }
         }
+
+        private void dataGridView_CellFormatting_1(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            foreach (DataGridViewRow Myrow in dataGridView.Rows)
+                if (Myrow.Cells[3].Value.ToString().Contains("-"))
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Red;
+                }
+                else
+                {
+                    Myrow.Cells["Amount"].Style.ForeColor = Color.Green;
+                }
+        }
     }
 
     class TransactionBinder

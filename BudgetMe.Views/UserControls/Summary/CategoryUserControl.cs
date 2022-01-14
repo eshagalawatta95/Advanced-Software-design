@@ -4,8 +4,10 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Windows.Forms.DataVisualization.Charting;
+using BudgetMe.Core.Models;
 using BudgetMe.Core.Service;
 using BudgetMe.Entities;
 using BudgetMe.Views.UserControls.TransactionCategory;
@@ -30,6 +32,8 @@ namespace BudgetMe.Views.UserControls.Summary
             dataGridViewCat.Columns["CurrentAmount"].HeaderText = "Current Amount";
             dataGridViewCat.Columns["AddedDateTime"].HeaderText = "Created Date";
             dataGridViewCat.Columns["Id"].Visible = false;
+            dataGridViewCat.Update();
+            dataGridViewCat.Refresh();
 
         }   
         private void TransactionCategoriesOnChange(IEnumerable<TransactionCategoryEntity> transactionCategories)

@@ -103,11 +103,13 @@
             this.dataGridView.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.dataGridView.Name = "dataGridView";
             this.dataGridView.ReadOnly = true;
+            this.dataGridView.RowHeadersWidth = 102;
             this.dataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView.ShowEditingIcon = false;
             this.dataGridView.Size = new System.Drawing.Size(1675, 1051);
             this.dataGridView.TabIndex = 1;
             this.dataGridView.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellDoubleClick);
+            this.dataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView_CellFormatting_1);
             // 
             // tabPage2
             // 
@@ -132,11 +134,13 @@
             this.dataGridViewScheduled.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.dataGridViewScheduled.Name = "dataGridViewScheduled";
             this.dataGridViewScheduled.ReadOnly = true;
+            this.dataGridViewScheduled.RowHeadersWidth = 102;
             this.dataGridViewScheduled.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridViewScheduled.ShowEditingIcon = false;
             this.dataGridViewScheduled.Size = new System.Drawing.Size(1675, 1051);
             this.dataGridViewScheduled.TabIndex = 2;
             this.dataGridViewScheduled.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridViewScheduled_CellDoubleClick);
+            this.dataGridViewScheduled.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridViewScheduled_CellFormatting);
             // 
             // TransactionUserControl
             // 

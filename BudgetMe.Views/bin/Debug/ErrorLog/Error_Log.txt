@@ -141,3 +141,75 @@ table Transaction has no column named TransactionCategoryId
 2022-01-14_01:01:15_End_Ending Application_--------
 2022-01-14_01:01:16_End_Ending Application_--------
 2022-01-14_01:01:05_Start_Loading Application_--------
+2022-01-14_08:01:35_Start_Loading Application_--------
+2022-01-14_09:01:08_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-14_09:01:10_Transaction_Insert onetime transaction_code = Error (1), message = System.Data.SQLite.SQLiteException (0x800007BF): SQL logic error
+no such column: CurrentAmount
+   at System.Data.SQLite.SQLite3.Prepare(SQLiteConnection cnn, String strSql, SQLiteStatement previous, UInt32 timeoutMS, String& strRemain)
+   at System.Data.SQLite.SQLiteCommand.BuildNextCommand()
+   at System.Data.SQLite.SQLiteCommand.GetStatement(Int32 index)
+   at System.Data.SQLite.SQLiteDataReader.NextResult()
+   at System.Data.SQLite.SQLiteDataReader..ctor(SQLiteCommand cmd, CommandBehavior behave)
+   at System.Data.SQLite.SQLiteCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery(CommandBehavior behavior)
+   at System.Data.SQLite.SQLiteCommand.ExecuteNonQuery()
+   at BudgetMe.DataAccess.SqliteConnector.<>c__DisplayClass10_0.<ExecuteNonQueryAsync>b__0() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.DataAccess\SqliteConnector.cs:line 219
+   at System.Threading.Tasks.Task.InnerInvoke()
+   at System.Threading.Tasks.Task.Execute()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.GetResult()
+   at BudgetMe.DataAccess.SqliteConnector.<ExecuteNonQueryAsync>d__10.MoveNext() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.DataAccess\SqliteConnector.cs:line 184
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BudgetMe.Models.TransactionCategoryModel.<UpdateTransactionCategoryBalanceAsync>d__6.MoveNext() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Models\TransactionCategoryModel.cs:line 109
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at BudgetMe.Service.ApplicationService.<InsertTransactionAsync>d__46.MoveNext() in D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Service\ApplicationService.Transaction.cs:line 30
+2022-01-14_09:01:14_End_Ending Application_--------
+2022-01-14_09:01:15_End_Ending Application_--------
+2022-01-14_09:01:33_Start_Loading Application_--------
+2022-01-14_09:01:27_Start_Loading Application_--------
+2022-01-14_09:01:31_End_Ending Application_--------
+2022-01-14_09:01:32_End_Ending Application_--------
+2022-01-14_09:01:07_Start_Loading Application_--------
+2022-01-14_09:01:33_End_Ending Application_--------
+2022-01-14_09:01:34_End_Ending Application_--------
+2022-01-14_09:01:17_Start_Loading Application_--------
+2022-01-14_09:01:09_Start_Loading Application_--------
+2022-01-14_09:01:28_Start_Loading Application_--------
+2022-01-14_09:01:33_Start_Loading Application_--------
+2022-01-14_09:01:53_Start_Loading Application_--------
+2022-01-14_09:01:47_Start_Loading Application_--------
+2022-01-14_09:01:25_Start_Loading Application_--------
+2022-01-14_09:01:25_End_Ending Application_--------
+2022-01-14_09:01:26_End_Ending Application_--------
+2022-01-14_09:01:32_Start_Loading Application_--------
+2022-01-14_09:01:10_Start_Loading Application_--------
+2022-01-14_09:01:08_Start_Loading Application_--------
+2022-01-14_09:01:13_Start_Loading Application_--------
+2022-01-14_09:01:14_Database_DB Transaction_DB Table Create Main query Error
+2022-01-14_09:01:14_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-14_09:01:37_Database_DB Transaction_DB Table Create Main query Error
+2022-01-14_09:01:37_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-14_09:01:11_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-14_09:01:09_Database_DB Transaction_DB Transaction Main queries Error
+2022-01-14_09:01:52_Start_Loading Application_--------
+2022-01-14_09:01:45_Start_Loading Application_--------
+2022-01-14_09:01:01_End_Ending Application_--------
+2022-01-14_09:01:02_End_Ending Application_--------
+2022-01-14_09:01:14_Start_Loading Application_--------
+2022-01-14_09:01:26_End_Ending Application_--------
+2022-01-14_09:01:27_End_Ending Application_--------
+2022-01-14_09:01:40_Start_Loading Application_--------
+2022-01-14_09:01:04_Start_Loading Application_--------
+2022-01-14_09:01:52_End_Ending Application_--------
+2022-01-14_09:01:53_End_Ending Application_--------
+2022-01-14_10:01:21_Start_Loading Application_--------
+2022-01-14_10:01:40_End_Ending Application_--------
+2022-01-14_10:01:41_End_Ending Application_--------

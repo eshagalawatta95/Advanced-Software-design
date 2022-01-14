@@ -23,6 +23,7 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
             InitializeComponent();
 
             _applicationService.TransactionCategoriesOnChange += TransactionCategoriesOnChange;
+
             TransactionCategoriesOnChange(_applicationService.TransactionCategories);
             SetSelectedTransactionCategoryBinder();
 
@@ -31,6 +32,9 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
             dataGridView.Columns["MaxAmount"].HeaderText = "Max Amount";
             dataGridView.Columns["CurrentAmount"].HeaderText = "Current Amount";
             dataGridView.Columns["AddedDateTime"].HeaderText = "Created Date";
+            dataGridView.Update();
+            dataGridView.Refresh();
+
         }
 
         private TransactionCategoryBinder GetSelectedTransactionCategoryBinder()
@@ -199,6 +203,12 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
             {
                 e.Handled = true;
             }
+        }
+
+        private void textMax_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip tooltip = new ToolTip();
+            tooltip.Show("0 indicate no max amount", textMax, 1000);
         }
     }
 

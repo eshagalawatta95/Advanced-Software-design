@@ -20,6 +20,7 @@ namespace BudgetMe.Models
                 Description = reader["Description"].ToString(),
                 CreatedDateTime = TimeConverterMethods.ConvertTimeStampToDateTime(int.Parse(reader["CreatedDateTime"].ToString())),
                 MaxAmount = double.Parse(reader["MaxAmount"].ToString()),
+                CurrentAmount = double.Parse(reader["CurrentAmount"].ToString()),
                 IsActive = Convert.ToBoolean(int.Parse(reader["IsActive"].ToString()))
             };
         }
@@ -89,24 +90,26 @@ namespace BudgetMe.Models
             return await SqliteConnector.ExecuteNonQueryAsync(query, parameters, true);
         }
 
-        public async Task<int> UpdateTransactionCategoryBalanceAsync(int transactionCategoryId, double currentAmount, bool isIncome)
+        public async Task<int> UpdateTransactionCategoryBalanceAsync(int transactionCategoryId, double amount, bool isIncome)
         {
             if (isIncome) return 0;
 
             TransactionCategoryEntity obj= await GetTransactionCategoryByIdAsync(transactionCategoryId);
-            currentAmount += obj.CurrentAmount;
+            double currentAmount = obj.CurrentAmount+ amount;
 
             string query = "UPDATE `TransactionCategory` " +
-                "SET `CurrentAmount`=@CurrentAmount " +
+                "SET `CurrentAmount`= @CurrentAmount " +
                 "WHERE `Id` = @Id";
 
             IEnumerable<KeyValuePair<string, object>> parameters = new List<KeyValuePair<string, object>>()
             {
                 new KeyValuePair<string, object>("@CurrentAmount", currentAmount),
-                new KeyValuePair<string, object>("@Id", transactionCategoryId)
+                new KeyValuePair<string, object>("@Id", obj.Id)
             };
 
             return await SqliteConnector.ExecuteNonQueryAsync(query, parameters, true);
+
+
         }
     }
 }
