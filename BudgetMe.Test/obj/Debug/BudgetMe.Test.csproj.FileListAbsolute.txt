@@ -35,8 +35,6 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Test\obj\Debug\BudgetMe.T
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Test\obj\Debug\BudgetMe.Test.csproj.CopyComplete
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\MyFinance\MyFinance.Test\obj\Debug\MyFinance.Test.pdb
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\obj\Debug\BudgetMe.Test.csproj.AssemblyReference.cache
-D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\obj\Debug\BudgetMe.Test.csproj.CoreCompileInputs.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
@@ -67,6 +65,8 @@ D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\bin\Debug\Microsoft.Vi
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\bin\Debug\System.Data.SQLite.xml
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\bin\Debug\System.Data.SQLite.dll.config
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\obj\Debug\BudgetMe.Test.csproj.AssemblyReference.cache
+D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\obj\Debug\BudgetMe.Test.csproj.CoreCompileInputs.cache
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\obj\Debug\BudgetMe.Test.csproj.CopyComplete
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\obj\Debug\BudgetMe.Test.dll
 D:\my doc\IIT M.Sc\Sem 03\ASD\My\2\BudgetMe\BudgetMe.Test\obj\Debug\BudgetMe.Test.pdb

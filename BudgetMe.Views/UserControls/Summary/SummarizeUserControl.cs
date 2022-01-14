@@ -4,14 +4,9 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using BudgetMe.Core.Service;
 using BudgetMe.Entities;
-using BudgetMe.Enums;
-using System.Security.Principal;
-using System.Collections;
 
 namespace BudgetMe.Views.UserControls.Summary
 {
@@ -48,12 +43,10 @@ namespace BudgetMe.Views.UserControls.Summary
             UpdateTransactionBinders(dtFrom, dtTo);
         }
       
-
         private void schTransactionsOnChange(IEnumerable<SheduledTransactionList> currentValueList)
         {
             UpdateTransactionBinders(dtFrom, dtTo);
         }
-
 
         private void UpdateTransactionBinders(DateTime dtFrom, DateTime dtTo)
         {
@@ -107,8 +100,6 @@ namespace BudgetMe.Views.UserControls.Summary
             }
             dataGridView.DataSource = transdataobj;
         }
-
-
            
         public new void Dispose()
         {
@@ -179,7 +170,6 @@ namespace BudgetMe.Views.UserControls.Summary
         public string Amount { get; set; }
         public string Type { get; set; }
     }
-
 
     class CommonTransactionBinder
     {

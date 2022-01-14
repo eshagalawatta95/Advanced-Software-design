@@ -2,7 +2,6 @@
 using BudgetMe.Core.Views.Forms;
 using BudgetMe.Entities;
 using BudgetMe.Enums;
-using BudgetMe.Views.Forms;
 using BudgetMe.Views.UserControls;
 using BudgetMe.Views.UserControls.Logs;
 using BudgetMe.Views.UserControls.Passbook;

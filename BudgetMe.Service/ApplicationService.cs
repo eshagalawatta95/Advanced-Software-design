@@ -2,7 +2,6 @@
 using BudgetMe.Core.Service;
 using BudgetMe.Entities;
 using BudgetMe.Enums;
-using BudgetMe.Methods;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -76,7 +75,6 @@ namespace BudgetMe.Service
             _transactionCategoryModel = BudgetMeApplication.DependancyContainer.GetInstance<ITransactionCategoryModel>();
             _transactionModel = BudgetMeApplication.DependancyContainer.GetInstance<ITransactionModel>();
         }
-
         public async Task InitialLoadingProcessAsync(Action<string> setProgressStatusTextAction, Action loadMainForm, Action showUserRegistraion)
         {
             if (!_applicationModel.IsApplicationRunning)
@@ -120,7 +118,6 @@ namespace BudgetMe.Service
 
             }
         }
-
         private async Task InitializeApplicationData()
         {
             CurrentUser = await _userModel.GetUserDetailsAsync();
@@ -129,7 +126,6 @@ namespace BudgetMe.Service
             Transactions = await _transactionModel.GetTransactionsAsync();
             SheduledTransactions = await _transactionModel.GetSheduledTransactionsAsync();
         }
-
         public void ReleaseResourcesToExit(Action<string> SetProgressStatusText, Action preventApplicationExitAction, Action exitApplicationAction)
         {
             if (_applicationModel.IsApplicationRunning)
@@ -145,7 +141,6 @@ namespace BudgetMe.Service
                 });
             }
         }
-
         public async Task AutoRunMethod()
         {
             DateTime dtLastDate=DateTime.Now;
@@ -231,7 +226,6 @@ namespace BudgetMe.Service
                 File.AppendAllText("Schedule_Transaction_File.txt", DateTime.Now.ToString("dd/MM/yyyy") + "-Error\n");
             }
         }
-
         public IEnumerable<SheduledTransactionList> SheduledTransactions
         {
             get => _schtransactions;

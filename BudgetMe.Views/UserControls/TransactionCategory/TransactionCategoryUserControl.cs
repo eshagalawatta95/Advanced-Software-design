@@ -4,9 +4,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using BudgetMe.Entities;
 using BudgetMe.Core.Service;
-using BudgetMe.Views.Forms;
 using System.Threading;
-using BudgetMe.Methods;
 
 namespace BudgetMe.Views.UserControls.TransactionCategory
 {
@@ -30,6 +28,8 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
 
             dataGridView.Columns["Id"].HeaderText = "Category Id";
             dataGridView.Columns["Code"].HeaderText = "Category Code";
+            dataGridView.Columns["MaxAmount"].HeaderText = "Max Amount";
+            dataGridView.Columns["CurrentAmount"].HeaderText = "Current Amount";
             dataGridView.Columns["AddedDateTime"].HeaderText = "Created Date";
         }
 
@@ -183,8 +183,7 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
             descriptionErrorLabel.Text = "";
             textMax.Text = "0";
         }
-
-      
+        
         private void textMax_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar)
@@ -215,12 +214,14 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
             Description = transactionCategoryEntity.Description;
             AddedDateTime = transactionCategoryEntity.CreatedDateTime;
             MaxAmount = transactionCategoryEntity.MaxAmount;
+            CurrentAmount = transactionCategoryEntity.CurrentAmount;
         }
 
         public int Id { get; set; }
         public string Code { get; set; }
         public string Description { get; set; }
         public double MaxAmount { get; set; }
+        public double CurrentAmount { get; set; }
         public DateTime AddedDateTime { get; set; }
     }
 }

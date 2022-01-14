@@ -54,7 +54,6 @@ namespace BudgetMe.Views.UserControls.Passbook
             dataGridView.DataSource = _transactionLogs;
         }
 
-
         public new void Dispose()
         {
             _applicationService.TransactionLogsOnChange -= TransactionLogsOnChange;

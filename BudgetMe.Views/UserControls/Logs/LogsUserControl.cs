@@ -4,8 +4,6 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using BudgetMe.Entities;
 using BudgetMe.Core.Service;
@@ -54,7 +52,6 @@ namespace BudgetMe.Views.UserControls.Logs
             _transactionLogs = new BindingList<TransactionLogBinder>(transactionLogBinders);
             dataGridView.DataSource = _transactionLogs;
         }
-
 
         public new void Dispose()
         {

@@ -136,6 +136,12 @@
     <Compile Include="UserControls\Summary\DashboardUserControl.Designer.cs">
       <DependentUpon>DashboardUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserControls\Summary\CategoryUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Summary\CategoryUserControl.Designer.cs">
+      <DependentUpon>CategoryUserControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControls\Summary\SummarizeUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -195,6 +201,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Summary\DashboardUserControl.resx">
       <DependentUpon>DashboardUserControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Summary\CategoryUserControl.resx">
+      <DependentUpon>CategoryUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControls\Summary\SummarizeUserControl.resx">
       <DependentUpon>SummarizeUserControl.cs</DependentUpon>

@@ -4,7 +4,6 @@ using BudgetMe.Core.Views.Forms;
 using BudgetMe.Entities;
 using BudgetMe.Enums;
 using System;
-using System.Drawing;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
