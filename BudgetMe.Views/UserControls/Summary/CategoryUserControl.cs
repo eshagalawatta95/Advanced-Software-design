@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
 using BudgetMe.Core.Service;
 using BudgetMe.Entities;
 using BudgetMe.Views.UserControls.TransactionCategory;
@@ -41,6 +45,7 @@ namespace BudgetMe.Views.UserControls.Summary
             }
 
             _transactionCategoriesBinders = new BindingList<TransactionCategoryBinder>(transactionCategoryBinder);
+            Loadchart(_transactionCategoriesBinders);
             dataGridViewCat.DataSource = _transactionCategoriesBinders;
         }          
         public new void Dispose()
@@ -51,6 +56,19 @@ namespace BudgetMe.Views.UserControls.Summary
         private void CategoryUserControl_Load(object sender, EventArgs e)
         {
             TransactionCategoriesOnChange(_applicationService.TransactionCategories);
+        }
+        private void Loadchart(BindingList<TransactionCategoryBinder> list)
+        {
+            this.chart.Series.Clear();
+            var mainArray = list.ToArray();
+  
+            // Add series.
+            for (int i = 0; i < mainArray.Length; i++)
+            {
+                Series series = this.chart.Series.Add(mainArray[i].Code);
+                series.Points.Add(mainArray[i].CurrentAmount);
+            }
+           
         }
     }
 }
