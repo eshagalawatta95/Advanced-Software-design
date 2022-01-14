@@ -44,7 +44,7 @@ namespace BudgetMe.Service
                     IsUserPerformed = isUserPerformed,
                     TransactionId = transaction.Id,
                     TransactionCategoryId = transaction.TransactionCategoryId,
-                    Remarks = $"Transaction: {transaction.ReferenceNumber} Added",
+                    Remarks = $"Transaction: {transaction.ReferenceNumber} Added.",
                     StartingBalance = startingBalance,
                     FinalBalance = newBalance,
                 };
