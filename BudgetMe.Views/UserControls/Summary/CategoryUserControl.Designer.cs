@@ -118,7 +118,7 @@
             this.contentHeaderUserControl1.Dock = System.Windows.Forms.DockStyle.Top;
             this.contentHeaderUserControl1.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.contentHeaderUserControl1.Location = new System.Drawing.Point(0, 0);
-            this.contentHeaderUserControl1.MainTitle = "Transaction Categories";
+            this.contentHeaderUserControl1.MainTitle = "Summery of Transaction Categories";
             this.contentHeaderUserControl1.Margin = new System.Windows.Forms.Padding(0);
             this.contentHeaderUserControl1.Name = "contentHeaderUserControl1";
             this.contentHeaderUserControl1.Size = new System.Drawing.Size(498, 55);

@@ -15,6 +15,8 @@ namespace BudgetMe.Views.UserControls.Summary
         private IApplicationService _applicationService;
         DateTime dtFrom = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + (int)DayOfWeek.Monday);
         DateTime dtTo = DateTime.Today.AddDays(-(int)DateTime.Today.DayOfWeek + (int)DayOfWeek.Monday+7);
+        string totalIncome = "0";
+        string totalExpense = "0";
 
         public SummarizeUserControl()
         {
@@ -25,6 +27,7 @@ namespace BudgetMe.Views.UserControls.Summary
             _applicationService.CurrentUserOnChange += CurrentUserOnChange;
             _applicationService.TransactionCategoriesOnChange += TransactionCategoriesOnChange;
             _applicationService.ScheduleTransactionsOnChange += schTransactionsOnChange;
+            
         }
 
         private void TransactionCategoriesOnChange(IEnumerable<TransactionCategoryEntity> currentValueList)
@@ -34,7 +37,10 @@ namespace BudgetMe.Views.UserControls.Summary
 
         private void CurrentUserOnChange(UserEntity userEntity)
         {
-            greetingLabel.Text = $"Hello, {userEntity.FirstName}";
+            totalExpense = _applicationService.Transactions.Where(x => !x.IsIncome && x.IsActive).Sum(x => x.Amount).ToString();
+            totalIncome = _applicationService.Transactions.Where(x => x.IsIncome && x.IsActive).Sum(x => x.Amount).ToString();
+
+            greetingLabel.Text = $"Hello, {userEntity.FirstName}. \nTotal income is {totalIncome} LKR. Total expense is {totalExpense} LKR";
             currentBalanceLabel.Text = userEntity.CurrentBalance.ToString("0.00")+" LKR";
         }
 
@@ -52,7 +58,7 @@ namespace BudgetMe.Views.UserControls.Summary
         {
             BindingList<TransactionBinder> transactionBinders = new BindingList<TransactionBinder>();
             BindingList<CommonTransactionBinder> transdataobj = new BindingList<CommonTransactionBinder>();
-
+            
             IEnumerable<TransactionEntity> trans = _applicationService.Transactions.Where(x => x.TransactionDateTime >= dtFrom.AddDays(-1) && x.TransactionDateTime <= dtTo.AddDays(1)).OrderByDescending(t => t.TransactionDateTime);
             foreach (TransactionEntity transaction in trans)
             {

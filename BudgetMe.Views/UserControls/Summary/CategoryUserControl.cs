@@ -28,8 +28,8 @@ namespace BudgetMe.Views.UserControls.Summary
 
             dataGridViewCat.Columns["Id"].HeaderText = "Category Id";
             dataGridViewCat.Columns["Code"].HeaderText = "Category Code";
-            dataGridViewCat.Columns["MaxAmount"].HeaderText = "Max Amount";
-            dataGridViewCat.Columns["CurrentAmount"].HeaderText = "Current Amount";
+            dataGridViewCat.Columns["MaxAmount"].HeaderText = "Max Amount/Budget(LKR)";
+            dataGridViewCat.Columns["CurrentAmount"].HeaderText = "Current Cost(LKR)";
             dataGridViewCat.Columns["AddedDateTime"].HeaderText = "Created Date";
             dataGridViewCat.Columns["Id"].Visible = false;
             dataGridViewCat.Update();
@@ -50,7 +50,18 @@ namespace BudgetMe.Views.UserControls.Summary
 
             _transactionCategoriesBinders = new BindingList<TransactionCategoryBinder>(transactionCategoryBinder);
             Loadchart(_transactionCategoriesBinders);
+
+            TransactionCategoryBinder newRow = new TransactionCategoryBinder();
+            newRow.Code=("Total");
+            newRow.CurrentAmount = _transactionCategoriesBinders.Sum(x => x.CurrentAmount);
+            newRow.MaxAmount= _transactionCategoriesBinders.Sum(x => x.MaxAmount);
+            _transactionCategoriesBinders.Add(newRow);
             dataGridViewCat.DataSource = _transactionCategoriesBinders;
+            dataGridViewCat.Rows[dataGridViewCat.Rows.Count - 1].DefaultCellStyle.BackColor = Color.LightSteelBlue;
+            dataGridViewCat.Rows[dataGridViewCat.Rows.Count - 1].Cells[1].Style.Font = new Font("Times New Roman", 12, FontStyle.Bold);
+            dataGridViewCat.Rows[dataGridViewCat.Rows.Count - 1].Cells[4].Style.Font = new Font("Times New Roman", 12, FontStyle.Bold);
+            dataGridViewCat.Rows[dataGridViewCat.Rows.Count - 1].Cells[3].Style.Font = new Font("Times New Roman", 12, FontStyle.Bold);
+
         }          
         public new void Dispose()
         {
@@ -74,5 +85,6 @@ namespace BudgetMe.Views.UserControls.Summary
             }
            
         }
+
     }
 }

@@ -139,11 +139,11 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(0, 42);
+            this.label3.Location = new System.Drawing.Point(0, 62);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(475, 42);
             this.label3.TabIndex = 6;
-            this.label3.Text = "You account balance";
+            this.label3.Text = "Your account balance";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // currentBalanceLabel

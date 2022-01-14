@@ -29,8 +29,8 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
 
             dataGridView.Columns["Id"].HeaderText = "Category Id";
             dataGridView.Columns["Code"].HeaderText = "Category Code";
-            dataGridView.Columns["MaxAmount"].HeaderText = "Max Amount";
-            dataGridView.Columns["CurrentAmount"].HeaderText = "Current Amount";
+            dataGridView.Columns["MaxAmount"].HeaderText = "Max Amount / Budget";
+            dataGridView.Columns["CurrentAmount"].HeaderText = "Current Cost";
             dataGridView.Columns["AddedDateTime"].HeaderText = "Created Date";
             dataGridView.Update();
             dataGridView.Refresh();
@@ -208,7 +208,7 @@ namespace BudgetMe.Views.UserControls.TransactionCategory
         private void textMax_MouseHover(object sender, EventArgs e)
         {
             ToolTip tooltip = new ToolTip();
-            tooltip.Show("0 indicate no max amount", textMax, 1000);
+            tooltip.Show("0 indicate no max amount/Budget", textMax, 1000);
         }
     }
 

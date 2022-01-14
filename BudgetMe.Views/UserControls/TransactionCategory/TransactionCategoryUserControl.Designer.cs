@@ -155,7 +155,7 @@
             // 
             this.textMax.Dock = System.Windows.Forms.DockStyle.Top;
             this.textMax.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textMax.Location = new System.Drawing.Point(27, 69);
+            this.textMax.Location = new System.Drawing.Point(27, 59);
             this.textMax.Margin = new System.Windows.Forms.Padding(0);
             this.textMax.MaxLength = 100;
             this.textMax.Name = "textMax";
@@ -168,13 +168,13 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(27, 24);
             this.label3.Margin = new System.Windows.Forms.Padding(8, 0, 8, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(238, 45);
+            this.label3.Size = new System.Drawing.Size(281, 35);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Max Amount";
+            this.label3.Text = "Max Amount/Budget";
             // 
             // tableLayoutPanel1
             // 
