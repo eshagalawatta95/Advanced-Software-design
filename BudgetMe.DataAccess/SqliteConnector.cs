@@ -454,7 +454,25 @@ namespace BudgetMe.DataAccess
                         cmd.CommandText =
                             @"INSERT INTO `TransactionCategory`
                             (`Id`,`Code`,`Description`,`CreatedDateTime`) 
-                            VALUES (1,'Other','Other Transaction Category'," + TimeConverterMethods.ConvertDateTimeToTimeStamp(DateTime.Now).ToString() + ");";
+                            VALUES (1,'Food','Category for food expenses'," + TimeConverterMethods.ConvertDateTimeToTimeStamp(DateTime.Now).ToString() + ");";
+                        cmd.ExecuteNonQuery();
+
+                        cmd.CommandText =
+                          @"INSERT INTO `TransactionCategory`
+                            (`Id`,`Code`,`Description`,`CreatedDateTime`) 
+                            VALUES (2,'Transaport','Category for transaport expenses'," + TimeConverterMethods.ConvertDateTimeToTimeStamp(DateTime.Now).ToString() + ");";
+                        cmd.ExecuteNonQuery();
+
+                        cmd.CommandText =
+                          @"INSERT INTO `TransactionCategory`
+                            (`Id`,`Code`,`Description`,`CreatedDateTime`) 
+                            VALUES (3,'Entertainment','Category for entertainment expenses'," + TimeConverterMethods.ConvertDateTimeToTimeStamp(DateTime.Now).ToString() + ");";
+                        cmd.ExecuteNonQuery();
+
+                        cmd.CommandText =
+                          @"INSERT INTO `TransactionCategory`
+                            (`Id`,`Code`,`Description`,`CreatedDateTime`) 
+                            VALUES (4,'Other','Other transaction category'," + TimeConverterMethods.ConvertDateTimeToTimeStamp(DateTime.Now).ToString() + ");";
                         cmd.ExecuteNonQuery();
 
                         Thread.Sleep(500);
